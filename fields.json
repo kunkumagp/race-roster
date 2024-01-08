@@ -1645,7 +1645,24 @@
                     "default": "bold"
                   }
                 ]
-              }
+              },
+              {
+                    "label": "Corner",
+                    "name": "corner",
+                    "type": "group",
+                    "children": [
+                      {
+                        "label": "Radius",
+                        "name": "radius",
+                        "type": "number",
+                        "display": "text",
+                        "max": 100,
+                        "step": 1,
+                        "suffix": "px",
+                        "default": 0
+                      }
+                    ]
+                  }
             ]
           },
           {

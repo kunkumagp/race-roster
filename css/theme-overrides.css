@@ -636,6 +636,7 @@ form {
   font-weight:700;
   margin-bottom: 0px;
   text-align: center;
+  border-top: solid 3px {{ theme.colors.primary.primary_main.color }};
 }
 
 
@@ -654,13 +655,15 @@ form h5{
   color: {{ theme.colors.body_text_color.color }};
 }
 
+
+
 /* Labels */
 
 form label {
   {{ form_label_spacing }}
   {{ form_label_font.style }};
   color: {{ form_label_font.color }};
-  font-weight:500 !important;
+  font-weight:700 !important;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0em;
@@ -802,6 +805,10 @@ form .legal-consent-container .hs-richtext p {
   font-size: {{ form_gdpr_text_font.size ~ form_gdpr_text_font.size_unit }};
 }
 
+.widget-type-form{
+  box-shadow: 0px 4px 30px 0px rgba(0, 67, 191, 0.08);
+  max-width: 520px;
+}
 /* Submit button */
 
 {% if form_button_style == "primary" %}

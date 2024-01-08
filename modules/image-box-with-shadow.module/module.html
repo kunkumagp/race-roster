@@ -10,6 +10,11 @@
       box-shadow: {{ module.box_shadow_values.offset_x }}px {{ module.box_shadow_values.offset_y }}px {{ module.box_shadow_values.blur_radius }}px {{ module.box_shadow_values.spread_radius }}px rgba({{ color_variant( module.box_shadow_values.color_field.color , 100)|convert_rgb }}, calc({{ module.box_shadow_values.color_field.opacity }} / 100));
     }
   {% endif %}
+  @media only screen and (max-width: 767px) {
+    .{{name}}-image_with_shadow{
+      margin-bottom: 15px;
+    }
+  }
 </style>
 {% end_require_css %}
 

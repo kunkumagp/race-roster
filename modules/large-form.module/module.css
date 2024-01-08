@@ -1,0 +1,15 @@
+.large_form .form-title {
+  border-top: none;
+}
+
+.large_form form{
+  padding: 0px !important;
+}
+
+.large_form .input {
+  margin: 0px 8px!important;
+}
+
+.large_form form label{
+  margin: 0px 8px!important;
+}
