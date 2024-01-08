@@ -1,0 +1,975 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Landing Page 2
+  screenshotPath: /race-roster/images/landing-page-2.png
+-->
+{% extends "./layouts/base-landing-page.html" %}
+
+{% block body %}
+{% dnd_area "dnd_area"
+  label="Main section"
+%}
+
+  {# 1 container #}
+  {% dnd_section
+    background_image={
+      "background_position" : "MIDDLE_CENTER",
+      "background_size" : "cover",
+      "image_url" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/bg-image-1.png"
+    },
+    padding={
+      "default" : {
+        "bottom" : "206px",
+        "left" : "100px",
+        "right" : "100px",
+        "top" : "100px"
+      },
+      "mobile" : {
+        "bottom" : "42px",
+        "top" : "42px"
+      }
+    },
+    full_width=false
+  %}
+    {% dnd_column
+      offset=0,
+      width=12,
+      padding={
+        "default" : {
+          "left" : "0px",
+          "right" : "0px"
+        }
+      }
+    %}
+      {% dnd_row
+        padding={
+          "default" : {
+            "bottom" : "0px",
+            "top" : "0px"
+          },
+          "mobile" : {
+            "bottom" : "0px",
+            "top" : "0px"
+          }
+        },
+        margin={
+          "default" : {
+            "bottom" : "75px",
+            "top" : "75px"
+          },
+          "mobile" : {
+            "bottom" : "20px",
+            "top" : "20px"
+          }
+        }
+      %}
+        {% dnd_column
+          offset=0,
+          width=5,
+          padding={
+            "default" : {
+              "left" : "0px",
+              "right" : "0px"
+            },
+            "mobile" : {
+              "bottom" : "40px",
+              "left" : "0px",
+              "right" : "0px",
+              "top" : "0px"
+            }
+          }
+        %}
+          {% dnd_row
+            padding={
+              "default" : {
+                "bottom" : "12px"
+              }
+            }
+          %}
+            {% dnd_module
+              path="@hubspot/rich_text",
+              offset=0,
+              width=12
+            %}
+              {% module_attribute "html" %}
+                <h4 style="color: #71757f; font-size: 18px; font-style: normal; font-weight: bold; line-height: 120%; letter-spacing: 1.53px;"><img src="https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/footer_logo.png" width="150" height="43" loading="lazy" alt="footer_logo" style="height: auto; max-width: 100%; width: 150px;"></h4>
+              {% end_module_attribute %}
+            {% end_dnd_module %}
+          {% end_dnd_row %}
+          {% dnd_row %}
+            {% dnd_module
+              path="@hubspot/rich_text",
+              offset=0,
+              width=12
+            %}
+              {% module_attribute "html" %}
+                <p style="color: #001855; font-size: 16px; font-style: normal; font-weight: bold; line-height: normal;">DIGITAL ENGAGEMENT KITS&nbsp; &nbsp; &nbsp;(DEKs)</p>
+              {% end_module_attribute %}
+            {% end_dnd_module %}
+          {% end_dnd_row %}
+          {% dnd_row %}
+            {% dnd_module
+              path="@hubspot/rich_text",
+              offset=0,
+              width=12
+            %}
+              {% module_attribute "html" %}
+                <p style="color: #000; font-size: 40px; font-style: normal; font-weight: bold; line-height: normal;">They’re not <span style="font-style: italic;">just</span> virtual goodie bags…</p>
+              {% end_module_attribute %}
+            {% end_dnd_module %}
+          {% end_dnd_row %}
+          {% dnd_row %}
+            {% dnd_module
+              path="@hubspot/rich_text",
+              offset=0,
+              width=12
+            %}
+              {% module_attribute "html" %}
+                <p style="color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;">They’re engagement opportunities at every step of the<br>participant journey.</p>
+              {% end_module_attribute %}
+            {% end_dnd_module %}
+          {% end_dnd_row %}
+          {% dnd_row %}
+            {% dnd_column
+              offset=0,
+              width=12
+            %}
+              {% dnd_row %}
+                {% dnd_module
+                  path="/race-roster/modules/button",
+                  offset=0,
+                  width=12,
+                  button_text="Request a live demonstration"
+                %}
+                {% end_dnd_module %}
+              {% end_dnd_row %}
+            {% end_dnd_column %}
+          {% end_dnd_row %}
+          {% dnd_row %}
+            {% dnd_module
+              path="@hubspot/rich_text",
+              offset=0,
+              width=12
+            %}
+              {% module_attribute "html" %}
+                <p style="color: #0043bf; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;">Or <span style="font-weight: bold;">learn how to create one on Race Roster</span> &nbsp;to try it now!</p>
+              {% end_module_attribute %}
+            {% end_dnd_module %}
+          {% end_dnd_row %}
+        {% end_dnd_column %}
+        {% dnd_column
+          offset=5,
+          width=7,
+          padding={
+            "default" : {
+              "left" : "0px",
+              "right" : "0px"
+            },
+            "mobile" : {
+              "left" : "0px",
+              "right" : "0px"
+            }
+          }
+        %}
+          {% dnd_row %}
+            {% dnd_module
+              path="@hubspot/linked_image",
+              offset=0,
+              width=12,
+              horizontal_alignment="CENTER",
+              img={
+                "alt" : "image2",
+                "height" : 540,
+                "loading" : "lazy",
+                "max_height" : 1075,
+                "max_width" : 1302,
+                "size_type" : "exact",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/image2.png",
+                "width" : 650
+              }
+            %}
+            {% end_dnd_module %}
+          {% end_dnd_row %}
+        {% end_dnd_column %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+
+  
+  {# 2 container #}
+   {% dnd_section
+      background_color="rgba(0, 40, 115, 1)",
+      padding={
+        "default" : {
+          "bottom" : "13px",
+          "top" : "32px"
+        }
+      }
+    %}
+      {% dnd_column
+        offset=0,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module
+            path="@hubspot/linked_image",
+            offset=0,
+            width=12,
+            horizontal_alignment="CENTER",
+            img={
+              "alt" : "image3",
+              "height" : 1036,
+              "loading" : "lazy",
+              "max_height" : 1036,
+              "max_width" : 999,
+              "size_type" : "auto",
+              "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/image3.png",
+              "width" : 999
+            }
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_column
+        offset=6,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module
+            path="@hubspot/rich_text",
+            offset=0,
+            width=12
+          %}
+            {% module_attribute "html" %}
+              <h2><span style="color: #ffffff;">They’re event day/</span><br><span style="color: #ffffff;">weekend information kits.</span></h2>
+              <p><span style="color: #ffffff;">Help participants arrive with conﬁdence. Offer them everything they need to come race ready and prepared.</span></p>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module
+            path="/race-roster/modules/styled-list",
+            offset=0,
+            width=12,
+            services=[ {
+              "boolean_field" : false,
+              "icon" : true,
+              "service_icon" : {
+                "alt" : "question-mark-1",
+                "height" : 66,
+                "loading" : "lazy",
+                "max_height" : 131,
+                "max_width" : 130,
+                "size_type" : "exact",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/question-mark-1.png",
+                "width" : 65
+              },
+              "service_info" : "",
+              "service_name" : "Frequently asked questions"
+            }, {
+              "boolean_field" : false,
+              "icon" : true,
+              "service_icon" : {
+                "alt" : "map-1",
+                "height" : 66,
+                "loading" : "lazy",
+                "max_height" : 131,
+                "max_width" : 130,
+                "size_type" : "exact",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/map-1.png",
+                "width" : 65
+              },
+              "service_info" : "",
+              "service_name" : "Where to go, what to expect"
+            }, {
+              "boolean_field" : false,
+              "icon" : true,
+              "service_icon" : {
+                "alt" : "voucher-1",
+                "height" : 66,
+                "loading" : "lazy",
+                "max_height" : 131,
+                "max_width" : 130,
+                "size_type" : "exact",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/voucher-1.png",
+                "width" : 65
+              },
+              "service_info" : "",
+              "service_name" : "Hotel vouchers for out-of-towners"
+            } ],
+            title=""
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+
+
+    {# 3 container #}
+    {% dnd_section
+      padding={
+        "default" : {
+          "bottom" : "50px"
+        }
+      }
+    %}
+      {% dnd_column
+        offset=0,
+        width=12
+      %}
+        {% dnd_row %}
+          {% dnd_module
+            path="@hubspot/rich_text",
+            offset=0,
+            width=12
+          %}
+            {% module_attribute "html" %}
+              <h2 style="text-align: center;">Frequently asked questions</h2>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {% dnd_section
+      padding={
+        "default" : {
+          "bottom" : "0px",
+          "left" : "0px",
+          "right" : "0px",
+          "top" : "0px"
+        }
+      }
+    %}
+      {% dnd_column
+        offset=0,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module
+            path="/race-roster/modules/custom-accordion-clone",
+            offset=0,
+            width=12,
+            accordion=[ {
+              "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+              "header" : "What is a virtualevent?"
+            }, {
+              "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+              "header" : "What is the best way to let myparticipants knowthat I am canceling myevent?"
+            }, {
+              "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+              "header" : "Can I still engage my sponsors if I go virtual?"
+            } ]
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_column
+        offset=6,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module
+            path="/race-roster/modules/custom-accordion-clone",
+            offset=0,
+            width=12,
+            accordion=[ {
+              "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+              "header" : "How do I create a virtualevent?"
+            }, {
+              "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+              "header" : "I’m offering myparticipants different options, can I use Race Roster’s technology to help capture their decisions?"
+            } ]
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+
+    {# 4 container #}
+    {% dnd_section
+      padding={
+        "default" : {
+          "bottom" : "64px",
+          "left" : "20px",
+          "right" : "20px",
+          "top" : "64px"
+        },
+        "mobile" : {
+          "bottom" : "48px",
+          "top" : "48px"
+        }
+      }
+    %}
+      {% dnd_column
+        offset=0,
+        width=12
+      %}
+        {% dnd_row %}
+          {% dnd_column
+            offset=0,
+            width=4,
+            padding={
+              "default" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "20px",
+                "top" : "0px"
+              },
+              "mobile" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "40px"
+              }
+            }
+          %}
+            {% dnd_row %}
+              {% dnd_module
+                path="/race-roster/modules/service-card",
+                offset=0,
+                width=12,
+                button_hide="true",
+                content={
+                  "content" : "<h4 style='color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: bold; line-height: normal;'>A contribution to preserving our Earth’s natural environment.</h4><p style='color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;'>Save time, money, AND trees, while making your content easily accessible to participants.</p>"
+                },
+                icon_parameters={
+                  "custom_icon" : {
+                    "alt" : "coat",
+                    "height" : 120,
+                    "loading" : "lazy",
+                    "max_height" : 240,
+                    "max_width" : 240,
+                    "size_type" : "exact",
+                    "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/image%2031-1.png",
+                    "width" : 120
+                  },
+                  "icon" : {
+                    "icon" : {
+                      "name" : "tree",
+                      "type" : "SOLID",
+                      "unicode" : "f1bb"
+                    }
+                  },
+                  "icon_type" : "default_icon"
+                },
+                styles={
+                  "button" : {
+                    "text" : {
+                      "font" : {
+                        "color" : "#5D7975",
+                        "size_unit" : "px"
+                      }
+                    }
+                  },
+                  "card" : { },
+                  "icon" : {
+                    "background" : {
+                      "color" : {
+                        "color" : "#EFF4FC",
+                        "opacity" : 100
+                      }
+                    },
+                    "fill" : {
+                      "color" : {
+                        "color" : "#0044C6",
+                        "opacity" : 100
+                      }
+                    },
+                    "size" : {
+                      "size" : 14
+                    },
+                    "spacing" : {
+                      "spacing" : {
+                        "padding" : {
+                          "bottom" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "left" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "right" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "top" : {
+                            "units" : "px",
+                            "value" : 20
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+          {% dnd_column
+            offset=4,
+            width=4,
+            padding={
+              "default" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "20px",
+                "top" : "0px"
+              },
+              "mobile" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "40px"
+              }
+            }
+          %}
+            {% dnd_row %}
+              {% dnd_module
+                path="/race-roster/modules/service-card",
+                offset=0,
+                width=12,
+                button_hide="true",
+                content={
+                  "content" : "<h4 style='color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: bold; line-height: normal;'>A space to encourage meaningful contributions.</h4><p style='color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;'>Present information on your fundraising partners. Inspire on-the-spot donations.</p>"
+                },
+                icon_parameters={
+                  "custom_icon" : {
+                    "alt" : "hands",
+                    "height" : 11,
+                    "loading" : "lazy",
+                    "max_height" : 37,
+                    "max_width" : 51,
+                    "size_type" : "exact",
+                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/hands.png",
+                    "width" : 15
+                  },
+                  "icon" : {
+                    "icon" : {
+                      "name" : "tree",
+                      "type" : "SOLID",
+                      "unicode" : "f1bb"
+                    }
+                  },
+                  "icon_type" : "custom_icon"
+                },
+                styles={
+                  "button" : {
+                    "text" : {
+                      "font" : {
+                        "color" : "#5D7975",
+                        "size_unit" : "px"
+                      }
+                    }
+                  },
+                  "card" : { },
+                  "icon" : {
+                    "background" : {
+                      "color" : {
+                        "color" : "#EFF4FC",
+                        "opacity" : 100
+                      }
+                    },
+                    "fill" : {
+                      "color" : {
+                        "color" : "#0044C6",
+                        "opacity" : 100
+                      }
+                    },
+                    "size" : {
+                      "size" : 14
+                    },
+                    "spacing" : {
+                      "spacing" : {
+                        "padding" : {
+                          "bottom" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "left" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "right" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "top" : {
+                            "units" : "px",
+                            "value" : 20
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+          {% dnd_column
+            offset=8,
+            width=4,
+            padding={
+              "default" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "20px",
+                "top" : "0px"
+              },
+              "mobile" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "40px"
+              }
+            }
+          %}
+            {% dnd_row %}
+              {% dnd_module
+                path="/race-roster/modules/service-card",
+                offset=0,
+                width=12,
+                button_hide="true",
+                content={
+                  "content" : "<h4 style='color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: bold; line-height: normal;'>Opportunity to offer additional value to your sponsors.</h4><p style='color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;'>Use cards of different sizes to create hierarchy and place prominence on your sponsors.</p>"
+                },
+                icon_parameters={
+                  "custom_icon" : {
+                    "alt" : "ad",
+                    "height" : 30,
+                    "loading" : "lazy",
+                    "max_height" : 30,
+                    "max_width" : 40,
+                    "size_type" : "exact",
+                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/ad.png",
+                    "width" : 40
+                  },
+                  "icon" : {
+                    "icon" : {
+                      "name" : "adversal",
+                      "type" : "REGULAR",
+                      "unicode" : "f36a"
+                    }
+                  },
+                  "icon_type" : "default_icon"
+                },
+                styles={
+                  "button" : {
+                    "text" : {
+                      "font" : {
+                        "color" : "#5D7975",
+                        "size_unit" : "px"
+                      }
+                    }
+                  },
+                  "card" : { },
+                  "icon" : {
+                    "background" : {
+                      "color" : {
+                        "color" : "#EFF4FC",
+                        "opacity" : 100
+                      }
+                    },
+                    "fill" : {
+                      "color" : {
+                        "color" : "#0044C6",
+                        "opacity" : 100
+                      }
+                    },
+                    "size" : {
+                      "size" : 14
+                    },
+                    "spacing" : {
+                      "spacing" : {
+                        "padding" : {
+                          "bottom" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "left" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "right" : {
+                            "units" : "px",
+                            "value" : 20
+                          },
+                          "top" : {
+                            "units" : "px",
+                            "value" : 20
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+
+
+    {# 5 container #}
+    {% dnd_section
+      background_image={
+        "background_position" : "MIDDLE_CENTER",
+        "background_size" : "cover",
+        "image_url" : "https://39949406.fs1.hubspotusercontent-na1.net/hub/39949406/hubfs/image4.png?width=2000&height=704.8611111111111"
+      },
+      padding={
+        "default" : {
+          "bottom" : "46px",
+          "left" : "20px",
+          "right" : "20px",
+          "top" : "46px"
+        },
+        "mobile" : {
+          "bottom" : "42px",
+          "top" : "42px"
+        }
+      },
+      full_width=false
+    %}
+      {% dnd_column
+        offset=0,
+        width=12
+      %}
+        {% dnd_row
+          background_color="rgba(255, 255, 255, 1)",
+          padding={
+            "default" : {
+              "bottom" : "30px",
+              "left" : "45px",
+              "right" : "45px",
+              "top" : "30px"
+            }
+          }
+        %}
+          {% dnd_column
+            offset=0,
+            width=12
+          %}
+            {% dnd_row %}
+              {% dnd_module
+                path="@hubspot/rich_text",
+                offset=0,
+                width=12
+              %}
+                {% module_attribute "html" %}
+                  <h4 style="color: #1a1a1a; font-size: 24px; font-style: normal; font-weight: bold; line-height: normal; text-align: center;">What will be in your DEKof cards?</h4>
+                  <p style="color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal; text-align: center;">Start building your Digital Engagement Kit now.</p>
+                {% end_module_attribute %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+            {% dnd_row %}
+              {% dnd_module
+                path="/race-roster/modules/button",
+                offset=0,
+                width=12,
+                button_text="See setup instructons",
+                styles={
+                  "alignment" : {
+                    "alignment" : {
+                      "horizontal_align" : "CENTER"
+                    }
+                  }
+                }
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+            {% dnd_row
+              padding={
+                "default" : {
+                  "bottom" : "0px",
+                  "top" : "20px"
+                }
+              }
+            %}
+              {% dnd_module
+                path="@hubspot/rich_text",
+                offset=0,
+                width=12
+              %}
+                {% module_attribute "html" %}
+                  <p style="color: #0043BF; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal; text-align: center;">Or <strong>request a demo</strong> to learn more.</p>
+                {% end_module_attribute %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+        {% end_dnd_row %}
+        {% dnd_row
+          padding={
+            "default" : {
+              "top" : "60px"
+            }
+          }
+        %}
+          {% dnd_column
+            offset=0,
+            width=12
+          %}
+            {% dnd_row %}
+              {% dnd_module
+                path="@hubspot/rich_text",
+                offset=0,
+                width=12
+              %}
+                {% module_attribute "html" %}
+                  <h5 style="color: #ffffff; font-size: 16px; font-style: normal; font-weight: bold; line-height: normal; text-align: center;">Race Roster is active on social media!</h5>
+                {% end_module_attribute %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+            {% dnd_row %}
+              {% dnd_module
+                path="/race-roster/modules/social-follow",
+                offset=0,
+                width=12,
+                social_links=[ {
+                  "icon" : {
+                    "alt" : "fb",
+                    "height" : 55,
+                    "loading" : "lazy",
+                    "max_height" : 55,
+                    "max_width" : 54,
+                    "size_type" : "auto",
+                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/icons/white/fb.png",
+                    "width" : 54
+                  },
+                  "link" : {
+                    "url" : {
+                      "href" : "https://www.facebook.com",
+                      "type" : "EXTERNAL"
+                    }
+                  },
+                  "name" : "Facebook"
+                }, {
+                  "icon" : {
+                    "alt" : "x-1",
+                    "height" : 55,
+                    "loading" : "lazy",
+                    "max_height" : 55,
+                    "max_width" : 54,
+                    "size_type" : "auto",
+                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/icons/white/x-1.png",
+                    "width" : 54
+                  },
+                  "link" : {
+                    "url" : {
+                      "href" : "https://www.facebook.com",
+                      "type" : "EXTERNAL"
+                    }
+                  },
+                  "link_name" : "Twitter",
+                  "name" : "Facebook"
+                }, {
+                  "icon" : {
+                    "alt" : "insta",
+                    "height" : 55,
+                    "loading" : "lazy",
+                    "max_height" : 55,
+                    "max_width" : 54,
+                    "size_type" : "auto",
+                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/icons/white/insta.png",
+                    "width" : 54
+                  },
+                  "link" : {
+                    "url" : {
+                      "href" : "https://www.facebook.com",
+                      "type" : "EXTERNAL"
+                    }
+                  },
+                  "link_name" : "Instagram",
+                  "name" : "Facebook"
+                }, {
+                  "icon" : {
+                    "alt" : "linkedin",
+                    "height" : 55,
+                    "loading" : "lazy",
+                    "max_height" : 55,
+                    "max_width" : 54,
+                    "size_type" : "auto",
+                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/icons/white/linkedin.png",
+                    "width" : 54
+                  },
+                  "link" : {
+                    "url" : {
+                      "href" : "https://www.facebook.com",
+                      "type" : "EXTERNAL"
+                    }
+                  },
+                  "link_name" : "Linkedin"
+                } ]
+              %}
+              {% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+
+    {# 6 container #}
+    {% dnd_section %}
+      {% dnd_column
+        offset=0,
+        width=12
+      %}
+        {% dnd_row %}
+          {% dnd_module
+            path="@hubspot/rich_text",
+            offset=0,
+            width=12
+          %}
+            {% module_attribute "html" %}
+              <h4 style="color: #1a1a1a; font-size: 24px; font-style: normal; font-weight: bold; line-height: normal; text-align: center;">Have questions about the information above?</h4>
+              <p style="color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal; text-align: center;">We’re here to help!</p>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module
+            path="/race-roster/modules/button",
+            offset=0,
+            width=12,
+            button_text="Contact us",
+            styles={
+              "alignment" : {
+                "alignment" : {
+                  "horizontal_align" : "CENTER"
+                }
+              }
+            }
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+
+
+    {# 7 container #}
+    {% dnd_section
+      background_image={
+        "background_position" : "MIDDLE_CENTER",
+        "background_size" : "cover",
+        "image_url" : "https://39949406.fs1.hubspotusercontent-na1.net/hub/39949406/hubfs/footer-bg-image.png?width=2000&height=287.5"
+      }
+    %}
+      {% dnd_column
+        offset=0,
+        width=12
+      %}
+
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+ 
+
+{% end_dnd_area %}
+{% endblock body %}

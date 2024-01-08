@@ -1,0 +1,36 @@
+<!--
+  templateType: section
+  label: Hero Testimonial
+  isAvailableForNewContent: true
+  screenshotPath: ../images/section-previews/hero-testimonial.png
+  description: ""
+-->
+{% dnd_section
+   max_width=864,
+   vertical_alignment="MIDDLE",
+   background_color="#FFFFFF",
+   padding={
+        'default': {'top': 64,'bottom': 64, 'left': 20, 'right': 20 },
+        'mobile': {'top': 42,'bottom': 42 }
+   }
+%}
+  {% dnd_column 
+     padding={
+        "default" : { "left" : 0, "right" : 0 }
+     }
+  %}
+
+    {% dnd_row %}
+      {% dnd_module
+        path="@hubspot/rich_text",
+      %}
+        {% module_attribute "html" %}
+          <p style="font-size: 29px; font-weight: 500; line-height: 36px; letter-spacing: 0em; text-align: center; color: #5B6770;">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+          <p style="font-size: 24px; font-weight: 500; line-height: 32px; letter-spacing: 0em; text-align: center; color: #5D7975; margin-bottom: 4px !important;">Jesce Horton</p>
+          <p style="font-size: 19px; font-weight: 400; line-height: 24px; letter-spacing: 0em; text-align: center; color: #808285;">LOWD</p>
+        {% end_module_attribute %}
+      {% end_dnd_module %}
+    {% end_dnd_row %}
+
+  {% end_dnd_column %}
+{% end_dnd_section %}
