@@ -10,12 +10,17 @@
   full_width=false,
   vertical_alignment="MIDDLE",
   padding={
-     'default': {'top': 64, 'bottom': 64, 'left': 20, 'right': 20 },
-     'mobile': {'top': 48, 'bottom': 48 }
+     'default': {'top': 150, 'bottom': 150, 'left': 20, 'right': 20 },
+     'mobile': {'top': 20, 'bottom': 20, 'left': 20, 'right': 20 }
   }
 %}
  {% dnd_column %}
-    {% dnd_row %}
+    {% dnd_row 
+      padding={
+         'default': {'top': 0, 'bottom': 115 },
+         'mobile': {'top': 0, 'bottom': 20 }
+      }
+    %}
        {% dnd_module
          path="@hubspot/rich_text",
          offset=0,

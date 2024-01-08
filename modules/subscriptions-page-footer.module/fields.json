@@ -1,0 +1,20 @@
+[ {
+  "id" : "e921cc39-7660-5436-5318-7d7550c6e458",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : true,
+  "responsive" : false,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "exact",
+    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/Group%2070157.png",
+    "alt" : "Group 70157",
+    "loading" : "eager",
+    "width" : 1440,
+    "height" : 109
+  }
+} ]

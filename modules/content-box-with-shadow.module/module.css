@@ -1,0 +1,9 @@
+.box_button{
+  min-width: 160px;
+}
+
+@media only screen and (max-width: 767px) {
+  .content_box_with_shadow{
+    display: block;
+  }
+}

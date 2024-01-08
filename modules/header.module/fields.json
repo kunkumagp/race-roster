@@ -92,42 +92,137 @@
     "placeholder" : "Search for an event"
   }
 }, {
-  "id" : "40750420-dc4a-0dc3-b518-eb0e1f5152b4",
-  "name" : "button_group",
+  "id" : "3af3b3d2-d71e-093c-40f1-654f251690b3",
+  "name" : "button_1",
   "display_width" : null,
-  "label" : "Button group",
+  "label" : "Button 1",
   "required" : false,
   "locked" : false,
   "children" : [ {
-    "id" : "c5593ae1-4119-1509-eda7-febfac7f18d7",
-    "name" : "simple_button_text",
+    "id" : "9e6e7489-e400-5ce3-30ae-f950ca64d7ec",
+    "name" : "button_text",
     "display_width" : null,
-    "label" : "Simple Button Text",
+    "label" : "Button text",
     "required" : false,
     "locked" : false,
     "validation_regex" : "",
     "allow_new_line" : false,
     "show_emoji_picker" : false,
     "type" : "text",
-    "default" : "Simple Button Text"
+    "default" : "Sign out"
   }, {
-    "id" : "8907de85-5eb8-0980-169b-7be11888799b",
-    "name" : "primary_button_text",
+    "id" : "0c23035d-d81c-a2dd-506a-65117823f222",
+    "name" : "link",
     "display_width" : null,
-    "label" : "Primary Button Text",
+    "label" : "Link",
     "required" : false,
     "locked" : false,
-    "validation_regex" : "",
-    "allow_new_line" : false,
-    "show_emoji_picker" : false,
-    "type" : "text",
-    "default" : "Primary Button Text"
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
   } ],
   "tab" : "CONTENT",
   "expanded" : false,
   "type" : "group",
   "default" : {
-    "simple_button_text" : "Simple Button Text",
-    "primary_button_text" : "Primary Button Text"
+    "button_text" : "Sign out",
+    "link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }
+}, {
+  "id" : "06263095-b377-ee5d-087c-7b1be0e528d8",
+  "name" : "button_2",
+  "display_width" : null,
+  "label" : "Button 2",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "5c116874-e85e-8aca-f055-3f464d85c6f6",
+    "name" : "button_text",
+    "display_width" : null,
+    "label" : "Button text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Visit dashboard"
+  }, {
+    "id" : "de3d8b72-c87b-bfac-97d3-2a3d10918664",
+    "name" : "link",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "button_text" : "Visit dashboard",
+    "link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }
+}, {
+  "id" : "064c4d9c-4a83-e896-a727-24f4b6b60d15",
+  "name" : "mobile_menu_button",
+  "display_width" : null,
+  "label" : "Mobile Menu Button",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "ef2f0030-237a-685c-85c3-fde662e65590",
+    "name" : "mobile_menu_button_text",
+    "display_width" : null,
+    "label" : "Mobile Menu Button Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Menu"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "mobile_menu_button_text" : "Menu"
   }
 } ]

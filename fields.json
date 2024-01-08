@@ -437,6 +437,55 @@
           "font_set": "GOOGLE",
           "variant": "700"
         }
+      },
+      {
+        "label": "Tertiary",
+        "name": "tertiary",
+        "type": "font",
+        "visibility": {
+          "hidden_subfields": {
+            "bold": true,
+            "italic": true,
+            "size": true,
+            "underline": true
+          }
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "theme.colors.body_color.body_text_color.color"
+          }
+        },
+        "default": {
+          "color": "#000",
+          "fallback": "sans-serif",
+          "font": "Inter",
+          "font_set": "GOOGLE",
+          "variant": "400"
+        }
+      },
+      {
+        "label": "Quaternary",
+        "name": "quaternary",
+        "type": "font",
+        "visibility": {
+          "hidden_subfields": {
+            "bold": true,
+            "italic": true,
+            "size": true,
+            "underline": true
+          }
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "theme.colors.body_color.body_text_color.color"
+          }
+        },
+        "default": {
+          "color": "#000",
+          "font": "Inter",
+          "font_set": "GOOGLE",
+          "variant": "700"
+        }
       }
     ]
   },
@@ -778,6 +827,43 @@
           {
             "label": "Body",
             "name": "body_font",
+            "type": "group",
+            "children": [
+              {
+                "label": "Font",
+                "name": "font",
+                "type": "font",
+                "visibility": {
+                  "hidden_subfields": {
+                    "bold": true,
+                    "italic": true,
+                    "underline": true
+                  }
+                },
+                "inherited_value": {
+                  "property_value_paths": {
+                    "color": "theme.fonts.primary.color",
+                    "fallback": "theme.fonts.primary.fallback",
+                    "font": "theme.fonts.primary.font",
+                    "font_set": "theme.fonts.primary.font_set",
+                    "variant": "theme.fonts.primary.variant"
+                  }
+                },
+                "default": {
+                  "size": 16,
+                  "size_unit": "px",
+                  "styles": {
+                    "line-height": "22px",
+                    "margin-bottom": "16px",
+                    "font-weight": "400"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Caption",
+            "name": "caption_font",
             "type": "group",
             "children": [
               {
@@ -1218,9 +1304,9 @@
                     "inherited_value": {
                       "property_value_paths": {
                         "color": "theme.colors.body_color.body_background_color.color",
-                        "fallback": "theme.fonts.secondary.fallback",
-                        "font": "theme.fonts.secondary.font",
-                        "font_set": "theme.fonts.secondary.font_set"
+                        "fallback": "theme.fonts.primary.fallback",
+                        "font": "theme.fonts.primary.font",
+                        "font_set": "theme.fonts.primary.font_set"
                       }
                     },
                     "default": {

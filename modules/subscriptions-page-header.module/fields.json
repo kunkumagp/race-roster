@@ -1,0 +1,22 @@
+[ {
+  "id" : "e921cc39-7660-5436-5318-7d7550c6e458",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : false,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "exact",
+    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/RR%20Logo-1.png",
+    "alt" : "RR Logo-1",
+    "loading" : "eager",
+    "width" : 170,
+    "height" : 69,
+    "max_width" : 340,
+    "max_height" : 138
+  }
+} ]

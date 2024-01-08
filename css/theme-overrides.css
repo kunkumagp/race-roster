@@ -26,6 +26,7 @@
   11. System templates
   12. Modules
   13. Fontfaces
+  14. Custom
 
 ##}
 
@@ -36,9 +37,9 @@
 /* 1a. Containers */
 
 {% if theme.spacing.maximum_content_width == "compact" %}
-  {% set container_width = "900px" %}
+  {% set container_width = "991px" %}
 {% elif theme.spacing.maximum_content_width == "default" %}
-  {% set container_width = "1040px" %}
+  {% set container_width = "1140px" %}
 {% elif theme.spacing.maximum_content_width == "comfortable" %}
   {% set container_width = "1200px" %}
 {% elif theme.spacing.maximum_content_width == "custom" %}
@@ -268,6 +269,10 @@
   padding: {{ dnd_section_padding }} 0;
 }
 
+#main-content-subscriptions-pages{
+  min-height: 68vh;
+}
+
 /* .content-wrapper is used for blog post and system templates and .header-wrapper is used for the website header module */
 
 .dnd-section > .row-fluid,
@@ -289,6 +294,7 @@ body {
   background-color: {{ body_bg_color }};
   font-size: {{ body_font.size ~ body_font.size_unit }};
   margin: 0px;
+/*   line-height: 0 !important; */
 }
 
 /* Paragraphs */
@@ -542,7 +548,7 @@ button:active,
   border: none;
   color: {{ theme.colors.primary.primary_main.color }};
   fill: {{ theme.colors.primary.primary_main.color }};
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .button.button--simple:hover,
@@ -606,7 +612,7 @@ form {
   {{ form_border }}
   {{ form_padding }}
   background: {{ theme.global.forms.form.background.color.color }}; 
-  padding: 10px 40px 45px !important ;
+  padding: 0px 40px 45px !important ;
 }
 
 .hero_form {
@@ -699,8 +705,8 @@ input[type=radio]
 input[type=checkbox]:checked, 
 input[type=radio]:checked
 {
-  background: #5D7975;
-  border: 1px solid #5D7975;
+  background: #0043BF;
+  border: 1px solid #0043BF;
 }
 
 .hs-form-checkbox span, 
@@ -1375,6 +1381,106 @@ tfoot td {
   color: {{ form_label_font.color }};
 }
 
+#email-prefs-form,
+.subscriptions_confirmation , #hs_cos_wrapper_subscriptions_confirmation{
+  margin-top: 4rem;
+  padding: 60px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}
+
+#hs_cos_wrapper_subscriptions_confirmation h2{
+  font-size:18px;
+}
+
+#email-prefs-form .page-header{
+  margin-bottom:1rem;
+}
+
+#email-prefs-form h1,
+#email-prefs-form h2{
+  color: {{ theme.colors.secondary.color }};
+}
+#email-prefs-form h2{
+  font-size: 18px;
+}
+#hs_cos_wrapper_subscriptions_confirmation_email_subscriptions_confirmation > div.page-header > br{
+  display:none;
+}
+#email-prefs-form h3{
+  font-size: 16px;
+  font-weight:700 !important;
+}
+
+#email-prefs-form input[type='checkbox']{
+  width: 14px;
+  height: 14px;
+  accent-color: #0043BF !important;
+}
+#email-prefs-form > div.page-header > br{
+  display:none;
+}
+.fakelabel , .subscribe-options p label{
+  display:flex;
+}
+
+.subscriptions_confirmation h2 {
+  font-size:28px;
+  color: {{ theme.colors.secondary.color }};
+  
+}
+.subscriptions_confirmation .page-header br{
+  display:none;
+}
+
+
+@media (max-width: 767px) {
+  
+  .blog-post-section{
+    padding: 60px 0;
+  }
+  .blog-post-section.mobile{
+    padding-top: 40px;
+  }
+
+  #email-prefs-form{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-bottom-right-radius: {{ form_corner_radius }};
+  }
+  .subscriptions_confirmation{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-bottom-right-radius: {{ form_corner_radius }};
+  }
+}
+/* Search template */
+
+.hs-search-results__title {
+/*   font-size: {{ theme.global.text.h2.font.size ~ theme.global.text.h2.font.size_unit }}; */
+}
+
+/* Backup unsubscribe template */
+
+#hs_cos_wrapper_backup_unsubscribe h3{
+  color: #000000;
+  font-weight:400 !important;
+  margin-bottom:0px;
+}
+
+#hs_cos_wrapper_backup_unsubscribe input[type='email'] {
+  font-size: {{ form_input_font.size ~ form_input_font.size_unit }} !important;
+  height: 60px;
+  padding: 5px 10px !important;
+  border-radius:4px;
+}
+
+#hs_cos_wrapper_backup_unsubscribe input[type='submit'] {
+  max-width:175px;
+}
+
+
 /* Search template */
 
 .hs-search-results__title {
@@ -1387,6 +1493,7 @@ tfoot td {
   font-size: {{ form_input_font.size ~ form_input_font.size_unit }} !important;
   padding: {{ form_input_spacing }} !important;
 }
+
 
 {# ######################################################################### #}
 {# ###########################   12. Modules   ############################# #}
@@ -1571,3 +1678,35 @@ tfoot td {
     line-height: 28px;
   }
 }
+
+
+{# ######################################################################### #}
+{# ###########################   14. Custom   ############################# #}
+{# ######################################################################### #}
+
+.hero_banner_h1{
+  font-size: 72px;
+  line-height: 70px;
+}
+
+@media screen and (max-width: 1100px){
+  .hero_banner_h1{
+    font-size: 48px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .hero_banner_h1{
+    font-size: 28px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .widget-type-linked_image{
+    text-align: center;
+  }
+}
+
+  

@@ -1,0 +1,27 @@
+{% require_css %}
+<style>
+  .{{name}}-image_with_shadow{
+    background: #fff;
+    min-height: 100px;
+    line-height: 0px !important;
+  }
+  {% if module.box_shadow_apply == true %}
+    .{{name}}-image_with_shadow{
+      box-shadow: {{ module.box_shadow_values.offset_x }}px {{ module.box_shadow_values.offset_y }}px {{ module.box_shadow_values.blur_radius }}px {{ module.box_shadow_values.spread_radius }}px rgba({{ color_variant( module.box_shadow_values.color_field.color , 100)|convert_rgb }}, calc({{ module.box_shadow_values.color_field.opacity }} / 100));
+    }
+  {% endif %}
+</style>
+{% end_require_css %}
+
+<div class="{{name}}-image_with_shadow">
+  {% if module.image_field.src %}
+  {% set sizeAttrs = 'width="{{ module.image_field.width }}" height="{{ module.image_field.height }}"' %}
+  {% if module.image_field.size_type == 'auto' %}
+  {% set sizeAttrs = 'width="{{ module.image_field.width }}" height="{{ module.image_field.height }}" style="max-width: 100%; height: auto;"' %}
+  {% elif module.image_field.size_type == 'auto_custom_max' %}
+  {% set sizeAttrs = 'width="{{ module.image_field.max_width }}" height="{{ module.image_field.max_height }}" style="max-width: 100%; height: auto;"' %}
+  {% endif %}
+  {% set loadingAttr = module.image_field.loading != 'disabled' ? 'loading="{{ module.image_field.loading }}"' : '' %}
+  <img src="{{ module.image_field.src }}" alt="{{ module.image_field.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+  {% endif %}
+</div>

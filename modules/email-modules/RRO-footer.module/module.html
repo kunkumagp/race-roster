@@ -46,16 +46,8 @@
             <tr align="center">
               
               <td class="display_block_on_small_screens" style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; padding:0px 0px; vertical-align:middle" valign="middle">
-                {% set href = item.social_media_link.url.href %}
-                  {% if item.social_media_link.url.type is equalto "EMAIL_ADDRESS" %}
-                    {% set href = "mailto:" + href %}
-                  {% endif %}
-                
-                <a href="{{ href }}" {% if item.social_media_link.open_in_new_tab %}target="_blank"{% endif %}
-                  {% if item.social_media_link.rel %} rel="{{ item.social_media_link.rel }}"{% endif %}  style="color:#00a4bd; mso-line-height-rule:exactly; text-decoration:none !important" data-hs-link-id="0">
-                  
-                   <img src="{{ item.social_media_icon.src }}" alt="{{ item.socal_media_icon.alt }}" height="27" style="outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; border:none; width:auto!important; height:27px!important; vertical-align:middle" valign="middle" width="auto">
-                  
+                <a href="{{ item.social_media_link.href }}" style="color:#00a4bd; mso-line-height-rule:exactly; text-decoration:none !important" data-hs-link-id="0">
+                   <img src="{{ item.social_media_icon.src }}" alt="{{ item.socal_media_icon.alt }}" height="27" style="outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; border:none; width:auto!important; height:27px!important; vertical-align:middle" valign="middle" width="auto">  
                 </a>
               </td>
 

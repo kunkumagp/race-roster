@@ -1,0 +1,44 @@
+{% require_css %}
+<style>
+  .{{name}}-content_box_with_shadow{
+    min-height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 28px 45px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+  {% if module.box_shadow_apply == true %}
+    .{{name}}-content_box_with_shadow{
+      box-shadow: {{ module.box_shadow_values.offset_x }}px {{ module.box_shadow_values.offset_y }}px {{ module.box_shadow_values.blur_radius }}px {{ module.box_shadow_values.spread_radius }}px rgba({{ color_variant( module.box_shadow_values.color_field.color , 100)|convert_rgb }}, calc({{ module.box_shadow_values.color_field.opacity }} / 100));
+    }
+  {% endif %}
+</style>
+{% end_require_css %}
+
+
+<div class="{{name}}-content_box_with_shadow">
+  <div class="box_content">
+    {{ module.box_content }}
+  </div>
+
+  {% if module.button_enable == true %}
+  <div class="box_button">
+    {% set href = module.button_group.button_link.url.href %}
+    {% if module.button_group.button_link.url.type is equalto "EMAIL_ADDRESS" %}
+      {% set href = "mailto:" + href %}
+    {% endif %}
+    <a class="button" href="{{ href }}"
+      {% if module.button_group.button_link.open_in_new_tab %}target="_blank"{% endif %}
+      {% if module.button_group.button_link.rel %}rel="{{ module.button_group.button_link.rel }}"{% endif %}
+      >
+      {{ module.button_group.button_text }}
+    </a>
+  </div>
+  {% endif %}
+
+</div>
+
+

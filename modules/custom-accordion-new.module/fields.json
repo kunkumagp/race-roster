@@ -1,0 +1,67 @@
+[ {
+  "id" : "dca59b65-ea66-09e6-dab6-4c064c61f8f3",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "70f5a1d2-6a10-22ee-e9a8-d55cac028449",
+    "name" : "header_color",
+    "display_width" : null,
+    "label" : "header_color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : null,
+      "opacity" : null
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "header_color" : {
+      "color" : null,
+      "opacity" : null
+    }
+  }
+}, {
+  "id" : "ce611860-0984-11ca-8ffe-43d34816240e",
+  "name" : "accordion",
+  "display_width" : null,
+  "label" : "accordion",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "1aae39fc-9e6f-8401-2594-0bb8502c1be3",
+    "name" : "header",
+    "display_width" : null,
+    "label" : "header",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "d98941bb-3419-94ba-dd12-00782322182b",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ { }, { }, { } ]
+} ]

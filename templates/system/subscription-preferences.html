@@ -2,7 +2,7 @@
   templateType: email_subscription_preferences_page
   isAvailableForNewContent: true
   label: Growth - email subscription preferences
-  screenshotPath: ../../images/template-previews/subscription-preferences.png
+  screenshotPath: ../../images/sb-pref.png
 -->
 {% set template_css = "../../css/templates/system.css" %}
 {% set template_js = "../../js/system.js" %}
@@ -11,11 +11,19 @@
 {% block body %}
 <section class="content-wrapper">
   <div class="systems-page">
+    
+    {# Subscription preferences form title #}
+    <div style="text-align:center;" >
+      <h2>Unsubscribe</h2>
+    </div>
 
     {# Subscription preferences form #}
 
     {% module "subscription_preferences"
-      path="@hubspot/email_subscriptions"
+      path="@hubspot/email_subscriptions",
+      button_text="Unsubscribe",
+      unsubscribe_single_text=" If this is not your email address, please ignore this page since the email associated with this page was most likely forwarded to you. Please let us know the types of communication you no longer wish to receive:",
+      header="",
     %}
 
   </div>

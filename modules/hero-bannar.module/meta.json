@@ -1,8 +1,0 @@
-{
-  "global" : false,
-  "icon" : "fontawesome-5.14.0:Archway:SOLID",
-  "host_template_types" : [ "PAGE" ],
-  "module_id" : 147920215612,
-  "label" : "Hero Bannar",
-  "is_available_for_new_content" : true
-}

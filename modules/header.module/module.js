@@ -1,21 +1,10 @@
 var liElements = document.querySelectorAll(".hs-item-has-children");
-liElements.forEach(function(currentElement, index){ 
+liElements.forEach(function(currentElement, index){
   
-  // create new div
-  var arrow = document.createElement("i");
-  // Arrow set 
-  if(currentElement.getAttribute("class").includes("hs-menu-depth-1")){
-    arrow.setAttribute("class", "arrow arrow-down"); // set class to the div
-    currentElement.appendChild(arrow);
-  } else {
-    arrow.setAttribute("class", "arrow arrow-left"); // set class to the div
-    currentElement.appendChild(arrow);
-  }
-  
-   
-  
-  
-    console.log(currentElement)
+//   var newSpan = document.createElement("span");
+//   newSpan.setAttribute("class", "main-menu-li"); // set class to the div
+//   currentElement.appendChild(newSpan);
+
   
 
   var ulElement = currentElement.querySelector('.hs-menu-children-wrapper');
@@ -58,6 +47,22 @@ liElements.forEach(function(currentElement, index){
 
 })
 
+var headerMenuliElements = document.querySelectorAll(".header_menu .hs-item-has-children");
+headerMenuliElements.forEach(function(currentElement, index){
+  $(currentElement).find("a").contents().unwrap();
+  
+  var arrow = document.createElement("i");
+  // Arrow set 
+  if(currentElement.getAttribute("class").includes("hs-menu-depth-1")){
+    arrow.setAttribute("class", "arrow arrow-down"); // set class to the div
+    currentElement.appendChild(arrow);
+  } else {
+    arrow.setAttribute("class", "arrow arrow-left"); // set class to the div
+    currentElement.appendChild(arrow);
+  }
+})
+
+
 
 
 
@@ -67,9 +72,9 @@ liElements.forEach(function(currentElement, index){
 const DEFAULT_MODULE_CONFIG = Object.freeze({
   autosuggest_results_message: 'Results for “[[search_term]]”',
   sr_autosuggest_results_message:
-    'There are currently [[number_of_results]] auto-suggested results for [[search_term]].',
+  'There are currently [[number_of_results]] auto-suggested results for [[search_term]].',
   sr_search_field_aria_label:
-    'This is a search field with an auto-suggest feature attached.',
+  'This is a search field with an auto-suggest feature attached.',
   sr_search_button_aria_label: 'Search',
 });
 /* eslint-enable camelcase */
@@ -127,19 +132,19 @@ const emptySearchSuggestions = (suggestionsResponse, searchInputElements) => {
   const { searchTerm } = suggestionsResponse;
 
   const noSearchResultsMessage = searchTerm
-    ? moduleConfig.autosuggest_no_results_message.replace(
-        '[[search_term]]',
-        searchTerm
-      )
-    : moduleConfig.sr_empty_search_field_message;
+  ? moduleConfig.autosuggest_no_results_message.replace(
+    '[[search_term]]',
+    searchTerm
+  )
+  : moduleConfig.sr_empty_search_field_message;
 
   const emptyResultsItem = `<li role="option"
     tabindex="-1"
     aria-posinset="1"
     aria-setsize="0"
     class="results-for ${
-      !searchTerm ? 'show-for-sr' : ''
-    }">${noSearchResultsMessage}</li>`;
+  !searchTerm ? 'show-for-sr' : ''
+  }">${noSearchResultsMessage}</li>`;
 
   searchSuggestions.innerHTML = emptyResultsItem;
 
@@ -262,8 +267,8 @@ const renderSearchSuggestions = (suggestionsResponse, searchInputElements) => {
       return `<li role="option"
           aria-posinset="${index + 2}"
           tabindex="${index + 1}"><a href="${result.url}">${
-        result.title
-      }</a></li>`;
+      result.title
+    }</a></li>`;
     }),
   ];
 
@@ -365,4 +370,39 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
+
+
+$(function() {
+  $("body").click(function(e) {
+    var clickedOn = $(e.target);
+    if (clickedOn.parents().andSelf().is('.mobile_menu')){
+      mobileMenuDisplayAndHide();
+    }
+  });
+})
+
+
+function mobileMenuDisplayAndHide(){
+  var mobileMenu = document.querySelector('.header .mobile_menu');
+  var classes = document.getElementsByClassName("mobile_menu")[0].classList.value;
+  
+  if((classes != null || classes != 'null') && (classes.includes("show"))){
+      mobileMenu.classList.remove('show');
+      mobileMenu.classList.remove('mobile_menu_active');
+
+      document.querySelector(".hamburger_icon").style.display = "block";
+      document.querySelector(".close_icon").style.display = "none";
+
+      document.querySelector(".mobile_menu_container").style.display = "none";
+  } else {
+      mobileMenu.classList.add('show');
+      mobileMenu.classList.add('mobile_menu_active');
+
+      document.querySelector(".hamburger_icon").style.display = "none";
+      document.querySelector(".close_icon").style.display = "block";
+
+      document.querySelector(".mobile_menu_container").style.display = "block";
+  }
+}
 

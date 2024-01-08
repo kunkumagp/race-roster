@@ -39,11 +39,10 @@
 .systems-page .success {
   display: inline-block;
   width: 100%;
-  padding: 0.35rem 0.7rem;
-  border: 1px solid #4f7d24;
+  padding: 0.35rem 0rem;
+  font-weight:700;
   margin: 1.4rem 0;
-  background-color: #cde3cc;
-  color: #4f7d24;
+  color: #34C759;
 }
 
 /* Search pages */

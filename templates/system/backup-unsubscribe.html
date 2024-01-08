@@ -2,7 +2,7 @@
   templateType: email_backup_unsubscribe_page
   isAvailableForNewContent: true
   label: Growth - email backup unsubscribe
-  screenshotPath: ../../images/template-previews/backup-unsubscribe.png
+  screenshotPath: ../../images/sb-backup.png
 -->
 {% set template_css = "../../css/templates/system.css" %}
 {% extends "../layouts/base.html" %}
@@ -11,11 +11,16 @@
 <section class="content-wrapper">
   <div class="systems-page">
 
+    {# Subscription preferences form title #}
+    <div style="text-align:center;" >
+      <h2>Email Unsubscribe</h2>
+    </div>
     {# Backup unsubscribe form #}
 
     {% module "backup_unsubscribe"
       path="@hubspot/email_simple_subscription",
-      extra_classes="backup-unsubscribe"
+      extra_classes="backup-unsubscribe",
+      header=""
     %}
 
   </div>

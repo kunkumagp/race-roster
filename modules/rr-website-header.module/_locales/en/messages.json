@@ -1,0 +1,1472 @@
+{
+  "button.add_button.label" : {
+    "message" : "Add button",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.add_icon.label" : {
+    "message" : "Add icon",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.button_link.label" : {
+    "message" : "Button link",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.button_text.default" : {
+    "message" : "Contact us",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.button_text.label" : {
+    "message" : "Button text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.default.add_icon" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.default.button_link.url.href" : {
+    "message" : "#contact",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.default.button_link.url.type" : {
+    "message" : "EXTERNAL",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.default.button_text" : {
+    "message" : "Contact us",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.default.icon.icon_field.name" : {
+    "message" : "arrow-alt-circle-up",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.default.icon.icon_field.type" : {
+    "message" : "SOLID",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.default.icon.icon_field.unicode" : {
+    "message" : "f35b",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.default.icon.position" : {
+    "message" : "left",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.icon.icon_field.label" : {
+    "message" : "Icon",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.label" : {
+    "message" : "Icon",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.position.choices.left" : {
+    "message" : "Left",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.position.choices.right" : {
+    "message" : "Right",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.position.label" : {
+    "message" : "Position",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button.label" : {
+    "message" : "Button",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.label" : {
+    "message" : "Add button",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.label" : {
+    "message" : "Add icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.label" : {
+    "message" : "Button link",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.default" : {
+    "message" : "Contact us",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.label" : {
+    "message" : "Button text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.choices.left" : {
+    "message" : "Left",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.choices.right" : {
+    "message" : "Right",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.label" : {
+    "message" : "Position",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.label" : {
+    "message" : "Button copy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "default_text.close_main_navigation_text.default" : {
+    "message" : "Close main navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.close_main_navigation_text.label" : {
+    "message" : "Close main navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.desktop_navigation_text.default" : {
+    "message" : "Desktop navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.desktop_navigation_text.label" : {
+    "message" : "Desktop navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.label" : {
+    "message" : "Default text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.mobile_navigation_text.default" : {
+    "message" : "Mobile navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.mobile_navigation_text.label" : {
+    "message" : "Mobile navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.open_main_navigation_text.default" : {
+    "message" : "Open main navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.open_main_navigation_text.label" : {
+    "message" : "Open main navigation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_for_submenu_text.default" : {
+    "message" : "Show submenu for {{ link.label }}",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_for_submenu_text.label" : {
+    "message" : "Show for submenu text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_submenu_for_translations_text.default" : {
+    "message" : "Show submenu for translations",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_submenu_for_translations_text.label" : {
+    "message" : "Show submenu for translations",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.add_language_switcher.help_text" : {
+    "message" : "The language switcher will only appear if there is a multi-language variation for a page.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.add_language_switcher.label" : {
+    "message" : "Add language switcher",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.choices.hybrid" : {
+    "message" : "Hybrid",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.choices.localized" : {
+    "message" : "Localized",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.choices.pagelang" : {
+    "message" : "PageLang",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.help_text" : {
+    "message" : "The language of the text in the language switcher. PageLang means the names of languages will display in the language of the page the switcher is on. Localized means the name of each language will display in that language. Hybrid is a combination of the two.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.label" : {
+    "message" : "Display mode",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.placeholder" : {
+    "message" : "Search",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.label" : {
+    "message" : "Language switcher",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout.choices.centered" : {
+    "message" : "Logo centered",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout.choices.left" : {
+    "message" : "Logo left",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout.default" : {
+    "message" : "centered",
+    "description" : null,
+    "placeholders" : null
+  },
+  "layout.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "layout.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "layout.label" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.link.help_text" : {
+    "message" : "If no url is specified, your logo will link to your primary domain",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.link.label" : {
+    "message" : "Link",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.open_in_new_tab.label" : {
+    "message" : "Open link in new tab when visitors click",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.label" : {
+    "message" : "Menu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.max_levels.help_text" : {
+    "message" : "Determines the number of menu tree children that can be expanded in the menu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.max_levels.label" : {
+    "message" : "Max levels",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.menu.label" : {
+    "message" : "Menu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "rr-website-header",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.alignment.alignment.label" : {
+    "message" : "Alignment",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.alignment.label" : {
+    "message" : "Alignment",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.color.label" : {
+    "message" : "Color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.label" : {
+    "message" : "Background",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.label" : {
+    "message" : "Corner",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.radius.label" : {
+    "message" : "Radius",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.color.label" : {
+    "message" : "Color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.label" : {
+    "message" : "Background",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.label" : {
+    "message" : "Hover",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.label" : {
+    "message" : "Button",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.large" : {
+    "message" : "Large",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.regular" : {
+    "message" : "Regular",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.small" : {
+    "message" : "Small",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.label" : {
+    "message" : "Button size",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.primary" : {
+    "message" : "Primary",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.secondary" : {
+    "message" : "Secondary",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.simple" : {
+    "message" : "Simple",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.label" : {
+    "message" : "Button style",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.help_text" : {
+    "message" : "Use presets to quickly adjust the appearance of the selected item to predefined values.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.label" : {
+    "message" : "Presets",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.label" : {
+    "message" : "Spacing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.spacing.label" : {
+    "message" : "Spacing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.capitalize" : {
+    "message" : "Capitalize",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.lowercase" : {
+    "message" : "Lowercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.none" : {
+    "message" : "None",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.uppercase" : {
+    "message" : "Uppercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.label" : {
+    "message" : "Text transform",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.label" : {
+    "message" : "Alignment",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.label" : {
+    "message" : "Alignment",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.label" : {
+    "message" : "Color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.label" : {
+    "message" : "Background",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.background.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.border.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.label" : {
+    "message" : "Corner",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.label" : {
+    "message" : "Radius",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.label" : {
+    "message" : "Color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.label" : {
+    "message" : "Background",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.label" : {
+    "message" : "Border",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.label" : {
+    "message" : "Hover",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.label" : {
+    "message" : "Button copy",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.choices.large" : {
+    "message" : "Large",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.choices.regular" : {
+    "message" : "Regular",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.choices.small" : {
+    "message" : "Small",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.label" : {
+    "message" : "Button size",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.choices.primary" : {
+    "message" : "Primary",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.choices.secondary" : {
+    "message" : "Secondary",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.choices.simple" : {
+    "message" : "Simple",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.label" : {
+    "message" : "Button style",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.help_text" : {
+    "message" : "Use presets to quickly adjust the appearance of the selected item to predefined values.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.label" : {
+    "message" : "Presets",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.label" : {
+    "message" : "Spacing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.label" : {
+    "message" : "Spacing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.capitalize" : {
+    "message" : "Capitalize",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.lowercase" : {
+    "message" : "Lowercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.none" : {
+    "message" : "None",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.uppercase" : {
+    "message" : "Uppercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.inline_help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.label" : {
+    "message" : "Text transform",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.placeholder" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.label" : {
+    "message" : "Styles",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.background.color.label" : {
+    "message" : "Color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.background.label" : {
+    "message" : "Background",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.hover.background_color.label" : {
+    "message" : "Background color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.hover.font_color.label" : {
+    "message" : "Font color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.hover.label" : {
+    "message" : "Hover",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.label" : {
+    "message" : "Drop downs",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.text.font_color.label" : {
+    "message" : "Font color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.hover.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.hover.label" : {
+    "message" : "Hover",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.label" : {
+    "message" : "Language switcher",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.capitalize" : {
+    "message" : "Capitalize",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.lowercase" : {
+    "message" : "Lowercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.none" : {
+    "message" : "None",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.uppercase" : {
+    "message" : "Uppercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.label" : {
+    "message" : "Text transform",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.logo.corner.label" : {
+    "message" : "Corner",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.logo.corner.radius.label" : {
+    "message" : "Radius",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.active.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.active.label" : {
+    "message" : "Active",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.active.background_color.label" : {
+    "message" : "Background color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.active.font_color.label" : {
+    "message" : "Font color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.active.label" : {
+    "message" : "Active",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.background.color.label" : {
+    "message" : "Color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.background.label" : {
+    "message" : "Background",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.hover.background_color.label" : {
+    "message" : "Background color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.hover.font_color.label" : {
+    "message" : "Font color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.hover.label" : {
+    "message" : "Hover",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.label" : {
+    "message" : "Drop downs",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.text.font_color.label" : {
+    "message" : "Font color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.hover.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.hover.label" : {
+    "message" : "Hover",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.label" : {
+    "message" : "Menu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.font.label" : {
+    "message" : "Font",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.capitalize" : {
+    "message" : "Capitalize",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.lowercase" : {
+    "message" : "Lowercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.none" : {
+    "message" : "None",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.uppercase" : {
+    "message" : "Uppercase",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.label" : {
+    "message" : "Text transform",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.name" : {
+    "message" : "rr-website-header",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.top_bar.background.color.label" : {
+    "message" : "Color",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.top_bar.background.label" : {
+    "message" : "Background",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.top_bar.label" : {
+    "message" : "Top bar",
+    "description" : "",
+    "placeholders" : null
+  }
+}

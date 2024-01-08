@@ -6,10 +6,10 @@
   description: "Full size background image section separated in two columns. Left column has heading and text and right column has a form."
 -->
  {% dnd_section
-     max_width=1440,
      vertical_alignment="MIDDLE",
      padding={
-         'default': {'top': 0, 'bottom': 0} 
+         'default': {'top': 0, 'bottom': 0, 'left': 140, 'right': 140},
+         'mobile': { 'top': 20, 'bottom': 20, 'left': 20, 'right': 20 }
      }
      background_image={
         "background_position" : "MIDDLE_CENTER",
@@ -18,15 +18,12 @@
       },
       full_width=false
   %}
-    {% dnd_column
-       padding={
-         'default': { 'left': 140, 'right': 140 },
-         'mobile': { 'left': 20, 'right': 20 }
-       }
-    %}
+    {% dnd_column %}
       {% dnd_row
+              vertical_alignment="MIDDLE",
               margin={
-                 'default': { 'top': 45}
+                  'default': {'top': 47, 'bottom': 90, 'left': 0, 'right': 0},
+                  'mobile': { 'top': 20, 'bottom': 20, 'left': 20, 'right': 20 }
               }%}
           {% dnd_column
              width=6,
@@ -43,14 +40,14 @@
                 {% dnd_module
                   path="@hubspot/linked_image",
                   img={
-                    "alt": context.image_alt || "Clip path group",
-                    "loading": "lazy",
-                    "max_height": context.image_height || 891,
-                    "max_width": context.image_width || 1009,
-                    "size_type": "exact",
-                    "src": context.image || get_asset_url('../images/clip-cath-group.png'),
-                    "width" : 500,
-                    "height": 442
+                    "alt" : "Clip path group",
+                    "height" : 442,
+                    "loading" : "lazy",
+                    "max_height" : 499,
+                    "max_width" : 565,
+                    "size_type" : "auto",
+                    "src" : "//39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/raw_assets/public/race-roster/images/clip-cath-group.png",
+                    "width" : 500
                   }
                 %}
                 {% end_dnd_module %}
@@ -58,7 +55,7 @@
           {% end_dnd_column %}
           {% dnd_column offset=6, width=6,
               padding={
-                 'default': { 'left': 35},
+                 'default': { 'left': 45},
                  'mobile' :{'left': 0}
               }
           %}
@@ -68,9 +65,9 @@
                        offset=0,
                        width=12,
                        horizontal_alignment="CENTER",
-                       html='<div style="color: #0043bf; font-size: 18px; font-style: normal; font-weight: 400; line-height: normal;">FUNDRAISING</div>
-              <h1 style="color: #011e62; font-size: 72px; font-style: normal; font-weight: bold; line-height: normal;">Fundraise on Race Roster</h1>
-              <p style="color: #011e62; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;">How to get set up to fundraise on Race Roster</p>'
+                       html='<p style="color: #0043BF; font-family: {{theme.fonts.tertiary.font}}; font-size: 18px; margin-bottom: 0px;">FUNDRAISING</p>
+              <h1 class="hero_banner_h1" style="color: #011e62; font-family: {{theme.fonts.quaternary.font}}; font-style: normal; font-weight: bold; margin: 0 ;">Fundraise on Race Roster</h1>
+              <p style="color: #011e62; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal; margin-top: 10px;">How to get set up to fundraise on Race Roster</p>'
                   %}
                   {% end_dnd_module %}
              {% end_dnd_row %}

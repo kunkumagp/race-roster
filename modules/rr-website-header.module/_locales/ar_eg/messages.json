@@ -1,0 +1,1397 @@
+{
+  "button.add_button.label" : {
+    "message" : "إضافة زر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.add_icon.label" : {
+    "message" : "إضافة أيقونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.button_link.label" : {
+    "message" : "رابط الزر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.button_text.default" : {
+    "message" : "اتصل بنا",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.button_text.label" : {
+    "message" : "نص الزر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.icon_field.label" : {
+    "message" : "الأيقونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.label" : {
+    "message" : "الأيقونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.position.choices.left" : {
+    "message" : "اليسار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.position.choices.right" : {
+    "message" : "اليمين",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.position.label" : {
+    "message" : "الموضع",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.label" : {
+    "message" : "الزر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button_2.add_button.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.label" : {
+    "message" : "Add button",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_button.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.label" : {
+    "message" : "Add icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.add_icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.label" : {
+    "message" : "Button link",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_link.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.default" : {
+    "message" : "Contact us",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.label" : {
+    "message" : "Button text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.button_text.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.icon_field.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.choices.left" : {
+    "message" : "Left",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.choices.right" : {
+    "message" : "Right",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.label" : {
+    "message" : "Position",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.icon.position.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.label" : {
+    "message" : "Button copy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "button_2.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "default_text.close_main_navigation_text.default" : {
+    "message" : "إغلاق التنقل الرئيسي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.close_main_navigation_text.label" : {
+    "message" : "إغلاق التنقل الرئيسي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.desktop_navigation_text.default" : {
+    "message" : "التنقل على سطح المكتب",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.desktop_navigation_text.label" : {
+    "message" : "التنقل على سطح المكتب",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.label" : {
+    "message" : "نص افتراضي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.mobile_navigation_text.default" : {
+    "message" : "التنقل داخل الأجهزة المحمولة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.mobile_navigation_text.label" : {
+    "message" : "التنقل داخل الأجهزة المحمولة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.open_main_navigation_text.default" : {
+    "message" : "فتح التنقل الرئيسي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.open_main_navigation_text.label" : {
+    "message" : "فتح التنقل الرئيسي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_for_submenu_text.default" : {
+    "message" : "إظهار القائمة الفرعية لـ {{ link.label }}",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_for_submenu_text.label" : {
+    "message" : "إظهار القائمة الفرعية للنص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_submenu_for_translations_text.default" : {
+    "message" : "إظهار القائمة الفرعية للترجمات",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.show_submenu_for_translations_text.label" : {
+    "message" : "إظهار القائمة الفرعية للترجمات",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.add_language_switcher.help_text" : {
+    "message" : "سيظهر مبدل اللغة فقط إذا كان هناك تباين متعدد اللغات للصفحة.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.add_language_switcher.label" : {
+    "message" : "إضافة مبدل اللغة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.choices.hybrid" : {
+    "message" : "مختلط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.choices.localized" : {
+    "message" : "مترجَم",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.choices.pagelang" : {
+    "message" : "لغة الصفحة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.help_text" : {
+    "message" : "لغة النص في مبدل اللغة. يشير مصطلح \"لغة الصفحة\" إلى أن أسماء اللغات ستظهر بلغة الصفحة التي تحتوي على المبدل. ويشير مصطلح \"مترجَم\" إلى أن اسم كل لغة سيتم عرضه بتلك اللغة. أما مصطلح \"مختلط\"، فيعتبر مزيجًا من الخيارين.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.label" : {
+    "message" : "وضع العرض",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.display_mode.placeholder" : {
+    "message" : "بحث",
+    "description" : "",
+    "placeholders" : null
+  },
+  "language_switcher.label" : {
+    "message" : "مبدل اللغة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout.choices.centered" : {
+    "message" : "توسيط الشعار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout.choices.left" : {
+    "message" : "شعار جهة اليسار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout.label" : {
+    "message" : "التخطيط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.label" : {
+    "message" : "الشعار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.link.help_text" : {
+    "message" : "إذا لم يتم تحديد عنوان url، فسيرتبط شعارك بالمجال الأساسي لديك",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.link.label" : {
+    "message" : "الرابط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.logo.label" : {
+    "message" : "الشعار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "logo.open_in_new_tab.label" : {
+    "message" : "فتح الرابط في علامة تبويب جديدة عند نقر الزوار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.label" : {
+    "message" : "القائمة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.max_levels.help_text" : {
+    "message" : "يحدد عدد العناصر الفرعية لشجرة القائمة التي يمكن توسيعها في القائمة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.max_levels.label" : {
+    "message" : "المستويات القصوى",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu.menu.label" : {
+    "message" : "القائمة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "rr-website-header",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button.alignment.alignment.label" : {
+    "message" : "محاذاة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.alignment.label" : {
+    "message" : "محاذاة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.color.label" : {
+    "message" : "اللون",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.label" : {
+    "message" : "الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.border.label" : {
+    "message" : "الحد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.label" : {
+    "message" : "الحد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.label" : {
+    "message" : "الزاوية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.radius.label" : {
+    "message" : "نصف قطر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.color.label" : {
+    "message" : "اللون",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.label" : {
+    "message" : "الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.border.label" : {
+    "message" : "الحد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.label" : {
+    "message" : "الحد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.label" : {
+    "message" : "التمرير",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.font.label" : {
+    "message" : "الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.label" : {
+    "message" : "النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.label" : {
+    "message" : "الزر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.large" : {
+    "message" : "كبير",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.regular" : {
+    "message" : "عادي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.small" : {
+    "message" : "صغير",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.label" : {
+    "message" : "حجم الزر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.primary" : {
+    "message" : "الأساسية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.secondary" : {
+    "message" : "الثانوية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.simple" : {
+    "message" : "بسيط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.label" : {
+    "message" : "نمط الزر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.help_text" : {
+    "message" : "استخدم إعدادات الضبط المسبقة لضبط مظهر العنصر المحدد بسرعة على القيم المحددة مسبقًا.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.label" : {
+    "message" : "عمليات الضبط المسبقة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.label" : {
+    "message" : "التباعد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.spacing.label" : {
+    "message" : "التباعد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.font.label" : {
+    "message" : "الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.label" : {
+    "message" : "النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.capitalize" : {
+    "message" : "الكتابة بأحرف كبيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.lowercase" : {
+    "message" : "الكتابة بأحرف صغيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.none" : {
+    "message" : "لا يوجد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.choices.uppercase" : {
+    "message" : "الكتابة بأحرف كبيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.text_transform.label" : {
+    "message" : "تحويل النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.label" : {
+    "message" : "Alignment",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.alignment.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.label" : {
+    "message" : "Alignment",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.alignment.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.label" : {
+    "message" : "Color",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.color.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.label" : {
+    "message" : "Background",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.background.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.label" : {
+    "message" : "Border",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.border.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.label" : {
+    "message" : "Border",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.border.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.label" : {
+    "message" : "Corner",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.label" : {
+    "message" : "Radius",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.corner.radius.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.label" : {
+    "message" : "Color",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.color.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.label" : {
+    "message" : "Background",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.background.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.label" : {
+    "message" : "Border",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.border.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.label" : {
+    "message" : "Border",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.border.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.label" : {
+    "message" : "Hover",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.label" : {
+    "message" : "Font",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.font.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.hover.text.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.label" : {
+    "message" : "Button copy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.choices.large" : {
+    "message" : "Large",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.choices.regular" : {
+    "message" : "Regular",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.choices.small" : {
+    "message" : "Small",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.label" : {
+    "message" : "Button size",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_size.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.choices.primary" : {
+    "message" : "Primary",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.choices.secondary" : {
+    "message" : "Secondary",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.choices.simple" : {
+    "message" : "Simple",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.label" : {
+    "message" : "Button style",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.button_style.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.help_text" : {
+    "message" : "Use presets to quickly adjust the appearance of the selected item to predefined values.",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.label" : {
+    "message" : "Presets",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.presets.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.label" : {
+    "message" : "Spacing",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.label" : {
+    "message" : "Spacing",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.spacing.spacing.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.label" : {
+    "message" : "Font",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.font.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.capitalize" : {
+    "message" : "Capitalize",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.lowercase" : {
+    "message" : "Lowercase",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.none" : {
+    "message" : "None",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.choices.uppercase" : {
+    "message" : "Uppercase",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.label" : {
+    "message" : "Text transform",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button_copy.text.text_transform.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.label" : {
+    "message" : "الأنماط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.background.color.label" : {
+    "message" : "اللون",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.background.label" : {
+    "message" : "الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.hover.background_color.label" : {
+    "message" : "لون الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.hover.font_color.label" : {
+    "message" : "لون الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.hover.label" : {
+    "message" : "التمرير",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.label" : {
+    "message" : "قوائم منسدلة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.text.font_color.label" : {
+    "message" : "لون الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.drop_downs.text.label" : {
+    "message" : "النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.hover.font.label" : {
+    "message" : "الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.hover.label" : {
+    "message" : "التمرير",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.label" : {
+    "message" : "مبدل اللغة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.font.label" : {
+    "message" : "الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.label" : {
+    "message" : "النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.capitalize" : {
+    "message" : "الكتابة بأحرف كبيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.lowercase" : {
+    "message" : "الكتابة بأحرف صغيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.none" : {
+    "message" : "لا يوجد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.choices.uppercase" : {
+    "message" : "الكتابة بأحرف كبيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.language_switcher.text.text_transform.label" : {
+    "message" : "تحويل النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.logo.corner.label" : {
+    "message" : "الزاوية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.logo.corner.radius.label" : {
+    "message" : "نصف قطر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.logo.label" : {
+    "message" : "الشعار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.active.font.label" : {
+    "message" : "الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.active.label" : {
+    "message" : "نشِط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.active.background_color.label" : {
+    "message" : "لون الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.active.font_color.label" : {
+    "message" : "لون الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.active.label" : {
+    "message" : "نشِط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.background.color.label" : {
+    "message" : "اللون",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.background.label" : {
+    "message" : "الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.hover.background_color.label" : {
+    "message" : "لون الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.hover.font_color.label" : {
+    "message" : "لون الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.hover.label" : {
+    "message" : "التمرير",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.label" : {
+    "message" : "قوائم منسدلة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.text.font_color.label" : {
+    "message" : "لون الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.drop_downs.text.label" : {
+    "message" : "النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.hover.font.label" : {
+    "message" : "الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.hover.label" : {
+    "message" : "التمرير",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.label" : {
+    "message" : "القائمة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.font.label" : {
+    "message" : "الخط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.label" : {
+    "message" : "النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.capitalize" : {
+    "message" : "الكتابة بأحرف كبيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.lowercase" : {
+    "message" : "الكتابة بأحرف صغيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.none" : {
+    "message" : "لا يوجد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.choices.uppercase" : {
+    "message" : "الكتابة بأحرف كبيرة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.menu.text.text_transform.label" : {
+    "message" : "تحويل النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.name" : {
+    "message" : "rr-website-header",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.top_bar.background.color.label" : {
+    "message" : "اللون",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.top_bar.background.label" : {
+    "message" : "الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.top_bar.label" : {
+    "message" : "الشريط العلوى",
+    "description" : "",
+    "placeholders" : null
+  }
+}
