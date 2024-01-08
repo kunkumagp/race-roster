@@ -1,0 +1,19 @@
+[ {
+  "id" : "09dab859-657e-d0c9-e913-2b1dd73a87a2",
+  "name" : "header_logo",
+  "display_width" : null,
+  "label" : "Header logo",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/RR%20Logo.png",
+    "alt" : "RR Logo",
+    "loading" : "lazy",
+    "width" : 122,
+    "height" : 36
+  }
+} ]

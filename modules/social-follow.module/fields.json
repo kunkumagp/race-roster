@@ -1,0 +1,140 @@
+[ {
+  "id" : "social_links",
+  "name" : "social_links",
+  "display_width" : null,
+  "label" : "Social links",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "aa05edaf-272d-49aa-0f4c-55a78549a0aa",
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "643cc90f-ea11-9792-e2f7-ba9397c98343",
+    "name" : "icon",
+    "display_width" : null,
+    "label" : "Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/facebook.png",
+      "alt" : "facebook",
+      "loading" : "lazy",
+      "width" : 49,
+      "height" : 49,
+      "max_width" : 49,
+      "max_height" : 49
+    }
+  }, {
+    "id" : "social_links.link",
+    "name" : "link",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : true,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "EMAIL_ADDRESS" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "href" : "https://www.facebook.com",
+        "type" : "EXTERNAL"
+      }
+    }
+  }, {
+    "id" : "aa05edaf-272d-49aa-0f4c-55a78549a0aa",
+    "name" : "link_name",
+    "display_width" : null,
+    "label" : "Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Facebook"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "icon" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/facebook.png",
+      "alt" : "facebook",
+      "loading" : "lazy",
+      "width" : 49,
+      "height" : 49,
+      "max_width" : 49,
+      "max_height" : 49
+    },
+    "link" : {
+      "url" : {
+        "href" : "https://www.facebook.com",
+        "type" : "EXTERNAL"
+      }
+    },
+    "name" : "Facebook"
+  }, {
+    "icon" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/facebook.png",
+      "alt" : "facebook",
+      "loading" : "lazy",
+      "width" : 49,
+      "height" : 49,
+      "max_width" : 49,
+      "max_height" : 49
+    },
+    "link" : {
+      "url" : {
+        "href" : "https://www.facebook.com",
+        "type" : "EXTERNAL"
+      }
+    },
+    "name" : "Facebook"
+  }, {
+    "icon" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/facebook.png",
+      "alt" : "facebook",
+      "loading" : "lazy",
+      "width" : 49,
+      "height" : 49,
+      "max_width" : 49,
+      "max_height" : 49
+    },
+    "link" : {
+      "url" : {
+        "href" : "https://www.facebook.com",
+        "type" : "EXTERNAL"
+      }
+    },
+    "name" : "Facebook"
+  }, {
+    "icon" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/facebook.png",
+      "alt" : "facebook",
+      "loading" : "lazy",
+      "width" : 49,
+      "height" : 49,
+      "max_width" : 49,
+      "max_height" : 49
+    },
+    "link" : {
+      "url" : {
+        "href" : "https://www.facebook.com",
+        "type" : "EXTERNAL"
+      }
+    },
+    "name" : "Facebook"
+  } ]
+} ]

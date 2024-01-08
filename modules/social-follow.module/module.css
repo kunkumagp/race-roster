@@ -1,0 +1,28 @@
+.social-follow ul{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.social-follow ul > li{
+  list-style: none;
+  margin: 0 10px;
+}
+.social-follow ul > li a,
+.social-follow ul > li a > span{
+  display: block;
+}
+.social-follow ul > li a > span{
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 767px){
+  .social-follow ul{
+    justify-content: center;
+    margin-top: 40px;
+  }
+}

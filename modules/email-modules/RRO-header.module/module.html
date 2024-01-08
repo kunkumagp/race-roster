@@ -1,0 +1,20 @@
+<table class="hse-image-wrapper" role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt">
+    <tbody>
+        <tr>
+            <td align="center" valign="top" style="padding-top:19px; padding-bottom:19px; border-collapse:collapse; background-color:white; mso-line-height-rule:exactly; font-family:Arial, sans-serif; color:#23496d; word-break:break-word; text-align:center; font-size:0px">
+                {% if module.header_logo.src %}
+                    {% set sizeAttrs = 'width="{{ module.header_logo.width }}" height="{{ module.header_logo.height }}"' %}
+                    {% if module.header_logo.size_type == 'auto' %}
+                      {% set sizeAttrs = 'width="{{ module.header_logo.width }}" height="{{ module.header_logo.height }}" style="max-width: 100%; height: auto;"' %}
+                    {% elif module.header_logo.size_type == 'auto_custom_max' %}
+                      {% set sizeAttrs = 'width="{{ module.header_logo.max_width }}" height="{{ module.header_logo.max_height }}" style="max-width: 100%; height: auto;"' %}
+                    {% endif %}
+                     {% set loadingAttr = module.header_logo.loading != 'disabled' ? 'loading="{{ module.header_logo.loading }}"' : '' %}
+                    <img src="{{ module.header_logo.src }}" alt="{{ module.header_logo.alt }}" {{ loadingAttr }} {{ sizeAttrs }}
+                       style="-ms-interpolation-mode:bicubic; max-width:100% !important;" align="middle">
+                {% endif %}
+                
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+.module-container{
+  width:100%;
+  text-align:center;
+  height:100px;
+  padding-top:24px;
+  padding-bottom:24px;
+}
+.module-container img {
+  height:43px;
+  max-width:100% !important;
+}

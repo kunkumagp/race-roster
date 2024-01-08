@@ -1,0 +1,1037 @@
+{
+  "carousel_box.button.add_icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.add_icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.add_icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.add_icon.label" : {
+    "message" : "Add icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.add_icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_link.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_link.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_link.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_link.label" : {
+    "message" : "Button link",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_link.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_text.default" : {
+    "message" : "Learn more",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_text.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_text.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_text.label" : {
+    "message" : "Button text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_text.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.button_text.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.icon.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.position.choices.left" : {
+    "message" : "Left",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.position.choices.right" : {
+    "message" : "Right",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.position.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.position.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.position.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.position.label" : {
+    "message" : "Position",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.icon.position.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.label" : {
+    "message" : "Button",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.button.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.content.default" : {
+    "message" : "<h4>Cultivation</h4>\n<p>Wholesale pricing &amp; trends, investment data, new market info &amp; more.</p>",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.content.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.content.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.content.label" : {
+    "message" : "Content",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.content.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.label" : {
+    "message" : "Content",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.content.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.custom_icon.name" : {
+    "message" : "card-carousel-copy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.choices.value 1" : {
+    "message" : "Label 1",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.choices.value 2" : {
+    "message" : "Label 2",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.icon.default.alt" : {
+    "message" : "pricing-icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.icon.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.label" : {
+    "message" : "Custom icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.name" : {
+    "message" : "card-carousel",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.size.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.size.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.size.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.size.label" : {
+    "message" : "Number",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.custom_icon.size.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.label" : {
+    "message" : "Accessibility options",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.purpose.choices.decorative" : {
+    "message" : "Ignored by screen reader",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.purpose.choices.semantic" : {
+    "message" : "Read by screen reader",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.purpose.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.purpose.help_text" : {
+    "message" : "Categorize the purpose of this icon for screen readers. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>Learn More</a>",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.purpose.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.purpose.label" : {
+    "message" : "Purpose",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.purpose.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.title.default" : {
+    "message" : "Service icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.title.help_text" : {
+    "message" : "This text will be read by screen readers to describe the icon.",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.title.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.title.label" : {
+    "message" : "Title",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.title.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.accessibility_options.title.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.icon.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.label" : {
+    "message" : "Icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.label" : {
+    "message" : "Field group",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.type.choices.custom_icon" : {
+    "message" : "Custom icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.type.choices.theme_icon" : {
+    "message" : "Theme icon",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.type.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.type.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.type.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.type.label" : {
+    "message" : "Ttype",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.icon_type.type.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.image.default.alt" : {
+    "message" : "carousel-image",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.image.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.image.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.image.label" : {
+    "message" : "Image",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.image.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.label" : {
+    "message" : "Field group",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.name" : {
+    "message" : "card-carousel",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.show_icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.show_icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.show_icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.show_icon.label" : {
+    "message" : "Boolean",
+    "description" : null,
+    "placeholders" : null
+  },
+  "carousel_box.show_icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "card-carousel-copy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.button.alignment.alignment.label" : {
+    "message" : "Wyrównanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.alignment.label" : {
+    "message" : "Wyrównanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.color.label" : {
+    "message" : "Kolor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.label" : {
+    "message" : "Tło",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.border.label" : {
+    "message" : "Obramowanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.label" : {
+    "message" : "Obramowanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.label" : {
+    "message" : "Róg",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.radius.label" : {
+    "message" : "Promień",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.color.label" : {
+    "message" : "Kolor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.label" : {
+    "message" : "Tło",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.border.label" : {
+    "message" : "Obramowanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.label" : {
+    "message" : "Obramowanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.label" : {
+    "message" : "Ustaw kursor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.font.label" : {
+    "message" : "Czcionka",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.label" : {
+    "message" : "Przycisk",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.large" : {
+    "message" : "Duże",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.regular" : {
+    "message" : "Regularne",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.choices.small" : {
+    "message" : "Małe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_size.label" : {
+    "message" : "Rozmiar przycisku",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.primary" : {
+    "message" : "Główny",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.secondary" : {
+    "message" : "Dodatkowe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.choices.simple" : {
+    "message" : "Proste",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.button_style.label" : {
+    "message" : "Styl przycisku",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.help_text" : {
+    "message" : "Użyj ustawień wstępnych, aby szybko dopasować wygląd wybranego elementu do wstępnie zdefiniowanych wartości.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.presets.label" : {
+    "message" : "Ustawienia wstępne",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.label" : {
+    "message" : "Rozstaw",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.spacing.label" : {
+    "message" : "Rozstaw",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.font.label" : {
+    "message" : "Czcionka",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.capitalize" : {
+    "message" : "Kapitalizacja",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.lowercase" : {
+    "message" : "Małe litery",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.none" : {
+    "message" : "Brak",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.uppercase" : {
+    "message" : "Wielkie litery",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.label" : {
+    "message" : "Przekształć",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.background.color.label" : {
+    "message" : "Kolor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.background.label" : {
+    "message" : "Tło",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.border.border.label" : {
+    "message" : "Obramowanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.border.label" : {
+    "message" : "Obramowanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.corner.label" : {
+    "message" : "Róg",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.corner.radius.label" : {
+    "message" : "Promień",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.height.label" : {
+    "message" : "Wysokość",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.height.min_height.label" : {
+    "message" : "Minimalna wysokość",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.label" : {
+    "message" : "Karta",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.name" : {
+    "message" : "card-carousel",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.card.presets.card_style.choices.dark" : {
+    "message" : "Ciemne",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.presets.card_style.choices.light" : {
+    "message" : "Lekka",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.presets.card_style.choices.plain" : {
+    "message" : "Zwykły tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.presets.card_style.label" : {
+    "message" : "Styl karty",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.presets.dark_navigation.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.card.presets.dark_navigation.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.card.presets.dark_navigation.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.card.presets.dark_navigation.label" : {
+    "message" : "Boolean",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.card.presets.dark_navigation.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.card.presets.help_text" : {
+    "message" : "Użyj ustawień wstępnych, aby szybko dopasować wygląd wybranego elementu do wstępnie zdefiniowanych wartości.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.presets.label" : {
+    "message" : "Ustawienia wstępne",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.spacing.label" : {
+    "message" : "Rozstaw",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.card.spacing.spacing.label" : {
+    "message" : "Rozstaw",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.alignment.alignment.label" : {
+    "message" : "Wyrównanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.alignment.label" : {
+    "message" : "Wyrównanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.background.color.label" : {
+    "message" : "Kolor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.background.label" : {
+    "message" : "Tło",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.corner.label" : {
+    "message" : "Róg",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.corner.radius.label" : {
+    "message" : "Promień",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.fill.color.label" : {
+    "message" : "Kolor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.fill.label" : {
+    "message" : "Uzupełnij",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.label" : {
+    "message" : "Ikona",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.help_text" : {
+    "message" : "Użyj ustawień wstępnych, aby szybko dopasować wygląd wybranego elementu do wstępnie zdefiniowanych wartości.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_color.choices.dark" : {
+    "message" : "Ciemne",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_color.choices.light" : {
+    "message" : "Lekka",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_color.label" : {
+    "message" : "Kolor ikony",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_shape.choices.circle" : {
+    "message" : "Okrąg",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_shape.choices.square" : {
+    "message" : "Kwadrat",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_shape.label" : {
+    "message" : "Kształt ikony",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_size.choices.large" : {
+    "message" : "Duże",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_size.choices.regular" : {
+    "message" : "Regularne",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_size.choices.small" : {
+    "message" : "Małe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.icon_size.label" : {
+    "message" : "Rozmiar ikony",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.presets.label" : {
+    "message" : "Ustawienia wstępne",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.size.label" : {
+    "message" : "Rozmiar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.spacing.label" : {
+    "message" : "Rozstaw",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.icon.spacing.spacing.label" : {
+    "message" : "Rozstaw",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.label" : {
+    "message" : "Style",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "global" : false,
+  "host_template_types" : [ "EMAIL" ],
+  "module_id" : 149051928105,
+  "label" : "Text box with BG colour",
+  "is_available_for_new_content" : true
+}

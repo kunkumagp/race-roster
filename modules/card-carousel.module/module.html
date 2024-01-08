@@ -1,0 +1,290 @@
+<script type="text/javascript" src="{{ get_asset_url('../../slick/slick.min.js') }}"></script>
+
+<link rel="stylesheet" type="text/css" href="{{ get_asset_url('../../slick/slick.css') }}"/>
+<link rel="stylesheet" type="text/css" href="{{ get_asset_url('../../slick/slick-theme.css') }}"/>
+
+{# Module styles #}
+
+{% require_css %}
+<style>
+{% scope_css %}
+
+  {# Icon #}
+
+  {% if module.styles.icon.alignment.alignment.horizontal_align %}
+    .carousel-box__icon-wrapper {
+      text-align: {{ module.styles.icon.alignment.alignment.horizontal_align }};
+    }
+  {% endif %}
+
+  .carousel-box__icon {
+    {% if module.styles.icon.background.color.color %}
+      background-color: rgba({{ module.styles.icon.background.color.color|convert_rgb }}, {{ module.styles.icon.background.color.opacity / 100 }});
+    {% endif %}
+    {% if module.styles.icon.corner.radius >= 0 %}
+      border-radius: {{ module.styles.icon.corner.radius ~ "px" }};
+    {% endif %}
+    {{ module.styles.icon.spacing.spacing.css }}
+  }
+
+  .carousel-box__icon svg {
+    {% if module.styles.icon.fill.color.color %}
+      fill: {{ module.styles.icon.fill.color.color }};
+    {% endif %}
+    {% if module.styles.icon.size.size %}
+      height: {{ module.styles.icon.size.size ~ "px" }};
+      width: {{ module.styles.icon.size.size ~ "px" }};
+    {% endif %}
+  }
+
+  {# Content #}
+
+  {% if module.styles.content.alignment.alignment.text_align %}
+    .carousel-box__content {
+      text-align: {{ module.styles.content.alignment.alignment.text_align }};
+      color: #333333;
+    }
+  {% endif %}
+
+  {# Button #}
+
+  {% if module.styles.button.alignment.alignment %}
+    .carousel-box__button-wrapper {
+      text-align: {{ module.styles.button.alignment.alignment.horizontal_align }};
+    }
+  {% endif %}
+
+  .button {
+    {% if module.styles.button.background.color.color %}
+      background-color: rgba({{ module.styles.button.background.color.color|convert_rgb }}, {{ module.styles.button.background.color.opacity / 100 }});
+    {% endif %}
+    {{ module.styles.button.border.border.css }}
+    {% if module.styles.button.corner.radius >= 0 %}
+      border-radius: {{ module.styles.button.corner.radius ~ "px" }};
+    {% endif %}
+    {% if module.styles.button.text.font.color %}
+      color: {{ module.styles.button.text.font.color }};
+    {% endif %}
+    {% if module.styles.button.text.font.size %}
+      font-size: {{ module.styles.button.text.font.size ~ module.styles.button.text.font.size_unit }};
+    {% endif %}
+    {% if module.styles.button.text.font.style %}
+      {{ module.styles.button.text.font.style }};
+    {% endif %}
+    {{ module.styles.button.spacing.spacing.css }}
+    {% if module.styles.button.text.transform %}
+      text-transform: {{ module.styles.button.text.transform }};
+    {% endif %}
+  }
+
+  {% if module.add_icon && module.icon.icon && module.styles.button.text.font.color %}
+    .button svg {
+      fill: {{ module.styles.button.text.font.color }};
+    }
+  {% endif %}
+
+  .button:hover,
+  .button:focus {
+    {{ module.styles.button.hover.border.border.css }}
+    {% if module.styles.button.hover.text.font.color %}
+      color: {{ module.styles.button.hover.text.font.color }};
+    {% endif %}
+    {% if module.styles.button.hover.text.font.size %}
+      font-size: {{ module.styles.button.hover.text.font.size ~ module.styles.button.hover.text.font.size_unit }};
+    {% endif %}
+    {% if module.styles.button.hover.text.font.style %}
+      {{ module.styles.button.hover.text.font.style }};
+    {% endif %}
+    {% if module.styles.button.hover.background.color.color %}
+      background-color: rgba({{ module.styles.button.hover.background.color.color|convert_rgb }}, {{ module.styles.button.hover.background.color.opacity / 100 }});
+    {% endif %}
+  }
+
+  {% if module.add_icon && module.icon.icon && module.styles.button.text.font.color %}
+    .button:hover svg,
+    .button:focus svg {
+      fill: {{ module.styles.button.hover.text.font.color }};
+    }
+  {% endif %}
+
+  .button:active {
+    {% if module.styles.button.hover.background.color.color %}
+      background-color: rgba({{ color_variant(module.styles.button.hover.background.color.color, 80)|convert_rgb }}, {{ module.styles.button.hover.background.color.opacity / 100 }});
+    {% endif %}
+    {{ module.styles.button.hover.border.border.css }}
+    {% if module.styles.button.hover.border.border.top.color %}
+      border-color: {{ color_variant(module.styles.button.hover.border.border.top.color, 80) }};
+    {% endif %}
+    {% if module.styles.button.hover.text.font.color %}
+      color: {{ module.styles.button.hover.text.font.color }};
+    {% endif %}
+    {% if module.styles.button.hover.text.font.size %}
+      font-size: {{ module.styles.button.hover.text.font.size ~ module.styles.button.hover.text.font.size_unit }};
+    {% endif %}
+    {% if module.styles.button.hover.text.font.style %}
+      {{ module.styles.button.hover.text.font.style }};
+    {% endif %}
+  }
+
+  {% if module.add_icon && module.icon.icon && module.styles.button.text.font.color %}
+    .button:active svg {
+      fill: {{ module.styles.button.hover.text.font.color }};
+    }
+  {% endif %}
+
+  {# Card #}
+
+  .carousel-box {
+    {% if module.styles.card.background.color.color %}
+      background-color: rgba({{ module.styles.card.background.color.color | convert_rgb }}, {{ module.styles.card.background.color.opacity / 100 }});
+    {% endif %}
+    {{ module.styles.card.border.border.css }}
+    {% if module.styles.card.corner.radius >= 0 %}
+      border-radius: {{ module.styles.card.corner.radius ~ "px" }};
+    {% endif %}
+    {% if module.styles.card.height.min_height %}
+      min-height: {{ module.styles.card.height.min_height ~ "px" }};
+    {% endif %}
+    {{ module.styles.card.spacing.spacing.css }}
+    {% if module.styles.card.alignment.alignment.text_align %}
+      text-align: {{ module.styles.card.alignment.alignment.text_align }};
+    {% endif %}
+    color: #333333;
+  }
+
+{% end_scope_css %}
+  
+  {# Dark navigation #}
+
+  .slick-carousel .slick-arrow.next-arrow > svg,
+  .slick-carousel .slick-arrow.prev-arrow > svg,
+  .slick-carousel .slick-dots li button:before,
+  .slick-carousel .slick-dots li.slick-active button:before{
+    {% if module.styles.card.presets.dark_navigation %}
+      fill: #000000;
+      color: #000000;  
+    {% else %}
+      fill: #FFFFFF;
+      color: #FFFFFF;  
+    {% endif %}
+  }
+
+</style>
+{% end_require_css %}
+
+{# Sets CSS classes based on style field options #}
+
+{% if module.styles.icon.presets.icon_size == "small" %}
+  {% set icon_size = "icon--small" %}
+{% elif module.styles.icon.presets.icon_size == "large" %}
+  {% set icon_size = "icon--large" %}
+{% endif %}
+
+{% if module.styles.icon.presets.icon_color == "light" %}
+  {% set icon_color = "icon--light" %}
+{% endif %}
+
+{% if module.styles.icon.presets.icon_shape == "square" %}
+  {% set icon_shape = "icon--square" %}
+{% endif %}
+
+{% if module.styles.button.presets.button_style == "primary" %}
+  {% set button_style = "button--primary" %}
+{% elif module.styles.button.presets.button_style == "secondary" %}
+  {% set button_style = "button--secondary" %}
+{% elif module.styles.button.presets.button_style == "simple" %}
+  {% set button_style = "button--simple" %}
+{% endif %}
+
+{% if module.styles.button.presets.button_size == "small" %}
+  {% set button_size = "button--small" %}
+{% elif module.styles.button.presets.button_size == "large" %}
+  {% set button_size = "button--large" %}
+{% endif %}
+
+{% if module.button.icon.position == "right" %}
+  {% set icon_position = "button--icon-right" %}
+{% endif %}
+
+{% if module.styles.card.presets.card_style == "dark" %}
+  {% set card_style = "card--dark" %}
+  {% set button_mode = "button--dark" %}
+{% elif module.styles.card.presets.card_style == "light" %}
+  {% set card_style = "card--light" %}
+{% endif %}
+
+{# Carousel card #}
+
+<div class="card-carousel slick-carousel responsive">
+  
+  {% for item in module.carousel_box %}
+  <div class="carousel-box card {{ card_style }}">
+    
+    {# Image #}
+    
+    <div class="image" style="background-image: url('{{ item.image.src }}');"></div>
+
+    {# Content #}
+
+    <div class="carousel-box__content">
+      
+      {# Icon #}
+    
+      {% if item.show_icon %}
+        {% if  item.icon_type.type == 'theme_icon' %}
+          <div class="carousel-box__icon-wrapper">
+            <span class="{{ icon_size }} {{ icon_color }} {{ icon_shape }}">
+              {% icon
+                extra_classes="carousel-box__icon icon"
+                name="{{ item.icon_type.icon.icon.name }}"
+                purpose="{{ item.icon_type.icon.accessibility_options.purpose }}"
+                style="{{ item.icon_type.icon.icon.type }}"
+                title="{{ item.icon_type.icon.accessibility_options.title }}"
+                unicode="{{ item.icon_type.icon.icon.unicode }}"
+              %}
+            </span>
+          </div>
+        {% elif item.icon_type.type == 'custom_icon' %}
+          <div class="cust-icon" style="background-image: url('{{ item.icon_type.custom_icon.icon.src }}'); width: {{ item.icon_type.custom_icon.size }}px; height: {{ item.icon_type.custom_icon.size }}px;"></div>
+        {% endif %}
+      {% endif %}
+        {{ item.content.content }}
+    </div>
+
+    {# Button #}
+
+    {# Sets attributes used for the link field #}
+
+    {% set href = item.button.button_link.url.href %}
+    {% if item.button.button_link.url.type is equalto "EMAIL_ADDRESS" %}
+      {% set href = "mailto:" + href %}
+    {% endif %}
+    {% set rel = [] %}
+    {% if item.button.button_link.no_follow %}
+      {% do rel.append("nofollow") %}
+    {% endif %}
+    {% if item.button.button_link.open_in_new_tab %}
+      {% do rel.append("noopener") %}
+    {% endif %}
+
+    <div class="carousel-box__button-wrapper">
+      <a href="{{ href }}" class="button {{button_style}} {{button_size}} {{button_mode}} {{icon_position}}"
+        {% if item.button.button_link.open_in_new_tab %}target="_blank"{% endif %}
+        {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
+      >
+        {% if item.button.add_icon && item.button.icon.icon %}
+          {% icon
+            extra_classes="button__icon"
+            name="{{ item.button.icon.icon.name }}"
+            purpose="decorative"
+            style="{{ item.button.icon.icon.type }}"
+            unicode="{{ item.button.icon.icon.unicode }}"
+          %}
+        {% endif %}
+        {{ item.button.button_text }}
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+  
+</div>

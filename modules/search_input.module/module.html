@@ -1,0 +1,248 @@
+{# Search input - version 1 #}
+
+{# Need help setting up site search?
+   Start here: https://knowledge.hubspot.com/articles/kcs_article/cos-general/how-do-i-set-up-a-results-page-for-my-search-field-in-hubspot #}
+{% set hide_search_label = module.input.field_label is truthy ? false : true %}
+{% set button_position_class = "hs-search-field__bar--button-" ~  module.styles.button.position.button_position %}
+{% set button_alignment_class = module.styles.button.position.button_position == "beneath" ? "hs-search-field__bar--button-align-" ~ module.styles.button.position.button_alignment : "" %}
+{% set has_search_icon = module.button.icon.name is truthy ? true : false %}
+{% set show_suggest_in_editor_class = is_in_editor ? "hs-search-field--open": "" %}
+
+{% set button_label_class = module.button.button_label is truthy ? "hs-search-field__button--labelled" : "" %}
+{% set search_page = module.results.use_custom_search_results_template is truthy and module.results.path_id ? content_by_id(module.results.path_id).absolute_url : site_settings.content_search_results_page_path %}
+
+{% unless (search_page is string_containing "//") %}
+  {% set search_page = "/" ~ search_page %}
+{% endunless %}
+
+{% set search_page = search_page|regex_replace("http:", "") %}
+
+{# Add a checker here so any new border object keys don't get included in CSS loop. #}
+{% set valid_border_sides = [ "top", "right", "left", "bottom" ] %}
+
+{% require_css %}
+<style>
+  {% scope_css %}
+
+    .hs-search-field__bar > form {
+      {% if module.styles.container.color.color %}
+        background-color: {{ module.styles.container.color.css }};
+      {% endif %}
+      {% if module.styles.container.radius >= 0 %}
+        border-radius: {{ module.styles.container.radius ~ "px" }};
+      {% endif %}
+      {{ module.styles.container.spacing.spacing.css }}
+    }
+
+    .hs-search-field__bar > form > label {
+      {{ module.styles.field_label.spacing.spacing.css }}
+      {{ module.styles.field_label.text.font.css }}
+    }
+
+    .hs-search-field__bar > form > .hs-search-field__input {
+      {{ module.styles.input.spacing.spacing.css }}
+      {{ module.styles.input.text.font.css }}
+      {% if module.styles.input.background.color.css %}
+        background-color: {{ module.styles.input.background.color.css }};
+      {% endif %}
+      {{ module.styles.input.border.border.css }}
+      {% if !module.styles.input.border.border.css and module.styles.input.border.border %}
+        {% for side, border in module.styles.input.border.border.items() %}
+          {% if valid_border_sides is containing side %}
+            border-{{ side }}: 1px {{ border.style }} {{ theme.colors.primary.color }};
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if module.styles.input.corner.radius >= 0 %}
+        border-radius: {{ module.styles.input.corner.radius ~ "px" }};
+      {% endif %}
+    }
+
+    .hs-search-field__button {
+      {% if module.styles.button.background.color.css %}
+        background-color: {{ module.styles.button.background.color.css }};
+      {% endif %}
+      {{ module.styles.button.border.border.css }}
+      {% if !module.styles.button.border.border.css and module.styles.button.border.border %}
+        {% for side, border in module.styles.button.border.border.items() %}
+          {% if valid_border_sides is containing side %}
+            border-{{ side }}: 1px {{ border.style }} {{ theme.colors.primary.color }};
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if module.styles.button.corner.radius >= 0 %}
+        border-radius: {{ module.styles.button.corner.radius ~ "px" }};
+      {% endif %}
+      {{ module.styles.button.spacing.spacing.css }}
+      {{ module.styles.button.text.font.css }}
+      {% if module.styles.button.text.transform %}
+        text-transform: {{ module.styles.button.text.transform }};
+      {% endif %}
+    }
+
+    .hs-search-field__button:hover, .hs-search-field__button:focus {
+      {% if module.styles.button.hover.background.color.css %}
+        background-color: {{ module.styles.button.hover.background.color.css }};
+      {% endif %}
+      {{ module.styles.button.hover.text.font.css }}
+      {{ module.styles.button.hover.border.border.css }}
+      {% if !module.styles.button.hover.border.border.css and module.styles.button.hover.border.border %}
+        {% for side, border in module.styles.button.hover.border.border.items() %}
+          {% if valid_border_sides is containing side %}
+            border-{{ side }}: 1px {{ border.style }} {{ theme.colors.primary.color }};
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    }
+
+    {% if has_search_icon and module.styles.button.hover.text.font.color %}
+      .hs-search-field__button:hover svg,
+      .hs-search-field__button:focus svg {
+        fill: {{ module.styles.button.hover.text.font.color }};
+      }
+    {% endif %}
+
+    .hs-search-field__button:active {
+      {% if module.styles.button.hover.background.color.color %}
+        background-color: rgba({{ color_variant(module.styles.button.hover.background.color.color, 80)|convert_rgb }}, {{ module.styles.button.hover.background.color.opacity / 100 }});
+      {% endif %}
+      {{ module.styles.button.hover.border.border.css }}
+      {% if module.styles.button.hover.border.border %}
+        border-color: {{ color_variant(module.styles.button.hover.border.border.top.color, 80) }};
+      {% endif %}
+      {% if !module.styles.button.hover.border.border.css and module.styles.button.hover.border.border %}
+        {% for side, border in module.styles.button.hover.border.border.items() %}
+          {% if valid_border_sides is containing side %}
+            border-{{ side }}: 1px {{ border.style }} {{ theme.colors.primary.color }};
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if module.styles.button.hover.text.font.color %}
+        color: {{ module.styles.button.hover.text.font.color }};
+      {% endif %}
+      {{ module.styles.button.hover.text.font.css }}
+    }
+
+    {% if has_search_icon and module.styles.button.hover.text.font.color %}
+      .hs-search-field__button:active svg {
+        fill: {{ module.styles.button.hover.text.font.color }};
+      }
+    {% endif %}
+
+    .hs-search-field--open .hs-search-field__suggestions {
+      {% if module.styles.autosuggest_results.background.color.css %}
+        background-color: {{ module.styles.autosuggest_results.background.color.css }};
+      {% endif %}
+      {{ module.styles.autosuggest_results.spacing.spacing.css }}
+      {{ module.styles.autosuggest_results.border.border.css }}
+      {% if !module.styles.autosuggest_results.border.border.css and module.styles.autosuggest_results.border.border %}
+        {% for side, border in module.styles.autosuggest_results.border.border.items() %}
+          {% if valid_border_sides is containing side %}
+            border-{{ side }}: 1px {{ border.style }} {{ theme.colors.primary.color }};
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if module.styles.autosuggest_results.corner.radius >= 0 %}
+        border-radius: {{ module.styles.autosuggest_results.corner.radius ~ "px" }};
+      {% endif %}
+      {{ module.styles.autosuggest_results.text.header_font.css }}
+    }
+
+    .hs-search-field--open .hs-search-field__suggestions a {
+      {{ module.styles.autosuggest_results.text.suggestion_font.css }}
+    }
+
+    .hs-search-field--open .hs-search-field__suggestions a:hover {
+      {% if module.styles.autosuggest_results.hover.text.font.color %}
+        color: {{ module.styles.autosuggest_results.hover.text.font.color }};
+      {% endif %}
+      {{ module.styles.autosuggest_results.hover.text.suggestion_font.css }}
+      {% if module.styles.autosuggest_results.hover.background.color.color %}
+        background-color: rgba({{ color_variant(module.styles.autosuggest_results.hover.background.color.color, 80)|convert_rgb }}, {{ module.styles.autosuggest_results.hover.background.color.opacity / 100 }});
+      {% endif %}
+    }
+  {% end_scope_css %}
+</style>
+{% end_require_css %}
+
+<div class="hs-search-field">
+    <div class="hs-search-field__bar {{ button_position_class }} {{ button_alignment_class }} {{ show_suggest_in_editor_class }}">
+      <form data-hs-do-not-collect="true" class="hs-search-field__form" action="{{ search_page }}">
+
+        <label class="hs-search-field__label {% if hide_search_label %}show-for-sr{% endif %}" for="{{ name ~ "-input" }}">{{ module.input.field_label or module.default_text.sr_search_field_aria_label }}</label>
+
+        <input
+          role="combobox"
+          aria-expanded="false"
+          aria-controls="autocomplete-results"
+          aria-label="{{ module.default_text.sr_search_field_aria_label }}"
+          type="search"
+          class="hs-search-field__input"
+          id="{{ name ~ "-input" }}"
+          name="q"
+          autocomplete="off"
+          aria-autocomplete="list"
+          placeholder="{{ module.input.placeholder }}">
+
+        {% if module.results.content_types.website_pages %}
+          <input type="hidden" name="type" value="SITE_PAGE">
+        {% endif %}
+        {% if module.results.content_types.landing_pages %}
+          <input type="hidden" name="type" value="LANDING_PAGE">
+        {% endif %}
+        {% if module.results.content_types.blog_posts %}
+          <input type="hidden" name="type" value="BLOG_POST">
+          <input type="hidden" name="type" value="LISTING_PAGE">
+        {% endif %}
+        {% if module.results.content_types.knowledge_articles %}
+          <input type="hidden" name="type" value="KNOWLEDGE_ARTICLE">
+        {% endif %}
+        {% if module.results.group_id %}
+          <input type="hidden" name="groupId" value="{{ module.results.group_id }}">
+        {% endif %}
+
+        <button class="hs-search-field__button {{ button_label_class }}" aria-label="{{ module.default_text.sr_search_button_aria_label }}">{% if has_search_icon %}
+          {% icon
+            name={{ module.button.icon.name }}
+            style={{ module.button.icon.type }}
+            unicode={{ module.button.icon.unicode }}
+            icon_set={{ module.button.icon.icon_set }}
+          %}
+          {% endif %} {{ module.button.button_label }}</button>
+        <div class="hs-search-field__suggestions-container {% if is_in_editor %} hs-editor-hide-until-active {% endif %}">
+          <ul
+            id="autocomplete-results"
+            role="listbox"
+            aria-label="term"
+            class="hs-search-field__suggestions">
+            {% if is_in_editor %}
+            <li role="option" tabindex="-1" aria-posinset="1" aria-setsize="3" class="results-for">{{ module.default_text.as_example_search_results }}</li>
+            <li role="option" aria-posinset="2" tabindex="1"><a href="#">{{ module.default_text.as_example_line_1 }}</a></li>
+            <li role="option" aria-posinset="3" tabindex="2"><a href="#">{{ module.default_text.as_example_line_2 }}</a></li>
+            <li role="option" aria-posinset="4" tabindex="3"><a href="#">{{ module.default_text.as_example_line_3 }}</a></li>
+            {% else %}
+              <li role="option" tabindex="-1" aria-posinset="1" aria-setsize="0" class="results-for show-for-sr">{{ module.default_text.sr_empty_search_field_message }}</li>
+            {% endif %}
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div id="sr-messenger" class="hs-search-sr-message-container show-for-sr"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true">
+    </div>
+</div>
+
+{% require_js position="head" %}
+<script data-search_input-config="config_{{ name }}" type="application/json">
+{
+  "autosuggest_results_message": "{{ module.default_text.autosuggest_results_message|escapejson }}",
+  "autosuggest_no_results_message": "{{ module.default_text.autosuggest_no_results_message|escapejson }}",
+  "sr_empty_search_field_message": "{{ module.default_text.sr_empty_search_field_message|escapejson }}",
+  "sr_autosuggest_results_message": "{{ module.default_text.sr_autosuggest_results_message|escapejson }}",
+  "sr_search_field_aria_label": "{{ module.default_text.sr_search_field_aria_label|escapejson }}",
+  "sr_search_button_aria_label": "{{ module.default_text.sr_search_button_aria_label|escapejson }}"
+}
+</script>
+{% end_require_js %}

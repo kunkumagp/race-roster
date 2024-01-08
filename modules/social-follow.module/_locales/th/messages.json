@@ -1,0 +1,102 @@
+{
+  "name" : {
+    "message" : "การติดตามทางโซเชียล",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.icon.default.alt" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.label" : {
+    "message" : "Image",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.label" : {
+    "message" : "ลิงก์สื่อสังคมออนไลน์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.link.label" : {
+    "message" : "ลิงก์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.link_name.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.name" : {
+    "message" : "social-follow",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.alignment.alignment.label" : {
+    "message" : "การจัดแนว",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.alignment.label" : {
+    "message" : "การจัดแนว",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.label" : {
+    "message" : "เว้นวรรค",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.space_between_icons.label" : {
+    "message" : "ช่องว่างระหว่างไอคอน",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.spacing.label" : {
+    "message" : "เว้นวรรค",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url({{ get_asset_url('../../fonts/avenir/Avenir-Medium.eot') }});
+    src: url({{ get_asset_url('../../fonts/avenir/Avenir-Medium.eot') }}?#iefix) format('embedded-opentype'),
+        url({{ get_asset_url('../../fonts/avenir/Avenir-Medium.woff2') }}) format('woff2'),
+        url({{ get_asset_url('../../fonts/avenir/Avenir-Medium.woff') }}) format('woff'),
+        url({{ get_asset_url('../../fonts/avenir/Avenir-Medium.ttf') }}) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

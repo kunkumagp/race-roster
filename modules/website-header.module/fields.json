@@ -1,0 +1,269 @@
+[ {
+  "id" : "d6c9b974-a66f-8552-ce2e-5d6b082f7c75",
+  "name" : "header_type",
+  "display_width" : null,
+  "label" : "Header type",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "light", "Light" ], [ "dark", "Dark" ] ],
+  "multiple" : false,
+  "reordering_enabled" : true,
+  "preset" : null,
+  "type" : "choice",
+  "default" : "dark"
+}, {
+  "id" : "logo",
+  "name" : "logo_light",
+  "display_width" : null,
+  "label" : "Logo light",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : null,
+    "controlling_field_path" : "header_type",
+    "controlling_value_regex" : "light",
+    "property" : null,
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "children" : [ {
+    "id" : "logo.logo",
+    "name" : "logo",
+    "display_width" : null,
+    "label" : "Logo",
+    "required" : false,
+    "locked" : false,
+    "show_loading" : false,
+    "type" : "logo",
+    "default" : {
+      "override_inherited_src" : true,
+      "suppress_company_name" : true,
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/IGES/Logos/logo_light.png",
+      "alt" : "logo_light",
+      "loading" : "lazy",
+      "width" : 178,
+      "height" : 114
+    }
+  }, {
+    "id" : "logo.link",
+    "name" : "link",
+    "display_width" : null,
+    "label" : "Link",
+    "help_text" : "If no url is specified, your logo will link to your primary domain",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "https://sportstailgateshow.com/"
+  }, {
+    "id" : "logo.open_in_new_tab",
+    "name" : "open_in_new_tab",
+    "display_width" : null,
+    "label" : "Open link in new tab when visitors click",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "logo.link",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : null,
+      "property" : null,
+      "operator" : "NOT_EMPTY",
+      "access" : null
+    },
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "logo" : {
+      "override_inherited_src" : true,
+      "suppress_company_name" : true,
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/IGES/Logos/logo_light.png",
+      "alt" : "logo_light",
+      "loading" : "lazy",
+      "width" : 178,
+      "height" : 114
+    },
+    "link" : "https://sportstailgateshow.com/",
+    "open_in_new_tab" : false
+  }
+}, {
+  "id" : "999f5c48-3690-282a-7098-3905e6b098ab",
+  "name" : "logo_dark",
+  "display_width" : null,
+  "label" : "Logo dark",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : null,
+    "controlling_field_path" : "header_type",
+    "controlling_value_regex" : "dark",
+    "property" : null,
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "children" : [ {
+    "id" : "afc8d3c5-e416-2a6f-c791-8cdcab8371b7",
+    "name" : "logo",
+    "display_width" : null,
+    "label" : "Logo",
+    "required" : false,
+    "locked" : false,
+    "show_loading" : false,
+    "type" : "logo",
+    "default" : {
+      "override_inherited_src" : true,
+      "suppress_company_name" : true,
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/IGES/Logos/logo_dark.png",
+      "alt" : "logo_dark",
+      "loading" : "lazy",
+      "width" : 178,
+      "height" : 114
+    }
+  }, {
+    "id" : "3a34916e-a289-9a4c-3c81-87b56507880c",
+    "name" : "link",
+    "display_width" : null,
+    "label" : "Link",
+    "help_text" : "If no url is specified, your logo will link to your primary domain",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "8fd818cf-71ae-4218-83c8-dae48dd6da3f",
+    "name" : "open_in_new_tab",
+    "display_width" : null,
+    "label" : "Open link in new tab when visitors click",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "3a34916e-a289-9a4c-3c81-87b56507880c",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : null,
+      "property" : null,
+      "operator" : "NOT_EMPTY",
+      "access" : null
+    },
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "logo" : {
+      "override_inherited_src" : true,
+      "suppress_company_name" : true,
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/IGES/Logos/logo_dark.png",
+      "alt" : "logo_dark",
+      "loading" : "lazy",
+      "width" : 178,
+      "height" : 114
+    },
+    "open_in_new_tab" : false
+  }
+}, {
+  "id" : "styles",
+  "name" : "styles",
+  "display_width" : null,
+  "label" : "Styles",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "styles.logo",
+    "name" : "spacing",
+    "display_width" : null,
+    "label" : "Spacing",
+    "required" : false,
+    "locked" : false,
+    "visibility_rules" : "ADVANCED",
+    "advanced_visibility" : {
+      "boolean_operator" : "OR",
+      "criteria" : [ {
+        "controlling_field" : "logo.logo",
+        "controlling_field_path" : null,
+        "controlling_value_regex" : "(?=.*\"override_inherited_src\":false)",
+        "property" : null,
+        "operator" : "MATCHES_REGEX",
+        "access" : null
+      }, {
+        "controlling_field" : "logo.logo",
+        "controlling_field_path" : null,
+        "controlling_value_regex" : "src\":\"\\w+",
+        "property" : null,
+        "operator" : "MATCHES_REGEX",
+        "access" : null
+      } ],
+      "children" : [ ]
+    },
+    "children" : [ {
+      "id" : "4d3dae27-3702-51a5-067e-31ddb777322b",
+      "name" : "spacing",
+      "display_width" : null,
+      "label" : "Spacing",
+      "required" : false,
+      "locked" : false,
+      "type" : "spacing",
+      "default" : { }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "spacing" : { }
+    }
+  }, {
+    "id" : "styles.top_bar.background",
+    "name" : "background",
+    "display_width" : null,
+    "label" : "Background",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "styles.top_bar.background.color",
+      "name" : "color",
+      "display_width" : null,
+      "label" : "Color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : null,
+        "opacity" : null
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "color" : {
+        "color" : null,
+        "opacity" : null
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "spacing" : {
+      "spacing" : { }
+    },
+    "background" : {
+      "color" : {
+        "color" : null,
+        "opacity" : null
+      }
+    }
+  }
+} ]

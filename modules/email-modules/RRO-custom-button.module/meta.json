@@ -1,0 +1,7 @@
+{
+  "global" : false,
+  "host_template_types" : [ "EMAIL" ],
+  "module_id" : 147919434411,
+  "label" : "RRO - Custom button",
+  "is_available_for_new_content" : true
+}

@@ -1,0 +1,48 @@
+{% require_css %}
+<style type="text/css">
+  .our-services-wrapper{
+    {{ module.style.spacing_field.css }}
+  }
+  .our-services h4{
+    color: {{ theme.colors.primary.color }};
+    border-bottom: 2px solid {{ theme.colors.body_text_color.color }};
+  }
+  .our-services .service .number{
+    background-color: {{ theme.colors.primary.color }};
+    color: {{ theme.colors.body_background_color.color }};
+    
+  }
+  .our-services .service .content{
+/*     border-bottom: 2px solid #DEDFE0; */
+  }
+</style>
+{% end_require_css %}
+
+<div class="our-services-wrapper">
+  <div class="our-services">
+    <h4>{{ module.title }}</h4>
+    {% for item in module.services %}
+    <div class="service">
+      {% if item.icon == true %}
+      <div>
+        {% if item.service_icon.src %}
+          {% set sizeAttrs = 'width="{{ item.service_icon.width }}" height="{{ item.service_icon.height }}"' %}
+          {% if item.service_icon.size_type == 'auto' %}
+            {% set sizeAttrs = 'width="{{ item.service_icon.width }}" height="{{ item.service_icon.height }}" style="max-width: 100%; height: auto;"' %}
+          {% elif item.service_icon.size_type == 'auto_custom_max' %}
+            {% set sizeAttrs = 'width="{{ item.service_icon.max_width }}" height="{{ item.service_icon.max_height }}" style="max-width: 100%; height: auto;"' %}
+          {% endif %}
+           {% set loadingAttr = item.service_icon.loading != 'disabled' ? 'loading="{{ item.service_icon.loading }}"' : '' %}
+          <img class="icon-img" src="{{ item.service_icon.src }}" alt="{{ item.service_icon.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+        {% endif %}
+      </div>
+      {% elif %}
+      <div class="number">{{loop.index}}</div>
+      {% endif %}
+      <div class="content">
+        {{ item.service_name }} {{ item.service_info }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

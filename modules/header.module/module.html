@@ -1,0 +1,78 @@
+<div class="header">
+  <!--   Logo -->
+  <div class="logo left">
+    <img src="{{ get_asset_url('../../images/logos/rr_logo.png') }}" width="100%">
+  </div>
+
+  <!--   Search -->
+  <div class="search left">
+    <div class="search-field">
+      <div class="search-icon left">
+        <img src="{{ get_asset_url('../../images/icons/search_icon.png') }}" width="17">
+      </div>
+      <div class="search-input left">
+        <!--         <input placeholder="Search for an event" value="{{ module.search_group.search_field }}"/>   -->
+
+        {% set search_page = module.results.use_custom_search_results_template is truthy and module.results.path_id ? content_by_id(module.results.path_id).absolute_url : site_settings.content_search_results_page_path %}
+
+        {% unless (search_page is string_containing "//") %}
+        {% set search_page = "/" ~ search_page %}
+        {% endunless %}
+
+        {% set search_page = search_page|regex_replace("http:", "") %}
+
+        <form data-hs-do-not-collect="true" class="hs-search-field__form" action="{{ search_page }}">
+          <input
+                 role="combobox"
+                 aria-expanded="false"
+                 aria-controls="autocomplete-results"
+                 aria-label="{{ module.default_text.sr_search_field_aria_label }}"
+                 type="search"
+                 class="hs-search-field__input"
+                 id="{{ name ~ "-input" }}"
+                 name="q"
+                 autocomplete="off"
+                 aria-autocomplete="list"
+                 placeholder="{{ module.input.placeholder }}">
+        </form>
+
+
+      </div>
+    </div>
+  </div>
+  
+  <!--   Button 1 -->
+  <div class=" header_menu right">
+    <span class="button button--simple">{{ module.button_group.simple_button_text }} </span>
+    <span class="button primary">{{ module.button_group.primary_button_text }}</span>
+  </div>
+
+  <!--   Menu -->
+  <div class="header_menu right">
+    <div class="menu_full">
+      {% menu id="{{ module.header_menu }}" %}
+    </div>
+  </div>
+  
+
+</div>
+
+
+{% require_js position="head" %}
+<script data-search_input-config="config_{{ name }}" type="application/json">
+{
+  "autosuggest_results_message": "{{ module.default_text.autosuggest_results_message|escapejson }}",
+  "autosuggest_no_results_message": "{{ module.default_text.autosuggest_no_results_message|escapejson }}",
+  "sr_empty_search_field_message": "{{ module.default_text.sr_empty_search_field_message|escapejson }}",
+  "sr_autosuggest_results_message": "{{ module.default_text.sr_autosuggest_results_message|escapejson }}",
+  "sr_search_field_aria_label": "{{ module.default_text.sr_search_field_aria_label|escapejson }}",
+  "sr_search_button_aria_label": "{{ module.default_text.sr_search_button_aria_label|escapejson }}"
+}
+</script>
+<script>
+
+// function myFunction(x) {
+//   x.classList.toggle("change");
+// }
+</script>
+{% end_require_js %}

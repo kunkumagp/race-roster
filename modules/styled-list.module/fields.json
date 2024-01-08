@@ -1,0 +1,202 @@
+[ {
+  "id" : "e1308472-4498-d306-f7db-df21377d1987",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Whats you will get out of the MJBiz Factbook"
+}, {
+  "id" : "1245cb8d-4671-6564-627b-f8c98094fca3",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "bb0649bf-c5ea-0dd0-ca98-83611aedc8f7",
+    "name" : "spacing_field",
+    "display_width" : null,
+    "label" : "Spacing",
+    "required" : false,
+    "locked" : false,
+    "type" : "spacing",
+    "default" : {
+      "padding" : {
+        "top" : {
+          "value" : 0,
+          "units" : "px"
+        },
+        "bottom" : {
+          "value" : 0,
+          "units" : "px"
+        },
+        "left" : {
+          "value" : 30,
+          "units" : "px"
+        },
+        "right" : {
+          "value" : 0,
+          "units" : "px"
+        }
+      },
+      "margin" : {
+        "top" : {
+          "value" : null,
+          "units" : null
+        },
+        "bottom" : {
+          "value" : null,
+          "units" : null
+        }
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "spacing_field" : {
+      "padding" : {
+        "top" : {
+          "value" : 0,
+          "units" : "px"
+        },
+        "bottom" : {
+          "value" : 0,
+          "units" : "px"
+        },
+        "left" : {
+          "value" : 30,
+          "units" : "px"
+        },
+        "right" : {
+          "value" : 0,
+          "units" : "px"
+        }
+      },
+      "margin" : {
+        "top" : {
+          "value" : null,
+          "units" : null
+        },
+        "bottom" : {
+          "value" : null,
+          "units" : null
+        }
+      }
+    }
+  }
+}, {
+  "id" : "2078b26d-c9a7-a69c-6756-35ba2c26bc35",
+  "name" : "services",
+  "display_width" : null,
+  "label" : "Services",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "07b7d5d6-90e6-c542-0e19-cbee5cc4bb35",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "07b7d5d6-90e6-c542-0e19-cbee5cc4bb35",
+    "name" : "service_name",
+    "display_width" : null,
+    "label" : "Service name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Ouda solorup tauunt atinsum"
+  }, {
+    "id" : "f25d9d55-8c9a-04ee-0d57-cb4f9d5300bd",
+    "name" : "service_info",
+    "display_width" : null,
+    "label" : "Service info",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "sint discium quaspel lend uci offic volupta temquid. "
+  }, {
+    "id" : "47257173-a2a3-a7c9-d1bf-041aaa90f9fb",
+    "name" : "icon",
+    "display_width" : null,
+    "label" : "Icon",
+    "required" : false,
+    "locked" : false,
+    "display" : "toggle",
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "7a6b2540-d0fb-8575-131f-fec1fc453896",
+    "name" : "service_icon",
+    "display_width" : null,
+    "label" : "Service Icon",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : null,
+      "controlling_field_path" : "services.icon",
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "service_name" : "Ouda solorup tauunt atinsum",
+    "service_info" : "sint discium quaspel lend uci offic volupta temquid. ",
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "boolean_field" : false
+  }, {
+    "service_name" : "Ouda solorup tauunt atinsum",
+    "service_info" : "sint discium quaspel lend uci offic volupta temquid. ",
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "boolean_field" : false
+  }, {
+    "service_name" : "Ouda solorup tauunt atinsum",
+    "service_info" : "sint discium quaspel lend uci offic volupta temquid. ",
+    "service_icon" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "boolean_field" : false
+  } ]
+} ]

@@ -1,0 +1,140 @@
+<!--
+  templateType: section
+  label: Pricing Cards
+  isAvailableForNewContent: true
+  screenshotPath: ../images/section-previews/pricing-card.png
+  description: "Middle centered heading above three pricing cards, containing a subheading, description, and button each."
+-->
+{% dnd_section
+  full_width=false,
+  vertical_alignment="MIDDLE",
+   background_color= {{theme.colors.accent_six.color}},
+  padding={
+     "default" : { "bottom" : 64, "top" : 64, 'left': 20, 'right': 20 },
+     "mobile" : { "bottom" : 42, "top" : 42 }
+  }
+%}
+ {% dnd_column
+    padding={
+     "default" : { "left" : 0, "right" : 0 }
+   }
+ %}
+   {% dnd_row %}
+     {% dnd_module
+        path="@hubspot/rich_text"
+     %}
+       {% module_attribute "html" %}
+         <h3 style="font-size: 29px; font-weight: 500; line-height: 36px; letter-spacing: 0em; text-align: center; color: {{theme.colors.secondary.color}};">Experience OUTDOOR RETAILER Your Way</h3>
+         <h5 style="font-size: 24px; font-weight: 500; line-height: 32px; letter-spacing: 0em; text-align: center; color: {{theme.colors.accent_four.color}};">Subtitle Here</h5>
+       {% end_module_attribute %}
+     {% end_dnd_module %}
+   {% end_dnd_row %}
+
+   {% dnd_row %}
+
+     {% dnd_module
+       path="../modules/pricing-card",
+       offset=0,
+       width=4,
+       button_text="Learn more",
+       features=[ 
+         "3-Day Access to Conference Sessions & 140+ speakers",
+         "3-Day Expo Hall Access",
+         "Opening General Session (Nov 16)",
+         "Your choice of one Pre-Show Forum (Nov 15)"
+       ],
+       styles={
+         "button" : {
+           "presets" : {
+             "button_style" : "primary"
+           },
+           "text" : {
+             "font" : {
+               "color" : "#fff",
+               "font_set" : "DEFAULT"
+             }
+           }
+         }
+       }
+     %}
+       {% module_attribute "tier" %}
+         <h4>VIP All-Access</h4>
+       {% end_module_attribute %}
+
+       {% module_attribute "description" %}
+         <h5>Insider Rate: $999</h5>
+       {% end_module_attribute %}
+     {% end_dnd_module %}
+
+     {% dnd_module
+       path="../modules/pricing-card",
+       offset=4,
+       width=4,
+       button_text="Learn more",
+       features=[ 
+         "3-Day Access to Conference Sessions & 140+ speakers",
+         "3-Day Expo Hall Access",
+         "Opening General Session (Nov 16)",
+         "Your choice of one Pre-Show Forum (Nov 15)"
+       ],
+       styles={
+         "button" : {
+           "presets" : {
+             "button_style" : "primary"
+           },
+           "text" : {
+             "font" : {
+               "color" : "#fff",
+               "font_set" : "DEFAULT"
+             }
+           }
+         }
+       }
+     %}
+       {% module_attribute "tier" %}
+         <h4 >Conference + Expo</h4>
+       {% end_module_attribute %}
+
+       {% module_attribute "description" %}
+         <h5>Insider Rate: $499</h5>
+       {% end_module_attribute %}
+     {% end_dnd_module %}
+
+     {% dnd_module
+       path="../modules/pricing-card",
+       offset=8,
+       width=4,
+       button_text="Learn more",
+       features=[ 
+         "3-Day Access to Conference Sessions & 140+ speakers",
+         "3-Day Expo Hall Access",
+         "Opening General Session (Nov 16)",
+         "Your choice of one Pre-Show Forum (Nov 15)"
+       ],
+       styles={
+         "button" : {
+           "presets" : {
+             "button_style" : "primary"
+           },
+           "text" : {
+             "font" : {
+               "color" : "#fff",
+               "font_set" : "DEFAULT"
+             }
+           }
+         }
+       }
+     %}
+       {% module_attribute "tier" %}
+         <h4>Expo-Only</h4>
+       {% end_module_attribute %}
+
+       {% module_attribute "description" %}
+         <h5>Insider Rate: $299</h5>
+              {% end_module_attribute %}
+     {% end_dnd_module %}
+
+   {% end_dnd_row %}
+
+ {% end_dnd_column %}
+{% end_dnd_section %}

@@ -1,0 +1,10 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "categories" : [ "design", "functionality" ],
+  "icon" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/menu.svg",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 147919434573,
+  "label" : "Website header",
+  "is_available_for_new_content" : true
+}

@@ -1,0 +1,99 @@
+
+    <!--[if !((mso)|(IE))]><!-- -->
+      <div class="hse-column-container" style="min-width:280px; max-width:600px; width:100%; Margin-left:auto; Margin-right:auto; border-collapse:collapse; border-spacing:0; background-color: {{ module.footer_background_colour.color }};">
+    <!--<![endif]-->
+    <!--[if (mso)|(IE)]>
+      <div class="hse-column-container" style="background-color: {{ module.footer_background_colour.color }}; min-width:280px;max-width:600px;width:100%;Margin-left:auto;Margin-right:auto;border-collapse:collapse;border-spacing:0;">
+      <table align="center" style=" background-color: {{ module.footer_background_colour.color }}; border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;width:600px;" cellpadding="0" cellspacing="0" role="presentation" width="600">
+      <tr>
+    <![endif]-->
+
+    <!--[if (mso)|(IE)]>
+  <td valign="top" style="width:600px;padding-bottom:20px; padding-top:20px;">
+<![endif]-->
+<!--[if gte mso 9]>
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;width:600px">
+<![endif]-->
+<div class="hse-column hse-size-12">
+  {% if module.social_media_group|length != 0  %}
+<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; padding:0px 0px 20px"><div id="hs_cos_wrapper_module-27-0-1" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type="widget" data-hs-cos-type="module"><!--[if !((mso)|(IE))]><!-- -->
+      <div class="hse-column-container" style="min-width:280px; max-width:600px; width:100%; Margin-left:auto; Margin-right:auto; border-collapse:collapse; border-spacing:0">
+    <!--<![endif]-->
+    
+    <!--[if (mso)|(IE)]>
+      <div class="hse-column-container" style="min-width:280px;max-width:600px;width:100%;Margin-left:auto;Margin-right:auto;border-collapse:collapse;border-spacing:0;">
+      <table align="center" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;width:600px;" cellpadding="0" cellspacing="0" role="presentation" width="600">
+      <tr>
+    <![endif]-->
+
+    <!--[if (mso)|(IE)]>
+  <td valign="top" style="width:600px;">
+<![endif]-->
+<!--[if gte mso 9]>
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;width:600px">
+<![endif]-->
+<div class="hse-column hse-size-12">
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word;"><div id="hs_cos_wrapper_module_16825741191201" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<table role="presentation" align="center" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:auto; text-align:center" class="hs_cos_wrapper_type_social_module" width="auto">
+  <tbody>
+    <tr align="center">
+        {% for item in module.social_media_group %}      
+      <td class="social-network-cell" style="padding-left:5px; padding-right:5px; border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word">
+        
+        <table role="presentation" align="center" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:auto; text-align:center" class="hs_cos_wrapper_type_social_module_single" width="auto">
+          <tbody>
+            <tr align="center">
+              
+              <td class="display_block_on_small_screens" style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; padding:0px 0px; vertical-align:middle" valign="middle">
+                {% set href = item.social_media_link.url.href %}
+                  {% if item.social_media_link.url.type is equalto "EMAIL_ADDRESS" %}
+                    {% set href = "mailto:" + href %}
+                  {% endif %}
+                
+                <a href="{{ href }}" {% if item.social_media_link.open_in_new_tab %}target="_blank"{% endif %}
+                  {% if item.social_media_link.rel %} rel="{{ item.social_media_link.rel }}"{% endif %}  style="color:#00a4bd; mso-line-height-rule:exactly; text-decoration:none !important" data-hs-link-id="0">
+                  
+                   <img src="{{ item.social_media_icon.src }}" alt="{{ item.socal_media_icon.alt }}" height="27" style="outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; border:none; width:auto!important; height:27px!important; vertical-align:middle" valign="middle" width="auto">
+                  
+                </a>
+              </td>
+
+            </tr>
+          </tbody>
+        </table>
+      </td> 
+{% endfor %}  
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+</div></td></tr></tbody></table>
+</div>
+<!--[if gte mso 9]></table><![endif]-->
+<!--[if (mso)|(IE)]></td><![endif]-->
+
+
+    <!--[if (mso)|(IE)]></tr></table><![endif]-->
+    </div></div></td></tr></tbody></table>
+  {% endif %}
+<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt"><tbody><tr><td class="hs_padded" style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; padding:0px 40px 34px"><div id="hs_cos_wrapper_module-27-0-2" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+<table role="presentation" class="hse-footer hse-secondary" width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; font-family:Arial, sans-serif; font-size:12px; line-height:135%; color:#23496d; margin-bottom:0; padding:0">
+    <tbody>
+        <tr>
+            <td align="center" valign="top" style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; text-align:center; margin-bottom:0; line-height:135%; padding:0px 20px">
+              {{ module.footer_bottom_text }}
+            </td>
+        </tr>
+    </tbody>
+</table></div></td></tr></tbody></table>
+</div>
+<!--[if gte mso 9]></table><![endif]-->
+<!--[if (mso)|(IE)]></td><![endif]-->
+
+
+    <!--[if (mso)|(IE)]></tr></table><![endif]-->
+
+    </div>

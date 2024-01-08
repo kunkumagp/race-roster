@@ -1,0 +1,10 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "categories" : [ "commerce" ],
+  "icon" : "fontawesome-5.14.0:Alternate%20Exchange:SOLID",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 147918847533,
+  "label" : "Floating CTA",
+  "is_available_for_new_content" : true
+}

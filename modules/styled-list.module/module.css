@@ -1,0 +1,44 @@
+.our-services h4{
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  color: #323E48;
+}
+.our-services .service{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.our-services .service .number{
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    height: 34px;
+    line-height: 32px;
+    margin-right: 16px;
+    padding: 0px 10px;
+    text-align: center;
+    min-width: 35px;
+}
+.our-services .service .content{
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.icon-img{
+  margin-right: 32px;
+}
+
+@media screen and (max-width: 767px){
+  .our-services-wrapper{
+    padding: 0 !important;
+  }
+}
+@media screen and (min-width: 768px){
+
+}

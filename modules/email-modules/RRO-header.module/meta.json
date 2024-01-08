@@ -1,0 +1,8 @@
+{
+  "global" : true,
+  "smart_type" : "NOT_SMART",
+  "host_template_types" : [ "EMAIL" ],
+  "module_id" : 148734347539,
+  "label" : "RRO Header",
+  "is_available_for_new_content" : true
+}

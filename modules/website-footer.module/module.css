@@ -1,0 +1,135 @@
+.footer_container{
+  padding: 38px 20px;
+}
+
+.footer_container div,
+.footer_container p,
+.footer_container span,
+.footer_container a
+{
+  /*   color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; */
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.footer_content{
+  margin-top: 25px;
+}
+
+.footer_content p{
+  font-size: 12px;
+}
+
+.logo_image{
+  max-width: 167px;
+  max-height: 107px;
+}
+
+.social-follow{
+  align-items: center;
+  /*   display: inherit; */
+}
+
+.social-follow ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social-follow ul > li{
+  list-style: none;
+  margin: 0 10px;
+}
+.social-follow ul > li a,
+.social-follow ul > li a > span{
+  display: block;
+}
+.social-follow ul > li a > span{
+  width: 40px !important;
+  height: 40px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.justify-end{
+  justify-self:end;
+}
+
+.footer-group{
+    margin: 0px 20px;
+}
+
+.footer-group-header{
+  color: #4D4D4D;
+/*   font-size: 16px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.links .footer-links-group .footer-link {
+  margin-bottom: 10px;
+}
+
+.links .footer-links-group .footer-link a{
+  color: #4D4D4D;
+/*   font-size: 16px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.links .footer-links-group .footer-link a:hover{
+  text-decoration: underline;
+}
+
+.grid-wrapper {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-areas:
+    "a b c d";
+}
+
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
+}
+.item3 {
+  grid-area: c;
+}
+.item4 {
+  grid-area: d;
+}
+
+@media screen and (max-width: 767px){
+  .grid-container{
+    grid-template-columns: auto;
+  }
+
+  .footer_container{
+    text-align: center;
+  }
+
+  .social-follow {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-follow ul{
+    margin-top: 0 !important;
+  }
+}

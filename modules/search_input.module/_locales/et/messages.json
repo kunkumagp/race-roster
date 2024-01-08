@@ -1,0 +1,547 @@
+{
+  "button.button_label.label" : {
+    "message" : "Nupu tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.icon.label" : {
+    "message" : "Ikoon",
+    "description" : "",
+    "placeholders" : null
+  },
+  "button.label" : {
+    "message" : "Nupp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_line_1.default" : {
+    "message" : "Siin kuvatakse pakutud tulemusi, kui külastaja trükib oma otsingusõna.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_line_1.label" : {
+    "message" : "Automaatne pakutav rida 1 näidisotsingusõna puhul",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_line_2.default" : {
+    "message" : "Siin on teine pakutav otsingutulemus",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_line_2.label" : {
+    "message" : "Automaatne pakutav rida 2 näidisotsingusõna puhul",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_line_3.default" : {
+    "message" : "Konfigureerige sisu tüüp, mida kuvatakse teie otsingutulemustes, kasutades suvandit „otsingutulemused sisaldavad“",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_line_3.label" : {
+    "message" : "Automaatne pakutav rida 3 näidisotsingusõna puhul",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_search_results.default" : {
+    "message" : "Tulemused „näidisotsingusõna“ kohta",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.as_example_search_results.label" : {
+    "message" : "Automaatsed pakutavad tulemused näidisotsingusõna kohta",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.autosuggest_no_results_message.default" : {
+    "message" : "Automaatselt pakutavad tulemused „[[otsingusõna]]“ kohta puuduvad",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.autosuggest_no_results_message.label" : {
+    "message" : "Teade „automaatselt pakutavad tulemused puuduvad“",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.autosuggest_results_message.default" : {
+    "message" : "„[[Otsingusõna]]“ tulemused",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.autosuggest_results_message.label" : {
+    "message" : "Teade „automaatselt pakutavad tulemused“",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.label" : {
+    "message" : "Vaiketekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_autosuggest_results_message.default" : {
+    "message" : "Hetkel on [[tulemuste_arv]] automaatselt pakutavat tulemust otsingusõnale [[otsingusõna]]. Kerige tulemuste loendit, vajutades allanoole klahvi, või vajutage tagasinupul, et otsida kõiki tulemusi.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_autosuggest_results_message.label" : {
+    "message" : "Ekraanilugeja teade „automaatselt pakutavad tulemused“",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_empty_search_field_message.default" : {
+    "message" : "Pakkumised puuduvad, kuna otsinguväli on tühi.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_empty_search_field_message.label" : {
+    "message" : "Ekraanilugeja teade „otsinguväli tühi“",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_search_button_aria_label.default" : {
+    "message" : "Otsing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_search_button_aria_label.label" : {
+    "message" : "Ekraanilugeja otsingunupu aria-silt",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_search_field_aria_label.default" : {
+    "message" : "See on automaatse pakkumisfunktsiooniga otsinguväli.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "default_text.sr_search_field_aria_label.label" : {
+    "message" : "Ekraanilugeja otsinguvälja aria-silt",
+    "description" : "",
+    "placeholders" : null
+  },
+  "inline_help_text" : {
+    "message" : "Kasutage lehe otsingusisendi moodulit, et aidata külastajatel otsida teie lehte. Otsingutulemused kuvatakse teie otsingutulemuste süsteemi lehel või lisades otsingutulemuste mooduli. <a href=\"https://knowledge.hubspot.com/design-manager/set-up-a-results-page-to-use-a-search-field-on-your-site\">Vaata lisaks.</a>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "input.field_label.label" : {
+    "message" : "Sildi tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "input.label" : {
+    "message" : "Otsingusisendi väli",
+    "description" : "",
+    "placeholders" : null
+  },
+  "input.placeholder.default" : {
+    "message" : "Otsing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "input.placeholder.label" : {
+    "message" : "Kohatäitja tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Lehe otsingusisend",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.content_types.blog_posts.label" : {
+    "message" : "Blogipostitused",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.content_types.knowledge_articles.label" : {
+    "message" : "Teabebaasi artiklid",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.content_types.label" : {
+    "message" : "Otsingutulemused sisaldavad",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.content_types.landing_pages.label" : {
+    "message" : "Sihtlehed",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.content_types.website_pages.label" : {
+    "message" : "Veebilehed",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.label" : {
+    "message" : "Tulemused",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.path_id.inline_help_text" : {
+    "message" : "Sinna suunatakse inimesed, kui nad klõpsavad oma otsingusõna otsimiseks. Veenduge, et valite lehe, mis sisaldab otsingutulemuste moodulit.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.path_id.label" : {
+    "message" : "Otsingutulemuste leht",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.use_custom_search_results_template.inline_help_text" : {
+    "message" : "Lülitage see säte sisse, et kasutada kohandatud otsingutulemuste lehte üldise otsingutulemuste vaikelehe asemel.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "results.use_custom_search_results_template.label" : {
+    "message" : "Kasutage kohandatud otsingutulemuste lehte",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.background.color.label" : {
+    "message" : "Värv",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.background.label" : {
+    "message" : "Taust",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.border.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.corner.label" : {
+    "message" : "Nurk",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.corner.radius.label" : {
+    "message" : "Raadius",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.hover.background.color.label" : {
+    "message" : "Värv",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.hover.background.label" : {
+    "message" : "Taust",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.hover.label" : {
+    "message" : "Peal",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.hover.text.font.label" : {
+    "message" : "Kirjatüüp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.hover.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.label" : {
+    "message" : "Pakutud tulemused",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.spacing.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.text.header_font.label" : {
+    "message" : "Päise kirjatüüp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.autosuggest_results.text.suggestion_font.label" : {
+    "message" : "Pakkumise kirjatüüp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.color.label" : {
+    "message" : "Värv",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.background.label" : {
+    "message" : "Taust",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.label" : {
+    "message" : "Nurk",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.corner.radius.label" : {
+    "message" : "Raadius",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.color.label" : {
+    "message" : "Värv",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.background.label" : {
+    "message" : "Taust",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.label" : {
+    "message" : "Peal",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.font.label" : {
+    "message" : "Kirjatüüp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.hover.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.label" : {
+    "message" : "Nupp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.position.button_alignment.choices.left" : {
+    "message" : "Vasakul",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.position.button_alignment.choices.right" : {
+    "message" : "Paremal",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.position.button_alignment.label" : {
+    "message" : "Nupu joondus",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.position.button_position.choices.beneath" : {
+    "message" : "Otsinguvälja all",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.position.button_position.choices.inline" : {
+    "message" : "Otsinguväljaga samal joonel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.position.button_position.label" : {
+    "message" : "Nupu asukoht",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.position.label" : {
+    "message" : "Paigutus",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.spacing.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.font.label" : {
+    "message" : "Kirjatüüp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.capitalize" : {
+    "message" : "Muuda suurtäheks",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.lowercase" : {
+    "message" : "Väiketäht",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.none" : {
+    "message" : "Puudub",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.choices.uppercase" : {
+    "message" : "Suurtäht",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.button.text.transform.label" : {
+    "message" : "Kujunda ümber",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.container.color.label" : {
+    "message" : "Taustavärv",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.container.label" : {
+    "message" : "Konteiner",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.container.radius.label" : {
+    "message" : "Nurk",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.container.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.container.spacing.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.field_label.label" : {
+    "message" : "Silt",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.field_label.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.field_label.spacing.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.field_label.text.font.label" : {
+    "message" : "Kirjatüüp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.field_label.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.background.color.label" : {
+    "message" : "Värv",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.background.label" : {
+    "message" : "Taust",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.border.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.border.label" : {
+    "message" : "Ääris",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.corner.label" : {
+    "message" : "Nurk",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.corner.radius.label" : {
+    "message" : "Raadius",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.label" : {
+    "message" : "Väli",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.spacing.spacing.label" : {
+    "message" : "Reasamm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.text.font.label" : {
+    "message" : "Kirjatüüp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.input.text.label" : {
+    "message" : "Tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.label" : {
+    "message" : "Stiilid",
+    "description" : "",
+    "placeholders" : null
+  }
+}

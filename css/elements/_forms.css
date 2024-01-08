@@ -1,0 +1,336 @@
+/* Form title */
+
+.form-title {
+  margin: 0;
+  text-transform: none;
+  color: {{theme.colors.primary.color}};
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+form {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Labels */
+
+form label {
+  display: block;
+}
+
+/* Form fields */
+
+form .hs-form-field {
+  margin-bottom: 16px;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='password'],
+form input[type='tel'],
+form input[type='number'],
+form input[type='file'],
+form input[type='search'],
+form input[type='date'],
+form select,
+form textarea {
+  display: inline-block;
+  height: 40px;
+  width: 100% !important; /* stylelint-disable-line declaration-no-important */
+}
+
+form fieldset {
+  max-width: 100% !important; /* stylelint-disable-line declaration-no-important */
+}
+
+form input[type='text']:focus,
+form input[type='email']:focus,
+form input[type='password']:focus,
+form input[type='tel']:focus,
+form input[type='number']:focus,
+form input[type='file']:focus,
+form input[type='search']:focus,
+form input[type='date']:focus,
+form select:focus,
+form textarea:focus{
+  outline: none;
+}
+
+form select::-ms-expand {
+  display: none;
+}
+form select{
+  background-image: url('https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Fonts/Vector%201.png');
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-size: 10px;
+  /* disable default appearance */
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+form select option:disabled{
+  opacity: 0.36;
+}
+form select:invalid{
+  color: {{ theme.forms.fields.inputs.placeholder.color.color }};
+}
+
+/* Form fields - checkbox/radio */
+
+form .inputs-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+form .inputs-list > li {
+  display: block;
+  margin: 0.7rem 0;
+}
+
+form .inputs-list input,
+form .inputs-list span {
+  vertical-align: middle;
+}
+
+:root {
+  --form-control-color: #FFFFFF;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+
+  /* For iOS < 15 to remove gradient background */
+  background-color: var(--form-control-color);
+  
+  /* Not removed via appearance */  
+  appearance: none;
+  background-color: var(--form-control-color);
+  border: 1px solid {{ theme.colors.body_text_color.color }};
+  color: inherit;
+  font: inherit;
+  width: 14px !important;
+  height: 14px;
+  margin: 2px 10px 0 0;
+  transform: translateY(0.2em);
+  display: grid;
+  place-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hs-form-radio-display,
+.hs-form-checkbox-display{
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+input[type="radio"]{
+  border-radius: 50%;
+}
+input[type="checkbox"]{
+  border-radius: 2px;
+}
+.hs-form-radio-display + .hs-form-radio-display,
+.hs-form-checkbox-display + .hs-form-checkbox-display {
+  margin-top: 1em;
+}
+input[type="radio"]::before,
+input[type="checkbox"]::before {
+  content: "";
+  transform: scale(0);
+  transition: 50ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background: {{ theme.colors.primary.color }};
+  background-color: CanvasText;
+}
+input[type="radio"]::before{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+input[type="checkbox"]::before{
+  width: 10px;
+  height: 10px;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="radio"]:checked::before,
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked{
+  background: {{ theme.colors.body_text_color.color }};
+  border: 1px solid {{ theme.colors.body_text_color.color }};
+}
+
+/* Form fields - date picker */
+
+form .hs-dateinput {
+  position: relative;
+}
+
+form .hs-dateinput:before {
+  content:'';
+  width: 18px;
+  height: 18px;
+  background-image: url('https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Fonts/Icons%20Regular.png');
+  background-size: contain;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+form .fn-date-picker .pika-table th{
+  color: #FFF !important;
+  background-color: {{ theme.colors.primary.color }};
+}
+
+form .pika-table tbody td.is-empty{
+  background-color: transparent !important;
+}
+
+form .is-selected .pika-button {
+  border-radius: 0px !important; /* stylelint-disable-line declaration-no-important */
+  box-shadow: none !important; /* stylelint-disable-line declaration-no-important */
+  text-align:center !important;
+}
+
+form .fn-date-picker .pika-button:hover,
+form .fn-date-picker .pika-button:focus {
+  border-radius: 0 !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/* Form fields - file picker */
+
+form input[type=file] {
+  border: 0 !important;
+  background-color: transparent;
+  border: initial;
+  padding: initial;
+}
+
+form input[type=file]::file-selector-button {
+  color: {{ theme.colors.body_text_color.color }};
+  font-weight: 500;
+  padding: 8px 12px;
+  border: 2px solid {{ theme.colors.body_text_color.color }};
+  border-radius: 4px;
+  background-color: transparent;
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+/* Numbur spin button */
+
+.hs-quantity .input{
+  position: relative;
+}
+.hs-quantity .input::before {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url('https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Fonts/Label.png');
+  background-size: contain;
+  pointer-events: none;
+}
+.hs-quantity .input::after {
+  position: absolute;
+  bottom: 8px;
+  right: 15px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url('https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Fonts/Label%20(1).png');
+  background-size: contain;
+  pointer-events: none;
+}
+.hs-quantity .input .hs-input::-webkit-inner-spin-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  transform: scale(5);
+  transform-origin: right center;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Headings and text */
+
+form .hs-richtext,
+form .hs-richtext p {
+  margin: 0 0 1.4rem;
+  font-size: 0.8rem;
+}
+
+form .hs-richtext img {
+  height: auto;
+  max-width: 100% !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/* GDPR */
+
+form .legal-consent-container .hs-form-booleancheckbox-display > span {
+  margin-left: 1rem !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/* Validation */
+
+form .hs-form-required {
+  color: #ef6b51;
+}
+
+form .hs-input.error {
+  border-color: #ef6b51;
+}
+
+form .hs-error-msg,
+form .hs-error-msgs {
+  margin-top: 0.35rem;
+  color: #ef6b51;
+}
+
+/* Submit button */
+
+form input[type='submit'],
+form .hs-button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s linear;
+  color:#ffffff !important;
+  white-space: normal !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/* Captcha */
+
+.grecaptcha-badge {
+  margin: 0 auto;
+}
+
+.form-heading-text {
+  color: {{ theme.colors.accent_three.color }} !important;
+  font-family: {{ theme.fonts.primary.font }} !important;
+}
+
+.hs-form-radio span,
+.hs-form-checkbox span{
+  color: {{ theme.colors.body_text_color.color }} !important;
+}

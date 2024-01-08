@@ -1,0 +1,86 @@
+<!--
+  templateType: section
+  label: Video content
+  isAvailableForNewContent: true
+  screenshotPath: ../images/section-previews/video.png
+  description: "Video content with CTA"
+-->
+{% dnd_section
+     full_width=false,
+     vertical_alignment="MIDDLE",
+     background_color= "#5D7975",
+     padding={
+        'default': {'top': 64,'bottom': 98, 'left': 20, 'right': 20 },
+        'mobile': {'top': 42,'bottom': 62 }
+   }
+  %}
+    {% dnd_column
+       padding={
+          "default" : { "left" : 0, "right" : 0 }
+       }
+    %}
+      {% dnd_row
+         padding={
+            "default" : {"top": 0, "bottom": 16 }
+        }
+      %}
+        {% dnd_module
+          path="@hubspot/rich_text",
+        %}
+          {% module_attribute "html" %}
+            <h2 style="text-align: center; color:#FFFFFF">See the Action</h2>
+          {% end_module_attribute %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+
+      {% dnd_row %}
+        {% dnd_module
+        path="@hubspot/video",
+        offset=0,
+        width=12,
+        embed_field={
+          "height" : 113,
+          "max_height" : 113,
+          "max_width" : 200,
+          "oembed_response" : {
+            "author_name" : "MJBizDaily",
+            "author_url" : "https://www.youtube.com/@mjbizdaily",
+            "height" : "113",
+            "html" : "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/fwH2G5u2rdw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"MJBizCon 2023 - Get Your Business in Front of High-Value Cannabis Executives\"></iframe>",
+            "provider_name" : "YouTube",
+            "provider_url" : "https://www.youtube.com/",
+            "thumbnail_height" : "360",
+            "thumbnail_url" : "https://i.ytimg.com/vi/fwH2G5u2rdw/hqdefault.jpg",
+            "thumbnail_width" : "480",
+            "title" : "MJBizCon 2023 - Get Your Business in Front of High-Value Cannabis Executives",
+            "type" : "video",
+            "version" : "1.0",
+            "width" : "200"
+          },
+          "oembed_url" : "https://youtu.be/fwH2G5u2rdw",
+          "size_type" : "auto_full_width",
+          "source_type" : "oembed",
+          "supported_oembed_types" : [ "video" ],
+          "width" : 200
+        },
+        oembed_thumbnail={
+          "alt" : "video-thumb",
+          "height" : 1017,
+          "loading" : "disabled",
+          "max_height" : 977.8846153846155,
+          "max_width" : 2000,
+          "size_type" : "auto_custom_max",
+          "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/video-thumb.jpg",
+          "width" : 2080
+        },
+        style_options={
+          "oembed_thumbnail_play_button_color" : {
+            "color" : "#5D7975",
+            "opacity" : 100
+          }
+        }
+      %}
+      {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}

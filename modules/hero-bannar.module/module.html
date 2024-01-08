@@ -1,0 +1,52 @@
+<div class="hero-bannar">
+  <div class="top-image"
+       {% if module.top_background_image.src %}
+       style="background-image: url('{{ module.top_background_image.src }}');"
+       {% endif %}
+       >
+  </div>
+  <div class="two-column-content">
+    <div class="main-title">
+      <h1>
+        {{ module.main_title }}
+      </h1>
+    </div>
+    <div class="sub-title">
+      <h3 style="color: #63666A">
+        {{ module.subtitle }}
+      </h3>
+    </div>
+    <div class="two-column-content-container">
+      <div class="left content">
+        <div class="title-area">
+          {% if module.main_content_top_image.src %}
+          {% set sizeAttrs = 'width="{{ module.main_content_top_image.width }}" height="{{ module.main_content_top_image.height }}"' %}
+          {% if module.main_content_top_image.size_type == 'auto' %}
+          {% set sizeAttrs = 'width="{{ module.main_content_top_image.width }}" height="{{ module.main_content_top_image.height }}" style="max-width: 100%; height: auto;"' %}
+          {% elif module.main_content_top_image.size_type == 'auto_custom_max' %}
+          {% set sizeAttrs = 'width="{{ module.main_content_top_image.max_width }}" height="{{ module.main_content_top_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+          {% endif %}
+          {% set loadingAttr = module.main_content_top_image.loading != 'disabled' ? 'loading="{{ module.main_content_top_image.loading }}"' : '' %}
+          <img style="max-width:100%" src="{{ module.main_content_top_image.src }}" alt="{{ module.main_content_top_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+          {% endif %}
+        </div>
+
+        {{ module.content }}
+      </div>
+      <div class="right contact-form">
+        {% form
+        form_to_use="{{ module.banner_form.form_id }}"
+        response_response_type="{{ module.banner_form.response_type }}"
+        response_message="{{ module.banner_form.message }}"
+        response_redirect_id="{{ module.banner_form.redirect_id }}"
+        response_redirect_url="{{module.banner_form.redirect_url}}"
+        gotowebinar_webinar_key="{{ module.banner_form.gotowebinar_webinar_key }}"
+      %}
+        <br/>
+        <div class="disclaimer-text">
+          {{ module.disclaimer_text }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

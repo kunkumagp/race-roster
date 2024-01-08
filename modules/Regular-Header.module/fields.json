@@ -1,0 +1,22 @@
+[ {
+  "id" : "4de7df43-e913-4ece-4291-ab3ada1da043",
+  "name" : "module_image",
+  "display_width" : null,
+  "label" : "Module image",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "exact",
+    "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Sport%20Tailgating%20Theme%20Images/Header-logo.png",
+    "alt" : "Header-logo",
+    "loading" : "eager",
+    "width" : 202,
+    "height" : 36,
+    "max_width" : 405,
+    "max_height" : 72
+  }
+} ]

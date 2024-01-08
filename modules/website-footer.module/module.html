@@ -1,0 +1,80 @@
+<div class="footer_container" style="{{ module.style.background_color.color }}{{ module.style.background_color.opacity }}">
+  <div class="grid-container">
+
+    <div class="grid-item ">
+      <div class="grid-item">
+        <div class="logo_image">
+          {% if module.module_image.src %}
+          {% set sizeAttrs = 'width="{{ module.module_image.width }}" height="{{ module.module_image.height }}"' %}
+          {% if module.module_image.size_type == 'auto' %}
+          {% set sizeAttrs = 'width="{{ module.module_image.width }}" height="{{ module.module_image.height }}" style="max-width: 100%; height: auto;"' %}
+          {% elif module.module_image.size_type == 'auto_custom_max' %}
+          {% set sizeAttrs = 'width="{{ module.module_image.max_width }}" height="{{ module.module_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+          {% endif %}
+          {% set loadingAttr = module.module_image.loading != 'disabled' ? 'loading="{{ module.module_image.loading }}"' : '' %}
+          <img src="{{ module.module_image.src }}" alt="{{ module.module_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+          {% endif %}
+        </div>
+
+
+        {% for item in module.footer_content %}
+        <div class="footer_content">
+          {{ item }}
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+
+
+    <div class="grid-item grid-wrapper">
+
+      {% for item in module.footer_links_group %}
+
+      {% if module.footer_links_group|length == 4 %}
+      {% set loopIndex = loop.index %}
+      {% elif module.footer_links_group|length == 3 %}
+      {% set loopIndex = loop.index + 1 %}
+      {% elif module.footer_links_group|length == 2 %}
+      {% set loopIndex = loop.index + 2 %}
+      {% elif module.footer_links_group|length == 1 %}
+      {% set loopIndex = loop.index + 3 %}
+      {% endif %}
+
+      <div class="item{{ loopIndex }}">
+        <div class="footer-group">
+
+          <div class="footer-group-header">
+            {{ item.group_header }}
+          </div>
+
+          <div class="links">
+            {% for link in item.links_group %}
+
+            {% set href = link.link.url.href %}
+            {% if link.link.url.type is equalto "EMAIL_ADDRESS" %}
+            {% set href = "mailto:" + href %}
+            {% endif %}
+
+            <div class="footer-links-group">
+              <div class="footer-link">
+                <a href="{{ href }}"
+                   {% if link.link.open_in_new_tab %}target="_blank"{% endif %}
+                   {% if link.link.rel %}rel="{{ link.link.rel }}"{% endif %}
+                   >
+                  {{ link.link_text }}
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+
+          </div>
+
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+
+</div>

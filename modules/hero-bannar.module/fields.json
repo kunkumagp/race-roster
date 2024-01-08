@@ -1,0 +1,93 @@
+[ {
+  "id" : "d239bb54-e1c4-9a15-488d-3c738c83fc54",
+  "name" : "main_title",
+  "display_width" : null,
+  "label" : "Main title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "REGISTER FOR OUTDOOR RETAILER FOR SUMMER JUNE 19-21, 2023"
+}, {
+  "id" : "3ae1f018-d175-6e53-9f66-1ca76605455c",
+  "name" : "subtitle",
+  "display_width" : null,
+  "label" : "Subtitle",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "TOP 10 REASONS WHY YOU SHOULD EXHIBIT AT OUTDOOR RETAILER…"
+}, {
+  "id" : "71a4c1bb-dff7-76e6-e6d6-b216ef3ea7e1",
+  "name" : "top_background_image",
+  "display_width" : null,
+  "label" : "Top background image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : false,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : ""
+  }
+}, {
+  "id" : "4ba9c28c-2741-f565-78fc-f0c9fda8bb32",
+  "name" : "main_content_top_image",
+  "display_width" : null,
+  "label" : "Main content top image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "exact",
+    "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/The%20Adriatic%20-%20@yotchico%20%201.png",
+    "alt" : "main-content-image",
+    "loading" : "eager",
+    "width" : 569,
+    "height" : 380,
+    "max_width" : 1138,
+    "max_height" : 760
+  }
+}, {
+  "id" : "bd035afa-2a07-9f17-3261-3183270bf588",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p><strong>The original outdoor powerhouse.</strong><br>Since 1983, Outdoor Retailer has hosted the largest gatherings of outdoor and snowsports industry professionals in the nation/world — drawing up to 20,000+ registered attendees* each year.</p>\n<p><strong>A booming industry.</strong><br>Outdoor recreation generates $800+ billion USD in consumer spending, and the industry continues to grow.</p>\n<p><strong>A national and global reach.</strong><br>Outdoor Retailer provides access to industry experts from all 50 U.S. states and dozens of countries.</p>\n<p><strong>Intentional buying starts here.</strong><br>Strategically staged during pivotal frames of buying seasons, the shows offer high-level views of product offerings across all categories — leading to informed buying decisions from as many as 10,000+ retail buyers and importer/distributors* per year.</p>\n<p><strong>Soak up the spotlight.</strong><br>With 1000+ working media persons* in attendance each year, experts are on the search to bring the latest stories and modern products into the outdoor marketplace.</p>\n<p><strong>A launching point.</strong><br>With an average of 300+ exhibitors* in attendance each show, Outdoor Retailer is regarded as a launching point for new brands and products.</p>\n<p><strong>Celebrate the industry.</strong><br>The shows are a hub for advanced innovation and flourishing inspiration, and those who are paving the way are recognized annually at the Innovation Awards and Inspiration Awards.</p>"
+}, {
+  "id" : "c18d353a-fe0a-bce6-93cb-51e2c17b0305",
+  "name" : "banner_form",
+  "display_width" : null,
+  "label" : "Banner form",
+  "required" : false,
+  "locked" : false,
+  "type" : "form",
+  "default" : {
+    "form_id" : "5c521ad5-3324-489c-8d51-7c0262284e04",
+    "response_type" : "inline",
+    "message" : "Thanks for submitting the form.",
+    "gotowebinar_webinar_key" : null,
+    "form_type" : "HUBSPOT"
+  }
+}, {
+  "id" : "46fde252-38c3-791a-7dfc-d6e6b5f43537",
+  "name" : "disclaimer_text",
+  "display_width" : null,
+  "label" : "Disclaimer Text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>We respect your personal information. Please read our Privacy Policy</p>"
+} ]

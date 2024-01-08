@@ -1,0 +1,136 @@
+[ {
+  "id" : "25fcef9c-469c-b8a2-bb47-3a3ac9785210",
+  "name" : "module_image",
+  "display_width" : null,
+  "label" : "Module Image",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "exact",
+    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/footer_logo.png",
+    "alt" : "footer_logo",
+    "loading" : "lazy",
+    "width" : 164,
+    "height" : 47,
+    "max_width" : 331,
+    "max_height" : 95
+  }
+}, {
+  "id" : "4d489c71-e76f-f807-46dc-7cdc54217e38",
+  "name" : "footer_content",
+  "display_width" : null,
+  "label" : "Footer Content",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 1
+  },
+  "type" : "richtext",
+  "default" : [ "<strong>USA</strong><br>4281 Express Ln, Suite M9706<br>Sarasota FL, 34249." ]
+}, {
+  "id" : "cdbb7f5c-eca9-8f7b-ba42-173fe6bc4853",
+  "name" : "footer_links_group",
+  "display_width" : null,
+  "label" : "Footer Links Group",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 1
+  },
+  "children" : [ {
+    "id" : "f7c53bc9-0b0f-0d0c-502a-94432977419c",
+    "name" : "group_header",
+    "display_width" : null,
+    "label" : "Group Header",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "59bfa782-095f-90eb-87e2-066bc8fc3fa5",
+    "name" : "links_group",
+    "display_width" : null,
+    "label" : "Links Group",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : 1,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : 1
+    },
+    "children" : [ {
+      "id" : "4d2e6220-35d9-86f4-ad56-53dc4f113bef",
+      "name" : "link_text",
+      "display_width" : null,
+      "label" : "Link Text",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text"
+    }, {
+      "id" : "18c3ab16-b5a8-29e8-d7af-b41b6574f576",
+      "name" : "link",
+      "display_width" : null,
+      "label" : "Link",
+      "required" : false,
+      "locked" : false,
+      "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+      "show_advanced_rel_options" : false,
+      "type" : "link",
+      "default" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : [ {
+      "link" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    } ]
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "links_group" : [ {
+      "link" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    } ]
+  } ]
+} ]

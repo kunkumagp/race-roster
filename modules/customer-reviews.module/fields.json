@@ -1,0 +1,132 @@
+[ {
+  "id" : "a093e418-4abb-b200-074e-b8a08bfb2e52",
+  "name" : "review",
+  "display_width" : null,
+  "label" : "Review",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 3,
+    "max" : 3,
+    "sorting_label_field" : "d255424e-ed83-d478-4a97-cb93bb341589",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "8e67f43c-7252-ece4-3537-7d7cc9fd2a7a",
+    "name" : "review",
+    "display_width" : null,
+    "label" : "Review",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>\"The knowledge that's exchanged between people you meet- at lunches, dinners, drinks at the bar--the things you'll learn from being exposed to so many photographers can be transformative to your business in a thousand different ways.\"</p>"
+  }, {
+    "id" : "ddc76ad3-95c1-37d0-beb1-2a1eebaa3134",
+    "name" : "reviewer_photo",
+    "display_width" : null,
+    "label" : "Reviewer photo",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Frame%2070247-1.png",
+      "alt" : "Frame 70247-1",
+      "loading" : "lazy",
+      "width" : 164,
+      "height" : 165,
+      "max_width" : 164,
+      "max_height" : 165
+    }
+  }, {
+    "id" : "d255424e-ed83-d478-4a97-cb93bb341589",
+    "name" : "reviewer_name",
+    "display_width" : null,
+    "label" : "Reviewer name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "MICHELLE CELENTANO"
+  }, {
+    "id" : "29cedab8-9421-b1fd-d8f8-c774b6eaf01a",
+    "name" : "reviewer_des",
+    "display_width" : null,
+    "label" : "Reviewer des.",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : ""
+  }, {
+    "id" : "6bb56659-4120-d25a-b12b-727d11a43d3c",
+    "name" : "star_count",
+    "display_width" : null,
+    "label" : "Star count",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "5_star", "5 Star" ], [ "4_5_star", "4.5 Star" ], [ "4_star", "4 Star" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice",
+    "default" : "5_star"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "review" : "<p>\"The knowledge that's exchanged between people you meet- at lunches, dinners, drinks at the bar--the things you'll learn from being exposed to so many photographers can be transformative to your business in a thousand different ways.\"</p>",
+    "reviewer_photo" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Frame%2070247-1.png",
+      "alt" : "Frame 70247-1",
+      "loading" : "lazy",
+      "width" : 164,
+      "height" : 165,
+      "max_width" : 164,
+      "max_height" : 165
+    },
+    "reviewer_name" : "MICHELLE CELENTANO",
+    "reviewer_des" : "",
+    "star_count" : "5_star"
+  }, {
+    "review" : "<p>\"The knowledge that's exchanged between people you meet- at lunches, dinners, drinks at the bar--the things you'll learn from being exposed to so many photographers can be transformative to your business in a thousand different ways.\"</p>",
+    "reviewer_photo" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Frame%2070247-1.png",
+      "alt" : "Frame 70247-1",
+      "loading" : "lazy",
+      "width" : 164,
+      "height" : 165,
+      "max_width" : 164,
+      "max_height" : 165
+    },
+    "reviewer_name" : "MICHELLE CELENTANO",
+    "reviewer_des" : "",
+    "star_count" : "5_star"
+  }, {
+    "review" : "<p>\"The knowledge that's exchanged between people you meet- at lunches, dinners, drinks at the bar--the things you'll learn from being exposed to so many photographers can be transformative to your business in a thousand different ways.\"</p>",
+    "reviewer_photo" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Frame%2070247-1.png",
+      "alt" : "Frame 70247-1",
+      "loading" : "lazy",
+      "width" : 164,
+      "height" : 165,
+      "max_width" : 164,
+      "max_height" : 165
+    },
+    "reviewer_name" : "MICHELLE CELENTANO",
+    "reviewer_des" : "",
+    "star_count" : "5_star"
+  } ]
+} ]

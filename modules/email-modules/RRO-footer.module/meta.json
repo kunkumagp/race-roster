@@ -1,0 +1,8 @@
+{
+  "global" : true,
+  "smart_type" : "NOT_SMART",
+  "host_template_types" : [ "EMAIL" ],
+  "module_id" : 147918847532,
+  "label" : "RRO Footer",
+  "is_available_for_new_content" : true
+}

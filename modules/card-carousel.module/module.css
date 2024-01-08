@@ -1,0 +1,135 @@
+.slick-carousel {
+  margin: 0 auto;
+  max-width: 1040px;
+}
+.slick-carousel button{
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.slick-carousel .slick-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 50%;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+}
+.slick-carousel .slick-arrow.next-arrow{
+  right: -52px;
+}
+.slick-carousel .slick-arrow.next-arrow > svg{
+  width: 12px;
+  height: auto;
+  vertical-align: middle;
+}
+.slick-carousel .slick-arrow.prev-arrow{
+  left: -52px;
+}
+.slick-carousel .slick-arrow.prev-arrow > svg{
+  width: 12px;
+  height: auto;
+  vertical-align: middle;
+}
+.slick-carousel .slick-arrow.slick-disabled{
+  opacity: 0;
+  visibility: hidden;
+}
+.slick-carousel .slick-dots{
+  position: initial;
+}
+.slick-carousel .slick-dots li{
+  margin: 0px 3px;
+}
+.slick-carousel .slick-dots li button:before{
+  font-size: 10px;
+}
+.slick-carousel .slick-dots li.slick-active button:before{
+  opacity: 0.9;
+}
+.slick-carousel .slick-track{
+  display: flex !important;
+}
+.slick-slide{
+  height: inherit !important;
+}
+
+.card-carousel .slick-list{
+  padding: 40px 0 20px;
+}
+.card-carousel .carousel-box{
+  overflow: hidden;
+  margin: 0 16px;
+  padding: 32px 32px 40px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.card-carousel .carousel-box .image{
+  width: auto;
+  height: 236px;
+  margin: -32px -32px 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.card-carousel .carousel-box .carousel-box__content{
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+.card-carousel .carousel-box .carousel-box__content .carousel-box__icon-wrapper{
+  margin-bottom: 17px;
+}
+.card-carousel .carousel-box .carousel-box__content .cust-icon{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-bottom: 17px;
+}
+.card-carousel .carousel-box .carousel-box__content :is(h1, h2, h3, h4, h5, h6){
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.card-carousel .carousel-box .carousel-box__content p{
+  margin-bottom: 0;
+  color:#000;
+}
+
+.card-carousel .carousel-box.card--dark .carousel-box__content p{
+  margin-bottom: 0;
+  color:#FFF;
+}
+
+.card-carousel .carousel-box a{
+  margin-top: 24px;
+}
+
+
+
+@media screen and (max-width: 991px){
+  .slick-carousel .slick-arrow{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .slick-carousel .slick-arrow.next-arrow{
+    right: 0;
+    z-index: 5;
+  }
+  .slick-carousel .slick-arrow.prev-arrow{
+    left: 0;
+    z-index: 5;
+  }
+}

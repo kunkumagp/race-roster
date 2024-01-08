@@ -1,0 +1,94 @@
+[ {
+  "id" : "5afb5325-b4e1-c94e-c2cd-afaa00ab32eb",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "b2a32612-468e-adf4-ffe7-27a87f1f63ea",
+    "name" : "header_color",
+    "display_width" : null,
+    "label" : "Header Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : null,
+      "opacity" : null
+    }
+  }, {
+    "id" : "4c64617c-6d56-c76a-bd81-0cd76fcda72c",
+    "name" : "content_color",
+    "display_width" : null,
+    "label" : "Content Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : null,
+      "opacity" : null
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "header_color" : {
+      "color" : null,
+      "opacity" : null
+    },
+    "content_color" : {
+      "color" : null,
+      "opacity" : null
+    }
+  }
+}, {
+  "id" : "b1e0e476-c3e6-d804-f768-2df8c13da4b6",
+  "name" : "accordion",
+  "display_width" : null,
+  "label" : "Accordion",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "6896a433-925e-b430-acf4-35882a568714",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "6896a433-925e-b430-acf4-35882a568714",
+    "name" : "header",
+    "display_width" : null,
+    "label" : "Header",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Is there a minimum subscription period?"
+  }, {
+    "id" : "842a8058-585e-55de-c86d-66aaf0d33bd2",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "header" : "Is there a minimum subscription period?",
+    "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  }, {
+    "header" : "Is there a minimum subscription period?",
+    "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  }, {
+    "header" : "Is there a minimum subscription period?",
+    "content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  } ]
+} ]

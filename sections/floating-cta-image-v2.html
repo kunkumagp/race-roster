@@ -1,0 +1,55 @@
+<!--
+  templateType: section
+  label: Floating CTA - (Image)
+  isAvailableForNewContent: true
+  screenshotPath: ../images/section-previews/floating-cta-image.png
+  description: "Two columen floating box with right content"
+-->
+
+{% dnd_section
+  full_width=false,
+  vertical_alignment="MIDDLE",
+  background_color="#FFFFFF",
+  padding={
+    "default" : { "top" : 64, "bottom" : 32, 'left': 20, 'right': 20 },
+    "mobile" : { "top" : 42, "bottom" : 26 }
+  }
+%}
+  {% dnd_column
+    offset=0,
+    width=12,
+    padding={
+      "default" : { "left" : 0, "right" : 0 }
+    }
+  %}
+
+    {% dnd_row %}
+      {% dnd_module
+        path="../modules/floating-cta",
+        content={
+          "content" : "<h6 style='color:#323E48; font-size: 12px; font-weight: 500; line-height: 16px; letter-spacing: 0em; text-align: left;'>EXPERT TIP</h6>
+          <h4 style='color:#323E48; font-size: 24px; font-weight: 400; line-height: 32px; letter-spacing: 0em; text-align: left;'>&ldquo;Make sure you're scoping a product with dimming solutions; this is going to be important for energy management in the future.&rdquo;</h4>
+          <p style='color:#323E48; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0em; text-align: left;'>Corinne Wilder</p>
+          <p style='color:#323E48; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0em; text-align: left;'>VP, Global Commercial Operations at Fluence</p>
+          <p style='color:#323E48; font-size: 12px; font-weight: 400; line-height: 16px; letter-spacing: 0em; text-align: left;'>Bioengineering</p>"
+        },
+        show_button=false,
+        styles={
+          "card" : {
+            "background" : {
+              "color" : {
+                "color" : theme.colors.accent_six.color,
+                "opacity" : 100
+              }
+            },
+            "presets" : {
+              "card_style" : "light"
+            }
+          }
+        }
+      %}
+      {% end_dnd_module %}
+    {% end_dnd_row %}
+
+  {% end_dnd_column %}
+{% end_dnd_section %}

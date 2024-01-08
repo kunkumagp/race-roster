@@ -1,0 +1,172 @@
+{
+  "name" : {
+    "message" : "social-follow",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.default.icon.alt" : {
+    "message" : "facebook",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.default.icon.loading" : {
+    "message" : "lazy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.default.icon.size_type" : {
+    "message" : "auto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.default.icon.src" : {
+    "message" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/facebook.png",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.default.link.url.href" : {
+    "message" : "https://www.facebook.com",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.default.link.url.type" : {
+    "message" : "EXTERNAL",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.default.name" : {
+    "message" : "Facebook",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.default.alt" : {
+    "message" : "facebook",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.default.loading" : {
+    "message" : "lazy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.default.size_type" : {
+    "message" : "auto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.default.src" : {
+    "message" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/facebook.png",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.label" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.link.label" : {
+    "message" : "Link",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.link_name.default" : {
+    "message" : "Facebook",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.name" : {
+    "message" : "social-follow",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.alignment.alignment.label" : {
+    "message" : "Alignment",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.alignment.label" : {
+    "message" : "Alignment",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.label" : {
+    "message" : "Spacing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.space_between_icons.label" : {
+    "message" : "Space between icons",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.spacing.label" : {
+    "message" : "Spacing",
+    "description" : "",
+    "placeholders" : null
+  }
+}

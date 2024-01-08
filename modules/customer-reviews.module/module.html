@@ -1,0 +1,29 @@
+<div class="customer-reviews">
+  <div class="row-fluid ">
+    {% for item in module.review %}
+    <div class="span4">
+      <div class="review-box">
+        <div class="photo" style="background-image:url('{{ item.reviewer_photo.src }}');"></div>
+        <div class="review">
+          {{ item.review }}
+        </div>
+        <div class="stars">
+          {% if item.star_count == '5_star' %} 
+            <img src="{{ get_asset_url('/IGES/images/star-pack/5.png') }}" alt="5_stars" />
+          {% elif item.star_count == '4_5_star' %}
+            <img src="{{ get_asset_url('/IGES/images/star-pack/4_5.png') }}" alt="4.5_stars" />
+          {% elif item.star_count == '4_star' %}
+            <img src="{{ get_asset_url('/IGES/images/star-pack/4.png') }}" alt="4_stars" />
+          {% endif %}
+        </div>
+        {% if item.reviewer_name %}
+        <b class="name">{{ item.reviewer_name }}</b>
+        {% endif %}
+        {% if item.reviewer_des %}
+        <p class="des">{{ item.reviewer_des }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

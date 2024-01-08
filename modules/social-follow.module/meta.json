@@ -1,0 +1,10 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "categories" : [ "social" ],
+  "icon" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/social-posts.svg",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 147912224173,
+  "label" : "Social follow",
+  "is_available_for_new_content" : true
+}

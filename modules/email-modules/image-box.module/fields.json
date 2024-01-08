@@ -1,0 +1,32 @@
+[ {
+  "id" : "bced002b-744c-51dc-4244-5d583d1b9204",
+  "name" : "image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : false,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/profile.png",
+    "alt" : "profile",
+    "loading" : "lazy",
+    "width" : 350,
+    "height" : 350,
+    "size_type" : "exact"
+  }
+}, {
+  "id" : "5dfbf9ce-47f6-7f72-7c0c-ebd9b08c0231",
+  "name" : "box_shadow_color",
+  "display_width" : null,
+  "label" : "Box shadow color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#0143bf",
+    "opacity" : 100
+  }
+} ]

@@ -1,0 +1,103 @@
+[ {
+  "id" : "7994c8a8-42ef-9e72-02ec-887e241d7118",
+  "name" : "social_media_group",
+  "display_width" : null,
+  "label" : "Social media group",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "b135da5c-eb71-874c-e763-2d6a3e8dc586",
+    "name" : "social_media_icon",
+    "display_width" : null,
+    "label" : "Social media icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "18afb041-f8bd-6554-a44e-42ea5cbe178b",
+    "name" : "social_media_link",
+    "display_width" : null,
+    "label" : "Social media link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER" ],
+    "type" : "url",
+    "default" : {
+      "content_id" : null,
+      "href" : "",
+      "type" : "EXTERNAL"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "social_media_icon" : {
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "social_media_link" : {
+      "content_id" : null,
+      "href" : "",
+      "type" : "EXTERNAL"
+    }
+  }, {
+    "social_media_icon" : {
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "social_media_link" : {
+      "content_id" : null,
+      "href" : "",
+      "type" : "EXTERNAL"
+    }
+  }, {
+    "social_media_icon" : {
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "social_media_link" : {
+      "content_id" : null,
+      "href" : "",
+      "type" : "EXTERNAL"
+    }
+  } ]
+}, {
+  "id" : "2005a969-3062-993c-6c73-c7e8982df00c",
+  "name" : "footer_bottom_text",
+  "display_width" : null,
+  "label" : "footer bottom text",
+  "required" : false,
+  "locked" : true,
+  "type" : "richtext",
+  "default" : ""
+}, {
+  "id" : "6e32ccfa-a1f4-f997-7d1f-80aa0012b53a",
+  "name" : "footer_background_colour",
+  "display_width" : null,
+  "label" : "Footer background colour",
+  "required" : false,
+  "locked" : true,
+  "type" : "color",
+  "default" : {
+    "color" : "#FFFFFF",
+    "opacity" : 100
+  }
+} ]

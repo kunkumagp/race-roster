@@ -1,0 +1,77 @@
+.hero-bannar{
+  width: 100%;
+}
+.hero-bannar .two-column-content .main-title{
+  text-align:center;
+  color:#30383B;
+}
+.hero-bannar .two-column-content .sub-title{
+  text-align:center;
+  color:#63666A;
+  padding-bottom: 64px;
+}
+.hero-bannar .top-image{
+  height: 577px;
+  margin: 0 -20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.hero-bannar .two-column-content{
+  max-width: 1040px;
+  margin: -925px auto 0 !important;
+}
+.hero-bannar .two-column-content .content strong{
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px){
+  .hero-bannar .two-column-content{
+    margin: -867px auto 0 !important;
+  }
+}
+
+.hero-bannar .two-column-content .two-column-content-container{
+  display:flex;
+}
+
+.hero-bannar .two-column-content .two-column-content-container .left.content{
+  width: 63%;
+  padding-right: 88px;
+}
+.hero-bannar .two-column-content .two-column-content-container .left.content .title-area{
+  padding-bottom: 34px;
+  text-align:center;
+}
+.hero-bannar .two-column-content .two-column-content-container .left.content h2,
+.hero-bannar .two-column-content .two-column-content-container .left.content h4{
+  color: #FFFFFF;
+}
+.hero-bannar .two-column-content .two-column-content-container .left.content ul > li{
+  margin: 0 0 1rem;
+}
+.hero-bannar .two-column-content .two-column-content-container .right{
+  width: 37%;
+}
+.hero-bannar .two-column-content .two-column-content-container .right.contact-form .disclaimer-text :is(h1, h2, h3, h4, h5, h6, p){
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.hero-bannar .two-column-content .two-column-content-container .right .contact-form .hs-form{
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+@media screen and (max-width: 1040px){
+  .hero-bannar .two-column-content .two-column-content-container{
+    flex-wrap: wrap;
+  }
+  .hero-bannar .two-column-content .two-column-content-container .left.content,
+  .hero-bannar .two-column-content .two-column-content-container .right{
+    width: 100%;
+    padding-right: 0;
+  }
+  .hero-bannar .two-column-content .two-column-content-container .right{
+    margin-top: 40px;
+  }
+}

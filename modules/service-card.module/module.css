@@ -1,0 +1,17 @@
+.service-card{
+  text-align: center;
+  padding:15px;
+}
+.service-card__content :is(h1, h2, h3, h4, h5, h6){
+  margin-bottom: 16px;
+}
+
+/* Icon */
+
+.service-card__icon {
+  margin-bottom: 1.4rem;
+}
+
+.service-card__custom__icon {
+  margin-bottom: 1.4rem;
+}

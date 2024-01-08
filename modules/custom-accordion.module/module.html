@@ -1,0 +1,73 @@
+{% require_css %}
+<style type="text/css">
+  {% scope_css %} 
+
+  .accordian-button {
+    color: {{theme.colors.primary.color}};
+  }
+  {% if module.style.header_color.color %}
+  .custom-accordion .head h5{
+    color: rgba({{ module.style.header_color.color | convert_rgb }}, {{ module.style.header_color.opacity / 100 }});
+  }
+  {% endif %}
+
+  {% if module.style.content_color.color %}
+  .custom-accordion .head.active h5
+    color: rgba({{ module.style.content_color.color | convert_rgb }}, {{ module.style.content_color.opacity / 100 }});
+  }
+  {% endif %}
+
+  {% end_scope_css %}
+
+  .custom-accordion .head h5{
+    color: {{ theme.colors.secondary.color }};
+    text-transform:none;
+  }
+
+  .custom-accordion .head.active h5{
+    color: {{ theme.colors.primary.color }};
+/*     text-transform:uppercase; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .custom-accordion .content > div :is(h1,h2,h3,h4,h5,h6,p){
+    color: #5B6770;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .accordian-button {
+    font-family: {{ theme.fonts.secondary.font }};
+  }
+</style>
+{% end_require_css %}
+
+
+<div class="custom-accordion">
+  {% for item in module.accordion %}
+  <div class="body content-row accordian-row-hidden">
+    <div class="head">
+      <h5>{{ item.header }}</h5>
+      <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="cross-arrow">
+        <circle cx="16" cy="16.7832" r="14.5" stroke-width="3" class="cross-stroke"/>
+        <path d="M6.85735 16.7832H25.1431" stroke-width="3" class="cross-stroke"/>
+        <path d="M16 7.64007L16 25.9258" stroke-width="3" class="cross-stroke"/>
+      </svg>
+    </div>
+
+    <div class="content">
+      <div>
+        {{ item.content }}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <div class="accordian-button-container">
+    <span class="accordian-button show hidden" >Show all...</span>
+  </div>
+</div>

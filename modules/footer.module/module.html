@@ -1,0 +1,41 @@
+<div class="footer_container" style="{{ module.style.background_color.color }}{{ module.style.background_color.opacity }}">
+  <div class="grid-container">
+    <div class="grid-item">
+        <div class="logo_image">
+          {% if module.module_image.src %}
+            {% set sizeAttrs = 'width="{{ module.module_image.width }}" height="{{ module.module_image.height }}"' %}
+            {% if module.module_image.size_type == 'auto' %}
+              {% set sizeAttrs = 'width="{{ module.module_image.width }}" height="{{ module.module_image.height }}" style="max-width: 100%; height: auto;"' %}
+            {% elif module.module_image.size_type == 'auto_custom_max' %}
+              {% set sizeAttrs = 'width="{{ module.module_image.max_width }}" height="{{ module.module_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+            {% endif %}
+             {% set loadingAttr = module.module_image.loading != 'disabled' ? 'loading="{{ module.module_image.loading }}"' : '' %}
+            <img src="{{ module.module_image.src }}" alt="{{ module.module_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+          {% endif %}
+        </div>
+        <div class="footer_content">
+          {{ module.footer_content }}
+        </div>
+    </div>
+    
+    
+      <div class="grid-item social-follow">
+      <ul>
+        {% for item in module.social_links %}
+        <li>
+            {% set href = item.link.url.href %}
+            <a href="{{ href }}"
+              {% if item.link.open_in_new_tab %}target="_blank"{% endif %}
+              {% if item.link.rel %}rel="{{ item.link.rel }}"{% endif %}
+              title="{{ item.link_name }}"
+              >
+              <span style="background-image: url('{{ item.icon.src }}');"></span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+      
+    
+ </div>
+</div>

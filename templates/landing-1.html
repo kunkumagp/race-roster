@@ -1,0 +1,48 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Landing Page 1
+  screenshotPath: /race-roster/images/landing-page-1.png
+-->
+{% extends "./layouts/base-landing-page.html" %}
+
+{% block body %}
+{% dnd_area "dnd_area"
+  label="Main section"
+%}
+
+  {# Header container #}
+  {% include_dnd_partial path="../sections/Header-container-v2.html" %}
+
+  {# Campaign banner #}
+  {% include_dnd_partial path="../sections/campaign-hero.html" %}
+
+  {# Hero banner #}
+  {% include_dnd_partial path="../sections/hero-banner.html" %}
+
+  {# Multi-Column content #}
+  {% include_dnd_partial path="../sections/multi-column-content-v2.html" %}
+
+  {# Heading #}
+  {% include_dnd_partial path="../sections/Heading.html" %}
+
+  {# Anchor Links #}
+  {% include_dnd_partial path="../sections/anchor-links.html" %}
+
+  {# Multi-Row content #}
+  {% include_dnd_partial path="../sections/multi-row-content-v2.html" %}
+
+  {# Call to action #}
+  {% include_dnd_partial path="../sections/call-to-action-v2.html" %}
+
+  {# Icons and copy #}
+  {% include_dnd_partial path="../sections/icon-and-copy-v2.html" %}
+
+  {# Login Form #}
+  {% include_dnd_partial path="../sections/login-form.html" %}
+
+  {# Footer container #}
+  {% include_dnd_partial path="../sections/footer-container.html" %} -->
+
+{% end_dnd_area %}
+{% endblock body %}

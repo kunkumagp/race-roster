@@ -1,0 +1,25 @@
+.main-footer .hs-image-widget{
+  margin-bottom: 8px;
+  line-height: 0;
+}
+.main-footer p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+/* Footer DND sections */
+.main-footer .social-links{
+  justify-content: flex-end !important;
+}
+
+@media (max-width: 767px) {
+  .main-footer{
+    text-align: center;
+  }
+  .main-footer .social-links{
+    margin: 40px auto 0;
+    justify-content: center !important;
+  }
+}

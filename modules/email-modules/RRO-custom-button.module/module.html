@@ -1,0 +1,168 @@
+
+{% if module.button_styles_overwrite ==  true %}
+	 
+  {% if module.button_type == "primary" or module.button_type == ""  %}
+
+   {% set  primary_button_background_color = module.button_styles.button_background_color.color %}
+   {% set button_text_color = module.button_styles.button_text_color.color %}
+   {% set button_paddings = "13px 28px"  %}
+
+  {% elif module.button_type == "secondary" %}
+
+   {% set  primary_button_background_color = module.button_styles.button_background_color.color %}
+   {% set button_text_color = module.button_styles.button_text_color.color %}
+   {% set button_paddings = "13px 28px"  %}
+
+  {% elif module.button_type == "tertiary" %}
+
+   {% set  primary_button_background_color = module.button_styles.button_background_color.color %}
+   {% set button_text_color = module.button_styles.button_text_color.color %}
+   {% set button_paddings = "13px 28px"  %}
+
+  {% elif module.button_type == "simple" %}
+
+   {% set  primary_button_background_color = "transparent !important" %}
+   {% set button_text_color = module.button_styles.button_text_color.color %}
+   {% set button_paddings = "0px 0px"  %}
+
+  {% endif %}
+
+
+{% else %}
+      {% if module.button_type == "primary" or module.button_type == "" %}
+
+     {% set  primary_button_background_color = "#0043BF" %}
+     {% set button_text_color = "#ffffff" %}
+     {% set button_paddings = "13px 28px"  %}
+
+    {% elif module.button_type == "secondary" %}
+
+     {% set  primary_button_background_color = "#006600" %}
+     {% set button_text_color = "#ffffff" %}
+     {% set button_paddings = "13px 28px"  %}
+
+    {% elif module.button_type == "tertiary" %}
+
+     {% set  primary_button_background_color = "#6500B5" %}
+     {% set button_text_color = "#ffffff" %}
+     {% set button_paddings = "13px 28px"  %}
+
+    {% elif module.button_type == "simple" %}
+
+     {% set  primary_button_background_color = "transparent !important" %}
+     {% set button_text_color = "#0043BF" %}
+     {% set button_paddings = "0px 0px"  %}
+
+    {% endif %}
+{% endif %}
+
+
+<div  class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+  <table align="{{ module.button_alignment }}" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing:0 !important; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:separate!important">
+    <tbody><tr>
+      <!--[if mso]>
+          <td align="{{ module.button_alignment }}" valign="middle"  role="presentation"  valign="middle" 
+           style="
+                  color:{{ button_text_color }}; 
+                  mso-line-height-rule:exactly; 
+                  font-size:16px; 
+                  font-family:Helvetica,sans-serif; 
+                  Margin:0;
+                  text-align:center;
+                  border-radius: 5px;
+                  background-color: {{primary_button_background_color}};
+                  text-transform:none; 
+                  text-decoration:none; 
+                  padding: {{button_paddings}}; 
+                  display:block;
+                  font-weight:700; " >
+        <![endif]-->
+      <!--[if !mso]><!-- -->
+      <td align="{{ module.button_alignment }}" valign="middle"  role="presentation" 
+          style="
+                 mso-line-height-rule:exactly;
+                 color:{{ button_text_color }}; 
+                 border-radius: 5px;
+                 background-color:{{ primary_button_background_color }};
+                 padding:{{button_paddings}}; 
+                 display:block;
+                 ">
+        <!--<![endif]-->
+        {% set href = module.button_link.url.href %}
+        {% if module.button_link.url.type is equalto "EMAIL_ADDRESS" %}
+        {% set href = "mailto:" + href %}
+        {% endif %}
+        <a href="{{ href }}"
+           {% if module.button_link.open_in_new_tab %}target="_blank"{% endif %}
+           {% if module.button_link.rel %}rel="{{ module.button_link.rel }}"{% endif %}
+           style="
+                  color:{{ button_text_color }}; 
+                  font-size:16px; 
+                  font-family:Arial ,Helvetica,sans-serif; 
+                  Margin:0;
+                  text-align:center;                                  
+                  text-transform:none; 
+                  text-decoration:none;
+                  display:flex;
+                  align-items:center;
+                  font-weight:700; ">
+          
+          {% if module.button_icon == true and module.icon_position == "left"  %}
+          
+              {% if module.change_default_icon %}
+                <span style="padding-left:10px;">
+                  {% if module.custom_icon.src %}
+                    {% set sizeAttrs = 'width="{{ module.custom_icon.width }}" height="{{ module.custom_icon.height }}"' %}
+                    {% if module.custom_icon.size_type == 'auto' %}
+                      {% set sizeAttrs = 'width="{{ module.custom_icon.width }}" height="{{ module.custom_icon.height }}" style="max-width: 100%; height: auto;"' %}
+                    {% elif module.custom_icon.size_type == 'auto_custom_max' %}
+                      {% set sizeAttrs = 'width="{{ module.custom_icon.max_width }}" height="{{ module.custom_icon.max_height }}" style="max-width: 100%; height: auto;"' %}
+                    {% endif %}
+                     {% set loadingAttr = module.custom_icon.loading != 'disabled' ? 'loading="{{ module.custom_icon.loading }}"' : '' %}
+                    <img src="{{ module.custom_icon.src }}" alt="{{ module.custom_icon.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+                  {% endif %}
+                </span>
+              {% else %}
+                <span style="padding-right:10px;">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.9062 5.9375C12.75 5.8125 12.5625 5.75 12.375 5.75C12.1562 5.75 11.9688 5.84375 11.8438 5.96875L8.25 9.71875V0.75C8.25 0.5625 8.15625 0.375 8.03125 0.21875C7.875 0.09375 7.6875 0 7.5 0H6.5C6.28125 0 6.09375 0.09375 5.96875 0.21875C5.8125 0.375 5.75 0.5625 5.75 0.75V9.71875L2.15625 5.96875C2 5.84375 1.8125 5.75 1.625 5.75C1.40625 5.75 1.21875 5.8125 1.09375 5.9375L0.40625 6.65625C0.25 6.8125 0.1875 7 0.1875 7.1875C0.1875 7.40625 0.25 7.59375 0.40625 7.71875L6.46875 13.7812C6.59375 13.9375 6.78125 14 7 14C7.1875 14 7.375 13.9375 7.53125 13.7812L13.5938 7.71875C13.7188 7.59375 13.8125 7.40625 13.8125 7.1875C13.8125 7 13.7188 6.8125 13.5938 6.65625L12.9062 5.9375Z" fill="{{ button_text_color }}"/>
+                  </svg>
+                </span>
+              {% endif %}
+          
+          {% endif %}
+          
+          {{ module.button_text }}
+          
+          {% if module.button_icon == true and module.icon_position == "right"  %}
+          
+              {% if module.change_default_icon %}
+                <span style="padding-left:10px;">
+                  {% if module.custom_icon.src %}
+                    {% set sizeAttrs = 'width="{{ module.custom_icon.width }}" height="{{ module.custom_icon.height }}"' %}
+                    {% if module.custom_icon.size_type == 'auto' %}
+                      {% set sizeAttrs = 'width="{{ module.custom_icon.width }}" height="{{ module.custom_icon.height }}" style="max-width: 100%; height: auto;"' %}
+                    {% elif module.custom_icon.size_type == 'auto_custom_max' %}
+                      {% set sizeAttrs = 'width="{{ module.custom_icon.max_width }}" height="{{ module.custom_icon.max_height }}" style="max-width: 100%; height: auto;"' %}
+                    {% endif %}
+                     {% set loadingAttr = module.custom_icon.loading != 'disabled' ? 'loading="{{ module.custom_icon.loading }}"' : '' %}
+                    <img src="{{ module.custom_icon.src }}" alt="{{ module.custom_icon.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+                  {% endif %}                  
+                </span>
+              {% else %}
+                <span style="padding-left:10px;">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.9062 5.9375C12.75 5.8125 12.5625 5.75 12.375 5.75C12.1562 5.75 11.9688 5.84375 11.8438 5.96875L8.25 9.71875V0.75C8.25 0.5625 8.15625 0.375 8.03125 0.21875C7.875 0.09375 7.6875 0 7.5 0H6.5C6.28125 0 6.09375 0.09375 5.96875 0.21875C5.8125 0.375 5.75 0.5625 5.75 0.75V9.71875L2.15625 5.96875C2 5.84375 1.8125 5.75 1.625 5.75C1.40625 5.75 1.21875 5.8125 1.09375 5.9375L0.40625 6.65625C0.25 6.8125 0.1875 7 0.1875 7.1875C0.1875 7.40625 0.25 7.59375 0.40625 7.71875L6.46875 13.7812C6.59375 13.9375 6.78125 14 7 14C7.1875 14 7.375 13.9375 7.53125 13.7812L13.5938 7.71875C13.7188 7.59375 13.8125 7.40625 13.8125 7.1875C13.8125 7 13.7188 6.8125 13.5938 6.65625L12.9062 5.9375Z" fill="{{ button_text_color }}"/>
+                  </svg>
+                </span>          
+              {% endif %}
+
+          {% endif %}
+          
+        </a>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

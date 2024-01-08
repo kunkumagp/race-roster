@@ -1,0 +1,22 @@
+
+
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="color: inherit; font-size: inherit; line-height: inherit;" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+  <table class="hse-image-wrapper" role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt">
+    <tbody>
+      <tr>
+        <td class="hs_padded" align="center" valign="top" style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Arial, sans-serif; color:#23496d; word-break:break-word; text-align:center; font-size:0px">
+          {% if module.image.src %}
+          {% set sizeAttrs = 'width="{{ module.image.width }}"' %}
+          {% if module.image.size_type == 'auto' %}
+          {% set sizeAttrs = 'width="{{ module.image.width }}" style="max-width: 100%; height: auto;"' %}
+          {% elif module.image.size_type == 'auto_custom_max' %}
+          {% set sizeAttrs = 'width="{{ module.image.max_width }}" style="max-width: 100%; height: auto;"' %}
+          {% endif %}
+          {% set loadingAttr = module.image.loading != 'disabled' ? 'loading="{{ module.image.loading }}"' : '' %}
+          <img src="{{ module.image.src }}" alt="{{ module.image.alt }}"  {{ sizeAttrs }} style="box-shadow: 0px 4px 30px 0px rgba({{ module.box_shadow_color.color|convert_rgb }}, 0.08); outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; max-width:100%; font-size:16px; border-radius:12px" align="middle">
+          {% endif %}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

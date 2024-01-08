@@ -1,0 +1,17 @@
+<div class="social-follow">
+  <ul>
+    {% for item in module.social_links %}
+    <li>
+        {% set href = item.link.url.href %}
+        <a href="{{ href }}"
+          {% if item.link.open_in_new_tab %}target="_blank"{% endif %}
+          {% if item.link.rel %}rel="{{ item.link.rel }}"{% endif %}
+          title="{{ item.link_name }}"
+          >
+          <span style="background-image: url('{{ item.icon.src }}');"></span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+

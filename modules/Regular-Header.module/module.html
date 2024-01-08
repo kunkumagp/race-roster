@@ -1,0 +1,12 @@
+<div class="module-container">
+  {% if module.module_image.src %}
+	{% set sizeAttrs = 'width="{{ module.module_image.width }}" height="{{ module.module_image.height }}"' %}
+	{% if module.module_image.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.module_image.width }}" height="{{ module.module_image.height }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.module_image.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.module_image.max_width }}" height="{{ module.module_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.module_image.loading != 'disabled' ? 'loading="{{ module.module_image.loading }}"' : '' %}
+	<img src="{{ module.module_image.src }}" alt="{{ module.module_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+</div>

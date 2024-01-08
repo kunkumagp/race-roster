@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "https://22525815.fs1.hubspotusercontent-na1.net/hubfs/22525815/bullet-list.svg",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 147919434560,
+  "label" : "Styled List",
+  "is_available_for_new_content" : true
+}

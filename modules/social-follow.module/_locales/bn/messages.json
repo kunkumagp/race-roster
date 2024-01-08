@@ -1,0 +1,102 @@
+{
+  "name" : {
+    "message" : "সামাজিক অনুসরণ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.icon.default.alt" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.label" : {
+    "message" : "Image",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.icon.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.label" : {
+    "message" : "সামাজিক মাধ্যমের লিংকগুলি",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.link.label" : {
+    "message" : "লিংক ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "social_links.link_name.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.link_name.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "social_links.name" : {
+    "message" : "social-follow",
+    "description" : null,
+    "placeholders" : null
+  },
+  "styles.alignment.alignment.label" : {
+    "message" : "সরলরেখায় বিন্যাসকরণ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.alignment.label" : {
+    "message" : "সরলরেখায় বিন্যাসকরণ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.label" : {
+    "message" : "স্পেসিং",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.space_between_icons.label" : {
+    "message" : "আইকনগুলির মধ্যে স্থান",
+    "description" : "",
+    "placeholders" : null
+  },
+  "styles.spacing.spacing.label" : {
+    "message" : "স্পেসিং",
+    "description" : "",
+    "placeholders" : null
+  }
+}

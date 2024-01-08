@@ -1,0 +1,209 @@
+[ {
+  "id" : "ba3c6e70-b5f1-824a-b435-91baf7a2a777",
+  "name" : "module_image",
+  "display_width" : null,
+  "label" : "Module_image",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "exact",
+    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/footer_logo.png",
+    "alt" : "footer_logo",
+    "loading" : "lazy",
+    "width" : 164,
+    "height" : 47,
+    "max_width" : 331,
+    "max_height" : 95
+  }
+}, {
+  "id" : "4f449762-673a-58c3-3a91-62fa426218bc",
+  "name" : "footer_content",
+  "display_width" : null,
+  "label" : "Footer-content",
+  "required" : false,
+  "locked" : true,
+  "type" : "richtext",
+  "default" : "<p style=\"color: #ffffff; margin: 0;\">©{{ personalization_token('year', 'undefined') }} EmeraldX, LLC. All rights reserved.</p>\n<p style=\"color: #ffffff; margin: 0;\"><a href=\"https://www.emeraldx.com/terms-of-use/\" style=\"color: #ffffff; text-decoration: none;\">Terms of Use</a> | <a href=\"https://www.emeraldx.com/privacy-policy/\" style=\"color: #ffffff; text-decoration: none;\">Privacy policy</a></p>"
+}, {
+  "id" : "737fc69a-ad19-52ba-e055-7fae17d11cc8",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : true,
+  "children" : [ {
+    "id" : "0d42e881-85b8-5fe7-cfd8-fac542efb744",
+    "name" : "background_color",
+    "display_width" : null,
+    "label" : "Background Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#323E48",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "background_color" : {
+      "color" : "#323E48",
+      "opacity" : 100
+    }
+  }
+}, {
+  "id" : "e4e5e582-e5e9-a241-28bc-fe70c478a2f3",
+  "name" : "social_links",
+  "display_width" : null,
+  "label" : "Social links",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : 4,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "5add1d91-2a96-5a22-945a-cded42ce4008",
+    "name" : "icon",
+    "display_width" : null,
+    "label" : "Icon",
+    "required" : false,
+    "locked" : true,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Icons/white/Website.png",
+      "alt" : "Website",
+      "loading" : "lazy",
+      "width" : 40,
+      "height" : 40,
+      "max_width" : 81,
+      "max_height" : 81
+    }
+  }, {
+    "id" : "07a129b7-f2a4-a295-7839-7e55e45b8b42",
+    "name" : "link",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : true,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "19a170f5-31e3-a879-8bf4-dc86f9141691",
+    "name" : "link_name",
+    "display_width" : null,
+    "label" : "Name",
+    "required" : false,
+    "locked" : true,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "icon" : {
+      "size_type" : "exact",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Icons/white/Website.png",
+      "alt" : "Website",
+      "loading" : "lazy",
+      "width" : 40,
+      "height" : 40,
+      "max_width" : 81,
+      "max_height" : 81
+    },
+    "link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "icon" : {
+      "size_type" : "exact",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Icons/white/Website.png",
+      "alt" : "Website",
+      "loading" : "lazy",
+      "width" : 40,
+      "height" : 40,
+      "max_width" : 81,
+      "max_height" : 81
+    },
+    "link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "icon" : {
+      "size_type" : "exact",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Icons/white/Website.png",
+      "alt" : "Website",
+      "loading" : "lazy",
+      "width" : 40,
+      "height" : 40,
+      "max_width" : 81,
+      "max_height" : 81
+    },
+    "link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "icon" : {
+      "size_type" : "exact",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Icons/white/Website.png",
+      "alt" : "Website",
+      "loading" : "lazy",
+      "width" : 40,
+      "height" : 40,
+      "max_width" : 81,
+      "max_height" : 81
+    },
+    "link" : {
+      "url" : {
+        "content_id" : null,
+        "type" : "EXTERNAL",
+        "href" : ""
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ]
+} ]

@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/carousel-horizontal-svgrepo-com.svg",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 147918847492,
+  "label" : "Card Carousel",
+  "is_available_for_new_content" : true
+}
