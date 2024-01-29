@@ -19,11 +19,10 @@
     transition: 0.2s ease;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: self-start;
   }
   .{{name}}-custom-accordion .{{name}}-head h5{
     /*   font-family: Avenir; */
-    font-family: {{theme.fonts.tertiary.font}};
     margin: 0px;
     margin-left: 15px;
     font-size: 18px;
@@ -33,10 +32,10 @@
     text-align: left;
     transition: 0.25s ease;
   }
-/*   .{{name}}-custom-accordion .{{name}}-head.active h5{
-    transition: 0.25s ease;
+  /*   .{{name}}-custom-accordion .{{name}}-head.active h5{
+  transition: 0.25s ease;
   } */
-  
+
   .{{name}}-custom-accordion .{{name}}-head .cross-stroke{
     stroke: #0043BF;
     transition: 0.25s ease;
@@ -148,6 +147,7 @@
   .accordian-button {
     font-family: {{ theme.fonts.secondary.font }};
   }
+  
 </style>
 {% end_require_css %}
 
@@ -156,14 +156,20 @@
   {% for item in module.accordion %}
   <div class="body content-row accordian-row-hidden">
     <div class="{{name}}-head faq">
-      <span>
-       <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="cross-arrow">
-        <circle cx="16" cy="16.7832" r="14.5" stroke-width="3" class="cross-stroke"/>
-        <path d="M6.85735 16.7832H25.1431" stroke-width="3" class="cross-stroke"/>
-        <path d="M16 7.64007L16 25.9258" stroke-width="3" class="cross-stroke"/>
-      </svg>
+      <span style="margin-top: 5px;">
+        
+        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0_7_3305" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="17">
+            <path d="M16 0.5H0V16.5H16V0.5Z" fill="white"/>
+          </mask>
+          <g mask="url(#mask0_7_3305)">
+            <path d="M15 6.5H1C0.447715 6.5 0 6.94772 0 7.5V9.5C0 10.0523 0.447715 10.5 1 10.5H15C15.5523 10.5 16 10.0523 16 9.5V7.5C16 6.94772 15.5523 6.5 15 6.5Z" fill="#0043BF"/>
+            <path d="M9 0.5H7C6.44772 0.5 6 0.947715 6 1.5V15.5C6 16.0523 6.44772 16.5 7 16.5H9C9.55228 16.5 10 16.0523 10 15.5V1.5C10 0.947715 9.55228 0.5 9 0.5Z" fill="#0043BF"/>
+          </g>
+        </svg>
+
       </span>
-      
+
       <h5>{{ item.header }}</h5>
     </div>
 
@@ -192,8 +198,8 @@
 
   $(head).click(function(){  
     $(this).toggleClass('active');
-//     $(this).parent().find('span .cross-arrow').toggleClass('arrow-animate');
-//     $(this).closest(".cross-arrow").toggleClass("arrow-animate");
+    //     $(this).parent().find('span .cross-arrow').toggleClass('arrow-animate');
+    //     $(this).closest(".cross-arrow").toggleClass("arrow-animate");
     $(this).parent().find('.content').slideToggle(280);
   });
 

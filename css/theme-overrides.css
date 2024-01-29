@@ -30,6 +30,10 @@
 
 ##}
 
+
+#hs-localization-select {
+  margin-bottom: 30px;
+}
 {# ######################################################################### #}
 {# ###########################   1. Variables   ############################ #}
 {# ######################################################################### #}
@@ -1033,6 +1037,7 @@ table {
   border-collapse: collapse;
   overflow-wrap: break-word;
   table-layout: fixed;
+  border: none !important;
 }
 
 /* Table cells */
@@ -1042,6 +1047,7 @@ td {
   {{ table_border }}
   {{ table_spacing }}
   color: {{ table_body_font_color }};
+  
 }
 
 /* Table header */
@@ -1051,13 +1057,18 @@ thead td {
   background-color: {{ table_header_bg_color }};
   color: {{ table_header_font_color }};
   font-weight: 800;
+  
 }
 
 /* Table body */
 
 tbody td{
 /*   background-color: #F0F0F0; */
-  border-bottom: 1.5px solid #DEDFE0;
+/*   border-bottom: 1.5px solid #DEDFE0; */
+  border-bottom: 4px solid #FFF;
+    border-top: 4px solid #FFF;
+    border-left: none;
+    border-right: none;
 }
 
 /* Table footer */
@@ -1391,7 +1402,7 @@ tfoot td {
 #email-prefs-form,
 .subscriptions_confirmation , #hs_cos_wrapper_subscriptions_confirmation{
   margin-top: 4rem;
-  padding: 60px;
+  padding: 60px !important;
   background-color: #FFFFFF;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
@@ -1403,6 +1414,10 @@ tfoot td {
 
 #email-prefs-form .page-header{
   margin-bottom:1rem;
+  font-size:12px;
+}
+#email-prefs-form .page-header h1{
+  display:none;
 }
 
 #email-prefs-form h1,
@@ -1411,6 +1426,9 @@ tfoot td {
 }
 #email-prefs-form h2{
   font-size: 18px;
+}
+#email-prefs-form p , #email-prefs-form span{
+  font-size: 12px;
 }
 #hs_cos_wrapper_subscriptions_confirmation_email_subscriptions_confirmation > div.page-header > br{
   display:none;
@@ -1460,6 +1478,10 @@ tfoot td {
     margin-top: 1rem;
     padding: 1rem;
     border-bottom-right-radius: {{ form_corner_radius }};
+  }
+  .systems-page{
+    max-height: none;
+    padding:30px 0px;
   }
 }
 /* Search template */
@@ -1713,6 +1735,9 @@ tfoot td {
 @media screen and (max-width: 767px){
   .widget-type-linked_image{
     text-align: center;
+  }
+  .hs_cos_wrapper_type_linked_image img{
+    margin-bottom: 15px;
   }
 }
 

@@ -4,7 +4,7 @@
   label: Landing Page 2
   screenshotPath: /race-roster/images/landing-page-2.png
 -->
-{% extends "./layouts/base-landing-page.html" %}
+{% extends "./layouts/base.html" %}
 
 {% block body %}
 {% dnd_area "dnd_area"
@@ -109,7 +109,7 @@
               width=12
             %}
               {% module_attribute "html" %}
-                <H1 style="color: #000; font-size: 40px; font-family: {{theme.fonts.tertiary.font}};">They’re not <span style="font-style: italic;">just</span> virtual goodie bags…</H1>
+                <H1 style="color: #000; font-size: 40px;">They’re not <span style="font-style: italic;">just</span> virtual goodie bags…</H1>
               {% end_module_attribute %}
             {% end_dnd_module %}
           {% end_dnd_row %}
@@ -252,7 +252,7 @@
             width=12
           %}
             {% module_attribute "html" %}
-              <h2><span style="color: #ffffff; font-family: {{theme.fonts.tertiary.font}};">They’re event day/</span><br><span style="color: #ffffff; font-family: {{theme.fonts.tertiary.font}};">weekend information kits.</span></h2>
+              <h2><span style="color: #ffffff;">They’re event day/</span><br><span style="color: #ffffff;">weekend information kits.</span></h2>
               <p><span style="color: #ffffff;">Help participants arrive with conﬁdence. Offer them everything they need to come race ready and prepared.</span></p>
             {% end_module_attribute %}
           {% end_dnd_module %}
@@ -342,7 +342,7 @@
             width=12
           %}
             {% module_attribute "html" %}
-              <h2 style="text-align: center; font-family: {{theme.fonts.tertiary.font}};">Frequently asked questions</h2>
+              <h2 style="text-align: center;">Frequently asked questions</h2>
             {% end_module_attribute %}
           {% end_dnd_module %}
         {% end_dnd_row %}
@@ -732,6 +732,7 @@
 
     {# 5 container #}
     {% dnd_section
+      max_width=760,
       background_image={
         "background_position" : "MIDDLE_CENTER",
         "background_size" : "cover",
@@ -777,7 +778,7 @@
                 width=12
               %}
                 {% module_attribute "html" %}
-                  <h4 style="color: #1a1a1a; font-size: 24px;  font-family: {{theme.fonts.tertiary.font}}; text-align: center; margin-bottom: 13px;">What will be in your DEKof cards?</h4>
+                  <h4 style="color: #1a1a1a; font-size: 24px; text-align: center; margin-bottom: 13px;">What will be in your DEK of cards?</h4>
                   <p style="color: #1a1a1a; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal; text-align: center;">Start building your Digital Engagement Kit now.</p>
                 {% end_module_attribute %}
               {% end_dnd_module %}
@@ -846,77 +847,93 @@
                 offset=0,
                 width=12,
                 social_links=[ {
-                  "icon" : {
-                    "alt" : "fb",
-                    "height" : 55,
-                    "loading" : "lazy",
-                    "max_height" : 55,
-                    "max_width" : 54,
-                    "size_type" : "auto",
-                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/fb.png",
-                    "width" : 54
-                  },
-                  "link" : {
-                    "no_follow" : false,
-                    "open_in_new_tab" : false,
-                    "rel" : "",
-                    "sponsored" : false,
-                    "url" : {
-                      "href" : "https://www.facebook.com/RaceRoster/",
-                      "type" : "EXTERNAL"
-                    },
-                    "user_generated_content" : false
-                  },
-                  "name" : "Facebook"
-                }, {
-                  "icon" : {
-                    "alt" : "x",
-                    "height" : 55,
-                    "loading" : "lazy",
-                    "max_height" : 55,
-                    "max_width" : 54,
-                    "size_type" : "auto",
-                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/x.png",
-                    "width" : 54
-                  },
-                  "link" : {
-                    "no_follow" : false,
-                    "open_in_new_tab" : false,
-                    "rel" : "",
-                    "sponsored" : false,
-                    "url" : {
-                      "href" : "https://twitter.com/i/flow/login?redirect_after_login=%2FRaceRoster",
-                      "type" : "EXTERNAL"
-                    },
-                    "user_generated_content" : false
-                  },
-                  "link_name" : "Twitter",
-                  "name" : "Facebook"
-                }, {
-                  "icon" : {
-                    "alt" : "insta",
-                    "height" : 55,
-                    "loading" : "lazy",
-                    "max_height" : 55,
-                    "max_width" : 54,
-                    "size_type" : "auto",
-                    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/insta.png",
-                    "width" : 54
-                  },
-                  "link" : {
-                    "no_follow" : false,
-                    "open_in_new_tab" : false,
-                    "rel" : "",
-                    "sponsored" : false,
-                    "url" : {
-                      "href" : "https://www.instagram.com/raceroster/",
-                      "type" : "EXTERNAL"
-                    },
-                    "user_generated_content" : false
-                  },
-                  "link_name" : "Instagram",
-                  "name" : "Facebook"
-                } ]
+              "icon" : {
+                "alt" : "fb",
+                "height" : 55,
+                "loading" : "lazy",
+                "max_height" : 55,
+                "max_width" : 54,
+                "size_type" : "auto",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/fb.png",
+                "width" : 54
+              },
+              "link" : {
+                "no_follow" : false,
+                "open_in_new_tab" : false,
+                "rel" : "",
+                "sponsored" : false,
+                "url" : {
+                  "href" : "https://www.facebook.com/RaceRoster/",
+                  "type" : "EXTERNAL"
+                },
+                "user_generated_content" : false
+              },
+              "link_name" : "Facebook"
+            }, {
+              "icon" : {
+                "alt" : "x",
+                "height" : 55,
+                "loading" : "lazy",
+                "max_height" : 55,
+                "max_width" : 54,
+                "size_type" : "auto",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/x.png",
+                "width" : 54
+              },
+              "link" : {
+                "no_follow" : false,
+                "open_in_new_tab" : false,
+                "rel" : "",
+                "sponsored" : false,
+                "url" : {
+                  "href" : "https://twitter.com/i/flow/login?redirect_after_login=%2FRaceRoster",
+                  "type" : "EXTERNAL"
+                },
+                "user_generated_content" : false
+              },
+              "link_name" : "Twitter",
+            }, {
+              "icon" : {
+                "alt" : "insta",
+                "height" : 55,
+                "loading" : "lazy",
+                "max_height" : 55,
+                "max_width" : 54,
+                "size_type" : "auto",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/insta.png",
+                "width" : 54
+              },
+              "link" : {
+                "no_follow" : false,
+                "open_in_new_tab" : false,
+                "rel" : "",
+                "sponsored" : false,
+                "url" : {
+                  "href" : "https://www.instagram.com/raceroster/",
+                  "type" : "EXTERNAL"
+                },
+                "user_generated_content" : false
+              },
+              "link_name" : "Instagram",
+            }, {
+              "icon" : {
+                "alt" : "linkedin-1",
+                "height" : 55,
+                "loading" : "lazy",
+                "max_height" : 55,
+                "max_width" : 54,
+                "size_type" : "auto",
+                "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/linkedin-1.png",
+                "width" : 54
+              },
+              "link" : {
+                "url" : {
+                  "href" : "https://www.linkedin.com/company/raceroster/",
+                  "type" : "EXTERNAL"
+                }
+              },
+              "link_name" : "LinkedIn"
+            } ]
               %}
               {% end_dnd_module %}
             {% end_dnd_row %}
@@ -939,7 +956,7 @@
             width=12
           %}
             {% module_attribute "html" %}
-              <h2 style="color: #1a1a1a; font-family: {{theme.fonts.tertiary.font}};text-align: center;">Have questions about the information above?</h2>
+              <h2 style="color: #1a1a1a; text-align: center;">Have questions about the information above?</h2>
               <p style="color: #1a1a1a; font-size: 16px;  text-align: center;">We’re here to help!</p>
             {% end_module_attribute %}
           {% end_dnd_module %}
@@ -964,22 +981,6 @@
     {% end_dnd_section %}
 
 
-    {# 7 container #}
-    {% dnd_section
-      background_image={
-        "background_position" : "MIDDLE_CENTER",
-        "background_size" : "cover",
-        "image_url" : "https://39949406.fs1.hubspotusercontent-na1.net/hub/39949406/hubfs/footer-bg-image.png?width=2000&height=287.5"
-      }
-    %}
-      {% dnd_column
-        offset=0,
-        width=12
-      %}
-
-      {% end_dnd_column %}
-    {% end_dnd_section %}
- 
 
 {% end_dnd_area %}
 {% endblock body %}

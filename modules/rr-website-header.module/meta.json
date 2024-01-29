@@ -6,5 +6,5 @@
   "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
   "module_id" : 151932682142,
   "label" : "RR Website header",
-  "is_available_for_new_content" : true
+  "is_available_for_new_content" : false
 }

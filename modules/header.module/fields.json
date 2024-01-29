@@ -4,7 +4,7 @@
   "display_width" : null,
   "label" : "Header Menu",
   "required" : false,
-  "locked" : false,
+  "locked" : true,
   "type" : "menu",
   "default" : 148877763866
 }, {
@@ -13,7 +13,7 @@
   "display_width" : null,
   "label" : "Results",
   "required" : false,
-  "locked" : false,
+  "locked" : true,
   "children" : [ {
     "id" : "783c2409-7337-4dcc-cf23-24c3f5de12d5",
     "name" : "use_custom_search_results_template",
@@ -45,7 +45,7 @@
   "display_width" : null,
   "label" : "Default text",
   "required" : false,
-  "locked" : false,
+  "locked" : true,
   "children" : [ {
     "id" : "f21fc10d-0b4d-0d72-fe63-5c74111e8bcb",
     "name" : "sr_search_field_aria_label",
@@ -71,7 +71,7 @@
   "display_width" : null,
   "label" : "Search input field",
   "required" : false,
-  "locked" : false,
+  "locked" : true,
   "children" : [ {
     "id" : "cd963b30-8cb6-aad7-6f49-897c2cc05ac2",
     "name" : "placeholder",
@@ -97,7 +97,7 @@
   "display_width" : null,
   "label" : "Button 1",
   "required" : false,
-  "locked" : false,
+  "locked" : true,
   "children" : [ {
     "id" : "9e6e7489-e400-5ce3-30ae-f950ca64d7ec",
     "name" : "button_text",
@@ -151,7 +151,7 @@
   "display_width" : null,
   "label" : "Button 2",
   "required" : false,
-  "locked" : false,
+  "locked" : true,
   "children" : [ {
     "id" : "5c116874-e85e-8aca-f055-3f464d85c6f6",
     "name" : "button_text",
@@ -205,7 +205,7 @@
   "display_width" : null,
   "label" : "Mobile Menu Button",
   "required" : false,
-  "locked" : false,
+  "locked" : true,
   "children" : [ {
     "id" : "ef2f0030-237a-685c-85c3-fde662e65590",
     "name" : "mobile_menu_button_text",

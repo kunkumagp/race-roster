@@ -23,12 +23,12 @@
   "type" : "image",
   "default" : {
     "size_type" : "auto_custom_max",
-    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/footer-bg-image.png",
-    "alt" : "footer-bg-image",
+    "src" : "https://39949406.fs1.hubspotusercontent-na1.net/hubfs/39949406/footer-2.png",
+    "alt" : "footer-2",
     "loading" : "lazy",
     "width" : 2880,
-    "height" : 414,
+    "height" : 218,
     "max_width" : 2000,
-    "max_height" : 287.5
+    "max_height" : 151.38888888888889
   }
 } ]
