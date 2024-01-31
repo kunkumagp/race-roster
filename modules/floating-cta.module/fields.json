@@ -1,0 +1,1064 @@
+[ {
+  "id" : "06d71740-3b71-8837-5c99-ecd801f09dda",
+  "name" : "flip_sides",
+  "display_width" : null,
+  "label" : "Flip sides",
+  "required" : false,
+  "locked" : false,
+  "display" : "toggle",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "919ff5a1-6300-faa9-7ef5-215338e2ad35",
+  "name" : "image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "c0a4a29b-a792-2eca-34f1-fa7efb183d13",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : true,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Fonts/Rectangle%20156%20(1).png",
+      "alt" : "Rectangle 156 (1)",
+      "loading" : "lazy",
+      "width" : 702,
+      "height" : 785,
+      "max_width" : 702,
+      "max_height" : 785
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://23836458.fs1.hubspotusercontent-na1.net/hubfs/23836458/Fonts/Rectangle%20156%20(1).png",
+      "alt" : "Rectangle 156 (1)",
+      "loading" : "lazy",
+      "width" : 702,
+      "height" : 785,
+      "max_width" : 702,
+      "max_height" : 785
+    }
+  }
+}, {
+  "id" : "content",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "09e68715-346a-0147-6fd4-7d0e3494e55b",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h4 style=\"font-size: 24px; font-weight: 400; line-height: 32px; letter-spacing: 0em; text-align: left;\">Check out the First-Timers Guide to Outdoor Retailer</h4>\n<p style=\"font-size: 16px; font-weight: 400; line-height: 24px; letter-spacing: 0em; text-align: left;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "content" : "<h4 style=\"font-size: 24px; font-weight: 400; line-height: 32px; letter-spacing: 0em; text-align: left;\">Check out the First-Timers Guide to Outdoor Retailer</h4>\n<p style=\"font-size: 16px; font-weight: 400; line-height: 24px; letter-spacing: 0em; text-align: left;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  }
+}, {
+  "id" : "fb914fa6-b352-d961-6b51-5011b56b44cf",
+  "name" : "show_button",
+  "display_width" : null,
+  "label" : "Show button",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "button",
+  "name" : "button",
+  "display_width" : null,
+  "label" : "Button",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : null,
+    "controlling_field_path" : "show_button",
+    "controlling_value_regex" : "true",
+    "property" : null,
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "children" : [ {
+    "id" : "button.button_text",
+    "name" : "button_text",
+    "display_width" : null,
+    "label" : "Button text",
+    "required" : true,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Learn More"
+  }, {
+    "id" : "button.button_link",
+    "name" : "button_link",
+    "display_width" : null,
+    "label" : "Button link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "href" : "",
+        "type" : "EXTERNAL"
+      }
+    }
+  }, {
+    "id" : "button.add_icon",
+    "name" : "add_icon",
+    "display_width" : null,
+    "label" : "Add icon",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "button.icon",
+    "name" : "icon",
+    "display_width" : null,
+    "label" : "Icon",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "button.add_icon",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "children" : [ {
+      "id" : "button.icon.icon",
+      "name" : "icon",
+      "display_width" : null,
+      "label" : "Icon",
+      "required" : true,
+      "locked" : false,
+      "icon_set" : "fontawesome-5.0.10",
+      "type" : "icon",
+      "default" : {
+        "name" : "arrow-alt-circle-up",
+        "type" : "SOLID",
+        "unicode" : "f35b"
+      }
+    }, {
+      "id" : "button.icon.position",
+      "name" : "position",
+      "display_width" : null,
+      "label" : "Position",
+      "required" : true,
+      "locked" : false,
+      "display" : "select",
+      "choices" : [ [ "left", "Left" ], [ "right", "Right" ] ],
+      "multiple" : false,
+      "reordering_enabled" : true,
+      "preset" : null,
+      "type" : "choice",
+      "default" : "left"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : true,
+    "type" : "group",
+    "default" : {
+      "icon" : {
+        "name" : "arrow-alt-circle-up",
+        "type" : "SOLID",
+        "unicode" : "f35b"
+      },
+      "position" : "left"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "button_text" : "Learn More",
+    "button_link" : {
+      "url" : {
+        "href" : "",
+        "type" : "EXTERNAL"
+      }
+    },
+    "add_icon" : false,
+    "icon" : {
+      "icon" : {
+        "name" : "arrow-alt-circle-up",
+        "type" : "SOLID",
+        "unicode" : "f35b"
+      },
+      "position" : "left"
+    }
+  }
+}, {
+  "id" : "styles",
+  "name" : "styles",
+  "display_width" : null,
+  "label" : "Styles",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "styles.card",
+    "name" : "card",
+    "display_width" : null,
+    "label" : "Card",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "styles.card.presets",
+      "name" : "presets",
+      "display_width" : null,
+      "label" : "Presets",
+      "help_text" : "Use presets to quickly adjust the appearance of the selected item to predefined values.",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.card.presets.card_style",
+        "name" : "card_style",
+        "display_width" : null,
+        "label" : "Card style",
+        "required" : true,
+        "locked" : false,
+        "display" : "select",
+        "choices" : [ [ "dark", "Dark" ], [ "light", "Light" ], [ "plain", "Plain" ] ],
+        "multiple" : false,
+        "reordering_enabled" : true,
+        "preset" : null,
+        "type" : "choice",
+        "default" : "light"
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "card_style" : "light"
+      }
+    }, {
+      "id" : "styles.card.background",
+      "name" : "background",
+      "display_width" : null,
+      "label" : "Background",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.card.background.color",
+        "name" : "color",
+        "display_width" : null,
+        "label" : "Color",
+        "required" : false,
+        "locked" : false,
+        "type" : "color",
+        "default" : {
+          "color" : null,
+          "opacity" : null
+        }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "color" : {
+          "color" : null,
+          "opacity" : null
+        }
+      }
+    }, {
+      "id" : "styles.card.border",
+      "name" : "border",
+      "display_width" : null,
+      "label" : "Border",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.card.border.border",
+        "name" : "border",
+        "display_width" : null,
+        "label" : "Border",
+        "required" : false,
+        "locked" : false,
+        "allow_custom_border_sides" : false,
+        "type" : "border",
+        "default" : { }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "border" : { }
+      }
+    }, {
+      "id" : "styles.card.corner",
+      "name" : "corner",
+      "display_width" : null,
+      "label" : "Corner",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.card.corner.radius",
+        "name" : "radius",
+        "display_width" : null,
+        "label" : "Radius",
+        "required" : false,
+        "locked" : false,
+        "display" : "text",
+        "max" : 100,
+        "step" : 1,
+        "suffix" : "px",
+        "type" : "number"
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : { }
+    }, {
+      "id" : "styles.card.height",
+      "name" : "height",
+      "display_width" : null,
+      "label" : "Height",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.card.height.min_height",
+        "name" : "min_height",
+        "display_width" : null,
+        "label" : "Minimum height",
+        "required" : false,
+        "locked" : false,
+        "display" : "text",
+        "step" : 1,
+        "suffix" : "px",
+        "type" : "number"
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : { }
+    }, {
+      "id" : "styles.card.spacing",
+      "name" : "spacing",
+      "display_width" : null,
+      "label" : "Spacing",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.card.spacing.spacing",
+        "name" : "spacing",
+        "display_width" : null,
+        "label" : "Spacing",
+        "required" : false,
+        "locked" : false,
+        "type" : "spacing",
+        "default" : { }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "spacing" : { }
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "presets" : {
+        "card_style" : "light"
+      },
+      "background" : {
+        "color" : {
+          "color" : null,
+          "opacity" : null
+        }
+      },
+      "border" : {
+        "border" : { }
+      },
+      "corner" : { },
+      "height" : { },
+      "spacing" : {
+        "spacing" : { }
+      }
+    }
+  }, {
+    "id" : "styles.button",
+    "name" : "button",
+    "display_width" : null,
+    "label" : "Button",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : null,
+      "controlling_field_path" : "show_button",
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "children" : [ {
+      "id" : "styles.button.presets",
+      "name" : "presets",
+      "display_width" : null,
+      "label" : "Presets",
+      "help_text" : "Use presets to quickly adjust the appearance of the selected item to predefined values.",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.presets.button_style",
+        "name" : "button_style",
+        "display_width" : null,
+        "label" : "Button style",
+        "required" : true,
+        "locked" : false,
+        "display" : "select",
+        "choices" : [ [ "primary", "Primary" ], [ "secondary", "Secondary" ], [ "simple", "Simple" ] ],
+        "multiple" : false,
+        "reordering_enabled" : true,
+        "preset" : null,
+        "type" : "choice",
+        "default" : "secondary"
+      }, {
+        "id" : "styles.button.presets.button_size",
+        "name" : "button_size",
+        "display_width" : null,
+        "label" : "Button size",
+        "required" : true,
+        "locked" : false,
+        "display" : "select",
+        "choices" : [ [ "small", "Small" ], [ "regular", "Regular" ], [ "large", "Large" ] ],
+        "multiple" : false,
+        "reordering_enabled" : true,
+        "preset" : null,
+        "type" : "choice",
+        "default" : "regular"
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "button_style" : "secondary",
+        "button_size" : "regular"
+      }
+    }, {
+      "id" : "styles.button.text",
+      "name" : "text",
+      "display_width" : null,
+      "label" : "Text",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.text.font",
+        "name" : "font",
+        "display_width" : null,
+        "label" : "Font",
+        "required" : false,
+        "locked" : false,
+        "load_external_fonts" : true,
+        "type" : "font",
+        "default" : {
+          "size_unit" : "px"
+        }
+      }, {
+        "id" : "styles.button.text.transform",
+        "name" : "transform",
+        "display_width" : null,
+        "label" : "Transform",
+        "required" : false,
+        "locked" : false,
+        "display" : "select",
+        "choices" : [ [ "none", "None" ], [ "capitalize", "Capitalize" ], [ "uppercase", "Uppercase" ], [ "lowercase", "Lowercase" ] ],
+        "multiple" : false,
+        "reordering_enabled" : true,
+        "preset" : null,
+        "type" : "choice"
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "font" : {
+          "size_unit" : "px"
+        }
+      }
+    }, {
+      "id" : "styles.button.background",
+      "name" : "background",
+      "display_width" : null,
+      "label" : "Background",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.background.color",
+        "name" : "color",
+        "display_width" : null,
+        "label" : "Color",
+        "required" : false,
+        "locked" : false,
+        "type" : "color",
+        "default" : {
+          "color" : null,
+          "opacity" : null
+        }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "color" : {
+          "color" : null,
+          "opacity" : null
+        }
+      }
+    }, {
+      "id" : "styles.button.border",
+      "name" : "border",
+      "display_width" : null,
+      "label" : "Border",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.border.border",
+        "name" : "border",
+        "display_width" : null,
+        "label" : "Border",
+        "required" : false,
+        "locked" : false,
+        "allow_custom_border_sides" : false,
+        "type" : "border",
+        "default" : {
+          "top" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "bottom" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "left" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "right" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          }
+        }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "border" : {
+          "top" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "bottom" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "left" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "right" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : "styles.button.corner",
+      "name" : "corner",
+      "display_width" : null,
+      "label" : "Corner",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.corner.radius",
+        "name" : "radius",
+        "display_width" : null,
+        "label" : "Radius",
+        "required" : false,
+        "locked" : false,
+        "display" : "text",
+        "max" : 100,
+        "step" : 1,
+        "suffix" : "px",
+        "type" : "number"
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : { }
+    }, {
+      "id" : "styles.button.spacing",
+      "name" : "spacing",
+      "display_width" : null,
+      "label" : "Spacing",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.spacing.spacing",
+        "name" : "spacing",
+        "display_width" : null,
+        "label" : "Spacing",
+        "required" : false,
+        "locked" : false,
+        "visibility" : {
+          "controlling_field" : null,
+          "controlling_field_path" : null,
+          "controlling_value_regex" : null,
+          "property" : null,
+          "operator" : null,
+          "access" : null,
+          "hidden_subfields" : {
+            "margin" : true
+          }
+        },
+        "type" : "spacing",
+        "default" : { }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "spacing" : { }
+      }
+    }, {
+      "id" : "styles.button.hover",
+      "name" : "hover",
+      "display_width" : null,
+      "label" : "Hover",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.hover.text",
+        "name" : "text",
+        "display_width" : null,
+        "label" : "Text",
+        "required" : false,
+        "locked" : false,
+        "children" : [ {
+          "id" : "styles.button.hover.text.font",
+          "name" : "font",
+          "display_width" : null,
+          "label" : "Font",
+          "required" : false,
+          "locked" : false,
+          "visibility" : {
+            "controlling_field" : null,
+            "controlling_field_path" : null,
+            "controlling_value_regex" : null,
+            "property" : null,
+            "operator" : null,
+            "access" : null,
+            "hidden_subfields" : {
+              "size" : true
+            }
+          },
+          "load_external_fonts" : true,
+          "type" : "font",
+          "default" : {
+            "font" : null,
+            "font_set" : "DEFAULT",
+            "styles" : null,
+            "size" : null,
+            "size_unit" : null,
+            "color" : null,
+            "variant" : null,
+            "fallback" : null,
+            "style" : null
+          }
+        } ],
+        "tab" : "STYLE",
+        "expanded" : false,
+        "type" : "group",
+        "default" : {
+          "font" : {
+            "font" : null,
+            "font_set" : "DEFAULT",
+            "styles" : null,
+            "size" : null,
+            "size_unit" : null,
+            "color" : null,
+            "variant" : null,
+            "fallback" : null,
+            "style" : null
+          }
+        }
+      }, {
+        "id" : "styles.button.hover.background",
+        "name" : "background",
+        "display_width" : null,
+        "label" : "Background",
+        "required" : false,
+        "locked" : false,
+        "children" : [ {
+          "id" : "styles.button.hover.background.color",
+          "name" : "color",
+          "display_width" : null,
+          "label" : "Color",
+          "required" : false,
+          "locked" : false,
+          "type" : "color",
+          "default" : {
+            "color" : null,
+            "opacity" : null
+          }
+        } ],
+        "tab" : "STYLE",
+        "expanded" : false,
+        "type" : "group",
+        "default" : {
+          "color" : {
+            "color" : null,
+            "opacity" : null
+          }
+        }
+      }, {
+        "id" : "styles.button.hover.border",
+        "name" : "border",
+        "display_width" : null,
+        "label" : "Border",
+        "required" : false,
+        "locked" : false,
+        "children" : [ {
+          "id" : "styles.button.hover.border.border",
+          "name" : "border",
+          "display_width" : null,
+          "label" : "Border",
+          "required" : false,
+          "locked" : false,
+          "allow_custom_border_sides" : false,
+          "type" : "border",
+          "default" : { }
+        } ],
+        "tab" : "STYLE",
+        "expanded" : false,
+        "type" : "group",
+        "default" : {
+          "border" : { }
+        }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "text" : {
+          "font" : {
+            "font" : null,
+            "font_set" : "DEFAULT",
+            "styles" : null,
+            "size" : null,
+            "size_unit" : null,
+            "color" : null,
+            "variant" : null,
+            "fallback" : null,
+            "style" : null
+          }
+        },
+        "background" : {
+          "color" : {
+            "color" : null,
+            "opacity" : null
+          }
+        },
+        "border" : {
+          "border" : { }
+        }
+      }
+    }, {
+      "id" : "styles.button.alignment",
+      "name" : "alignment",
+      "display_width" : null,
+      "label" : "Alignment",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "styles.button.alignment.alignment",
+        "name" : "alignment",
+        "display_width" : null,
+        "label" : "Alignment",
+        "required" : false,
+        "locked" : false,
+        "alignment_direction" : "HORIZONTAL",
+        "type" : "alignment",
+        "default" : { }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "type" : "group",
+      "default" : {
+        "alignment" : { }
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "presets" : {
+        "button_style" : "secondary",
+        "button_size" : "regular"
+      },
+      "text" : {
+        "font" : {
+          "size_unit" : "px"
+        }
+      },
+      "background" : {
+        "color" : {
+          "color" : null,
+          "opacity" : null
+        }
+      },
+      "border" : {
+        "border" : {
+          "top" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "bottom" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "left" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "right" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          }
+        }
+      },
+      "corner" : { },
+      "spacing" : {
+        "spacing" : { }
+      },
+      "hover" : {
+        "text" : {
+          "font" : {
+            "font" : null,
+            "font_set" : "DEFAULT",
+            "styles" : null,
+            "size" : null,
+            "size_unit" : null,
+            "color" : null,
+            "variant" : null,
+            "fallback" : null,
+            "style" : null
+          }
+        },
+        "background" : {
+          "color" : {
+            "color" : null,
+            "opacity" : null
+          }
+        },
+        "border" : {
+          "border" : { }
+        }
+      },
+      "alignment" : {
+        "alignment" : { }
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "card" : {
+      "presets" : {
+        "card_style" : "light"
+      },
+      "background" : {
+        "color" : {
+          "color" : null,
+          "opacity" : null
+        }
+      },
+      "border" : {
+        "border" : { }
+      },
+      "corner" : { },
+      "height" : { },
+      "spacing" : {
+        "spacing" : { }
+      }
+    },
+    "button" : {
+      "presets" : {
+        "button_style" : "secondary",
+        "button_size" : "regular"
+      },
+      "text" : {
+        "font" : {
+          "size_unit" : "px"
+        }
+      },
+      "background" : {
+        "color" : {
+          "color" : null,
+          "opacity" : null
+        }
+      },
+      "border" : {
+        "border" : {
+          "top" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "bottom" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "left" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          },
+          "right" : {
+            "style" : "none",
+            "color" : null,
+            "opacity" : null,
+            "width" : {
+              "value" : null,
+              "units" : "px"
+            }
+          }
+        }
+      },
+      "corner" : { },
+      "spacing" : {
+        "spacing" : { }
+      },
+      "hover" : {
+        "text" : {
+          "font" : {
+            "font" : null,
+            "font_set" : "DEFAULT",
+            "styles" : null,
+            "size" : null,
+            "size_unit" : null,
+            "color" : null,
+            "variant" : null,
+            "fallback" : null,
+            "style" : null
+          }
+        },
+        "background" : {
+          "color" : {
+            "color" : null,
+            "opacity" : null
+          }
+        },
+        "border" : {
+          "border" : { }
+        }
+      },
+      "alignment" : {
+        "alignment" : { }
+      }
+    }
+  }
+} ]
